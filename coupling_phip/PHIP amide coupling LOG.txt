@@ -1,0 +1,310 @@
+Furan Amine Stock solution in DMA - don't need need to throw tips between vials 
+
+10:51:11 AM - Protocol run initiated. Simulating...
+10:51:11 AM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
+10:51:15 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+10:51:22 AM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:51:26 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+10:51:30 AM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:51:34 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+10:51:39 AM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:51:42 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+10:51:47 AM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:51:50 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+10:51:55 AM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:51:59 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+10:52:03 AM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:52:07 AM - Aspirating 679.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+10:52:11 AM - Dispensing 679.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:52:14 AM - Aspirating 679.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+10:52:18 AM - Dispensing 679.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:52:20 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:52:23 AM - Protocol paused
+10:55:45 AM - Protocol resumed
+10:55:48 AM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B1>
+10:55:51 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:55:58 AM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well A1>
+10:56:03 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:56:10 AM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well A1>
+10:56:15 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:56:27 AM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C1>
+10:56:30 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:56:36 AM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well A2>
+10:56:42 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:56:48 AM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well A2>
+10:56:54 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:57:06 AM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D1>
+10:57:08 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:57:15 AM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well A3>
+10:57:20 AM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:57:27 AM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well A3>
+10:57:32 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:57:44 AM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A2>
+10:57:47 AM - Aspirating 679.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:57:52 AM - Dispensing 679.0 at <Deck><Slot A1><Container stock><Well A4>
+10:57:57 AM - Aspirating 679.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+10:58:03 AM - Dispensing 679.0 at <Deck><Slot A1><Container stock><Well A4>
+10:58:07 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:58:30 AM - Run complete in 0:07:19
+
+
+Preparation of acid stock solutions - No issues (Paused to refill and remove/recap at regular intervals)
+
+11:37:10 AM - Protocol run initiated. Simulating...
+11:37:10 AM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
+11:37:15 AM - Aspirating 624.961555 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:37:20 AM - Dispensing 624.961555 at <Deck><Slot A1><Container R_1><Well A1>
+11:37:25 AM - Aspirating 624.961555 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:37:31 AM - Dispensing 624.961555 at <Deck><Slot A1><Container R_1><Well A1>
+11:37:36 AM - Aspirating 551.0766405 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:37:41 AM - Dispensing 551.0766405 at <Deck><Slot A1><Container R_1><Well A2>
+11:37:46 AM - Aspirating 551.0766405 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:37:51 AM - Dispensing 551.0766405 at <Deck><Slot A1><Container R_1><Well A2>
+11:37:56 AM - Aspirating 682.221492 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:38:02 AM - Dispensing 682.221492 at <Deck><Slot A1><Container R_1><Well A3>
+11:38:07 AM - Aspirating 682.221492 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:38:13 AM - Dispensing 682.221492 at <Deck><Slot A1><Container R_1><Well A3>
+11:38:18 AM - Aspirating 633.2360485 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:38:24 AM - Dispensing 633.2360485 at <Deck><Slot A1><Container R_1><Well A4>
+11:38:28 AM - Aspirating 633.2360485 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:38:34 AM - Dispensing 633.2360485 at <Deck><Slot A1><Container R_1><Well A4>
+11:38:39 AM - Aspirating 661.3885505 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:38:44 AM - Dispensing 661.3885505 at <Deck><Slot A1><Container R_1><Well A5>
+11:38:49 AM - Aspirating 661.3885505 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:38:55 AM - Dispensing 661.3885505 at <Deck><Slot A1><Container R_1><Well A5>
+11:39:00 AM - Aspirating 789.6537565 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:39:06 AM - Dispensing 789.6537565 at <Deck><Slot A1><Container R_1><Well A6>
+11:39:11 AM - Aspirating 789.6537565 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:39:17 AM - Dispensing 789.6537565 at <Deck><Slot A1><Container R_1><Well A6>
+11:39:22 AM - Aspirating 627.234319 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:39:23 AM - Protocol paused
+11:41:45 AM - Protocol resumed
+11:41:49 AM - Dispensing 627.234319 at <Deck><Slot A1><Container R_1><Well B1>
+11:41:54 AM - Aspirating 627.234319 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:42:00 AM - Dispensing 627.234319 at <Deck><Slot A1><Container R_1><Well B1>
+11:42:04 AM - Aspirating 713.1516275 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:42:10 AM - Dispensing 713.1516275 at <Deck><Slot A1><Container R_1><Well B2>
+11:42:15 AM - Aspirating 713.1516275 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:42:21 AM - Dispensing 713.1516275 at <Deck><Slot A1><Container R_1><Well B2>
+11:42:26 AM - Aspirating 639.636306 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:42:32 AM - Dispensing 639.636306 at <Deck><Slot A1><Container R_1><Well B3>
+11:42:37 AM - Aspirating 639.636306 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:42:42 AM - Dispensing 639.636306 at <Deck><Slot A1><Container R_1><Well B3>
+11:42:47 AM - Aspirating 582.8245185 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:42:53 AM - Dispensing 582.8245185 at <Deck><Slot A1><Container R_1><Well B4>
+11:42:57 AM - Aspirating 582.8245185 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:43:03 AM - Dispensing 582.8245185 at <Deck><Slot A1><Container R_1><Well B4>
+11:43:07 AM - Aspirating 722.402152 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:43:13 AM - Dispensing 722.402152 at <Deck><Slot A1><Container R_1><Well B5>
+11:43:18 AM - Aspirating 722.402152 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:43:24 AM - Dispensing 722.402152 at <Deck><Slot A1><Container R_1><Well B5>
+11:43:29 AM - Aspirating 553.4850525 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:43:34 AM - Dispensing 553.4850525 at <Deck><Slot A1><Container R_1><Well B6>
+11:43:39 AM - Aspirating 553.4850525 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:43:44 AM - Dispensing 553.4850525 at <Deck><Slot A1><Container R_1><Well B6>
+11:43:48 AM - Aspirating 751.25306 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:43:54 AM - Dispensing 751.25306 at <Deck><Slot A1><Container R_1><Well C1>
+11:43:59 AM - Aspirating 751.25306 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:44:06 AM - Dispensing 751.25306 at <Deck><Slot A1><Container R_1><Well C1>
+11:44:10 AM - Aspirating 821.5417105 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:44:17 AM - Dispensing 821.5417105 at <Deck><Slot A1><Container R_1><Well C2>
+11:44:22 AM - Aspirating 821.5417105 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:44:28 AM - Dispensing 821.5417105 at <Deck><Slot A1><Container R_1><Well C2>
+11:44:33 AM - Aspirating 910.96757 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:44:40 AM - Dispensing 910.96757 at <Deck><Slot A1><Container R_1><Well C3>
+11:44:45 AM - Aspirating 910.96757 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:44:51 AM - Dispensing 910.96757 at <Deck><Slot A1><Container R_1><Well C3>
+11:44:57 AM - Aspirating 665.3126201 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:45:02 AM - Dispensing 665.3126201 at <Deck><Slot A1><Container R_1><Well C4>
+11:45:07 AM - Aspirating 508.050969 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:45:12 AM - Dispensing 508.050969 at <Deck><Slot A1><Container R_1><Well C5>
+11:45:17 AM - Aspirating 508.050969 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:45:22 AM - Dispensing 508.050969 at <Deck><Slot A1><Container R_1><Well C5>
+11:45:26 AM - Aspirating 593.1919645 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:45:32 AM - Dispensing 593.1919645 at <Deck><Slot A1><Container R_1><Well C6>
+11:45:36 AM - Aspirating 593.1919645 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:45:42 AM - Dispensing 593.1919645 at <Deck><Slot A1><Container R_1><Well C6>
+11:45:46 AM - Aspirating 558.41081 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:45:51 AM - Dispensing 558.41081 at <Deck><Slot A1><Container R_1><Well D1>
+11:45:56 AM - Aspirating 558.41081 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:46:01 AM - Dispensing 558.41081 at <Deck><Slot A1><Container R_1><Well D1>
+11:46:06 AM - Aspirating 894.1500145 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:46:12 AM - Dispensing 894.1500145 at <Deck><Slot A1><Container R_1><Well D2>
+11:46:18 AM - Aspirating 894.1500145 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:46:24 AM - Dispensing 894.1500145 at <Deck><Slot A1><Container R_1><Well D2>
+11:46:29 AM - Aspirating 652.3667445 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:46:35 AM - Dispensing 652.3667445 at <Deck><Slot A1><Container R_1><Well D3>
+11:46:40 AM - Aspirating 652.3667445 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:46:45 AM - Dispensing 652.3667445 at <Deck><Slot A1><Container R_1><Well D3>
+11:46:50 AM - Aspirating 523.3128285 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:46:55 AM - Dispensing 523.3128285 at <Deck><Slot A1><Container R_1><Well D4>
+11:47:00 AM - Aspirating 523.3128285 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:47:05 AM - Dispensing 523.3128285 at <Deck><Slot A1><Container R_1><Well D4>
+11:47:09 AM - Aspirating 633.4195735 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:47:15 AM - Dispensing 633.4195735 at <Deck><Slot A1><Container R_1><Well D5>
+11:47:19 AM - Aspirating 633.4195735 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:47:25 AM - Dispensing 633.4195735 at <Deck><Slot A1><Container R_1><Well D5>
+11:47:29 AM - Aspirating 526.594337 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:47:34 AM - Dispensing 526.594337 at <Deck><Slot A1><Container R_1><Well D6>
+11:47:39 AM - Aspirating 526.594337 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:47:43 AM - Protocol paused
+11:47:44 AM - Dispensing 526.594337 at <Deck><Slot A1><Container R_1><Well D6>
+11:48:00 AM - Protocol resumed
+11:48:04 AM - Aspirating 602.446483 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:48:05 AM - Protocol paused
+11:50:47 AM - Protocol resumed
+11:50:51 AM - Dispensing 602.446483 at <Deck><Slot A2><Container R_2><Well A1>
+11:50:55 AM - Aspirating 602.446483 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:51:00 AM - Dispensing 602.446483 at <Deck><Slot A2><Container R_2><Well A1>
+11:51:05 AM - Aspirating 840.8182459 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:51:11 AM - Dispensing 840.8182459 at <Deck><Slot A2><Container R_2><Well A2>
+11:51:16 AM - Aspirating 631.8318885 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:51:22 AM - Dispensing 631.8318885 at <Deck><Slot A2><Container R_2><Well A3>
+11:51:27 AM - Aspirating 631.8318885 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:51:32 AM - Dispensing 631.8318885 at <Deck><Slot A2><Container R_2><Well A3>
+11:51:37 AM - Aspirating 565.2723865 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:51:42 AM - Dispensing 565.2723865 at <Deck><Slot A2><Container R_2><Well A4>
+11:51:46 AM - Aspirating 565.2723865 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:51:52 AM - Dispensing 565.2723865 at <Deck><Slot A2><Container R_2><Well A4>
+11:51:56 AM - Aspirating 642.0093845 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:52:02 AM - Dispensing 642.0093845 at <Deck><Slot A2><Container R_2><Well A5>
+11:52:06 AM - Aspirating 642.0093845 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:52:12 AM - Dispensing 642.0093845 at <Deck><Slot A2><Container R_2><Well A5>
+11:52:17 AM - Aspirating 738.4286095 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:52:23 AM - Dispensing 738.4286095 at <Deck><Slot A2><Container R_2><Well A6>
+11:52:27 AM - Aspirating 738.4286095 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:52:33 AM - Dispensing 738.4286095 at <Deck><Slot A2><Container R_2><Well A6>
+11:52:38 AM - Aspirating 671.981777 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:52:44 AM - Dispensing 671.981777 at <Deck><Slot A2><Container R_2><Well B1>
+11:52:48 AM - Aspirating 671.981777 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:52:54 AM - Dispensing 671.981777 at <Deck><Slot A2><Container R_2><Well B1>
+11:52:59 AM - Aspirating 534.4809265 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:53:04 AM - Dispensing 534.4809265 at <Deck><Slot A2><Container R_2><Well B2>
+11:53:08 AM - Aspirating 534.4809265 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:53:13 AM - Dispensing 534.4809265 at <Deck><Slot A2><Container R_2><Well B2>
+11:53:18 AM - Aspirating 952.8777604 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:53:24 AM - Dispensing 952.8777604 at <Deck><Slot A2><Container R_2><Well B3>
+11:53:30 AM - Aspirating 730.811605 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:53:35 AM - Dispensing 730.811605 at <Deck><Slot A2><Container R_2><Well B4>
+11:53:40 AM - Aspirating 730.811605 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:53:46 AM - Dispensing 730.811605 at <Deck><Slot A2><Container R_2><Well B4>
+11:53:51 AM - Aspirating 555.4223605 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:53:56 AM - Dispensing 555.4223605 at <Deck><Slot A2><Container R_2><Well B5>
+11:54:00 AM - Aspirating 555.4223605 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:54:05 AM - Dispensing 555.4223605 at <Deck><Slot A2><Container R_2><Well B5>
+11:54:10 AM - Aspirating 985.5241994 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:54:16 AM - Dispensing 985.5241994 at <Deck><Slot A2><Container R_2><Well B6>
+11:54:21 AM - Aspirating 740.7163985 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:54:27 AM - Dispensing 740.7163985 at <Deck><Slot A2><Container R_2><Well C1>
+11:54:32 AM - Aspirating 740.7163985 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:54:38 AM - Dispensing 740.7163985 at <Deck><Slot A2><Container R_2><Well C1>
+11:54:43 AM - Aspirating 672.570608 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:54:48 AM - Dispensing 672.570608 at <Deck><Slot A2><Container R_2><Well C2>
+11:54:53 AM - Aspirating 672.570608 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:54:58 AM - Dispensing 672.570608 at <Deck><Slot A2><Container R_2><Well C2>
+11:55:03 AM - Aspirating 531.2681715 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:55:08 AM - Dispensing 531.2681715 at <Deck><Slot A2><Container R_2><Well C3>
+11:55:12 AM - Aspirating 531.2681715 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:55:18 AM - Dispensing 531.2681715 at <Deck><Slot A2><Container R_2><Well C3>
+11:55:22 AM - Aspirating 514.390453 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:55:27 AM - Dispensing 514.390453 at <Deck><Slot A2><Container R_2><Well C4>
+11:55:31 AM - Aspirating 514.390453 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:55:36 AM - Dispensing 514.390453 at <Deck><Slot A2><Container R_2><Well C4>
+11:55:40 AM - Aspirating 591.141208 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:55:46 AM - Dispensing 591.141208 at <Deck><Slot A2><Container R_2><Well C5>
+11:55:50 AM - Aspirating 591.141208 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:55:55 AM - Dispensing 591.141208 at <Deck><Slot A2><Container R_2><Well C5>
+11:56:00 AM - Aspirating 949.6683575 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:56:06 AM - Dispensing 949.6683575 at <Deck><Slot A2><Container R_2><Well C6>
+11:56:11 AM - Aspirating 949.6683575 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:56:18 AM - Dispensing 949.6683575 at <Deck><Slot A2><Container R_2><Well C6>
+11:56:23 AM - Aspirating 562.8434235 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:56:28 AM - Dispensing 562.8434235 at <Deck><Slot A2><Container R_2><Well D1>
+11:56:32 AM - Aspirating 562.8434235 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:56:37 AM - Dispensing 562.8434235 at <Deck><Slot A2><Container R_2><Well D1>
+11:56:42 AM - Aspirating 798.042349 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:56:48 AM - Dispensing 798.042349 at <Deck><Slot A2><Container R_2><Well D2>
+11:56:52 AM - Aspirating 798.042349 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:56:58 AM - Dispensing 798.042349 at <Deck><Slot A2><Container R_2><Well D2>
+11:57:03 AM - Aspirating 764.5785585 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:57:09 AM - Dispensing 764.5785585 at <Deck><Slot A2><Container R_2><Well D3>
+11:57:14 AM - Aspirating 764.5785585 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:57:19 AM - Dispensing 764.5785585 at <Deck><Slot A2><Container R_2><Well D3>
+11:57:24 AM - Aspirating 988.010657 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:57:30 AM - Dispensing 988.010657 at <Deck><Slot A2><Container R_2><Well D4>
+11:57:36 AM - Aspirating 988.010657 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:57:42 AM - Dispensing 988.010657 at <Deck><Slot A2><Container R_2><Well D4>
+11:57:47 AM - Aspirating 595.0441565 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:57:52 AM - Dispensing 595.0441565 at <Deck><Slot A2><Container R_2><Well D5>
+11:57:57 AM - Aspirating 595.0441565 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:58:02 AM - Dispensing 595.0441565 at <Deck><Slot A2><Container R_2><Well D5>
+11:58:06 AM - Aspirating 558.948349 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:58:12 AM - Dispensing 558.948349 at <Deck><Slot A2><Container R_2><Well D6>
+11:58:16 AM - Aspirating 558.948349 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:58:21 AM - Dispensing 558.948349 at <Deck><Slot A2><Container R_2><Well D6>
+11:58:25 AM - Aspirating 731.4517255 at <Deck><Slot C2><Container trough-12row><Well A8>
+11:58:26 AM - Protocol paused
+12:00:38 PM - Protocol resumed
+12:00:42 PM - Dispensing 731.4517255 at <Deck><Slot B1><Container R_3><Well A1>
+12:00:47 PM - Aspirating 731.4517255 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:00:53 PM - Dispensing 731.4517255 at <Deck><Slot B1><Container R_3><Well A1>
+12:00:58 PM - Aspirating 812.8378095 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:01:04 PM - Dispensing 812.8378095 at <Deck><Slot B1><Container R_3><Well A2>
+12:01:09 PM - Aspirating 596.057158 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:01:14 PM - Dispensing 596.057158 at <Deck><Slot B1><Container R_3><Well A3>
+12:01:19 PM - Aspirating 596.057158 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:01:24 PM - Dispensing 596.057158 at <Deck><Slot B1><Container R_3><Well A3>
+12:01:29 PM - Aspirating 535.7142855 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:01:34 PM - Dispensing 535.7142855 at <Deck><Slot B1><Container R_3><Well A4>
+12:01:38 PM - Aspirating 535.7142855 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:01:43 PM - Dispensing 535.7142855 at <Deck><Slot B1><Container R_3><Well A4>
+12:01:48 PM - Aspirating 617.4161315 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:01:53 PM - Dispensing 617.4161315 at <Deck><Slot B1><Container R_3><Well A5>
+12:01:58 PM - Aspirating 617.4161315 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:02:03 PM - Dispensing 617.4161315 at <Deck><Slot B1><Container R_3><Well A5>
+12:02:07 PM - Aspirating 907.6164525 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:02:14 PM - Dispensing 907.6164525 at <Deck><Slot B1><Container R_3><Well A6>
+12:02:19 PM - Aspirating 907.6164525 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:02:25 PM - Dispensing 907.6164525 at <Deck><Slot B1><Container R_3><Well A6>
+12:02:30 PM - Aspirating 695.212093 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:02:35 PM - Dispensing 695.212093 at <Deck><Slot B1><Container R_3><Well B1>
+12:02:40 PM - Aspirating 695.212093 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:02:46 PM - Dispensing 695.212093 at <Deck><Slot B1><Container R_3><Well B1>
+12:02:51 PM - Aspirating 840.7936755 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:02:57 PM - Dispensing 840.7936755 at <Deck><Slot B1><Container R_3><Well B2>
+12:03:02 PM - Aspirating 840.7936755 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:03:08 PM - Dispensing 840.7936755 at <Deck><Slot B1><Container R_3><Well B2>
+12:03:13 PM - Aspirating 669.907438 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:03:19 PM - Dispensing 669.907438 at <Deck><Slot B1><Container R_3><Well B3>
+12:03:23 PM - Aspirating 669.907438 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:03:29 PM - Dispensing 669.907438 at <Deck><Slot B1><Container R_3><Well B3>
+12:03:33 PM - Aspirating 792.064871 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:03:39 PM - Dispensing 792.064871 at <Deck><Slot B1><Container R_3><Well B4>
+12:03:44 PM - Aspirating 792.064871 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:03:50 PM - Dispensing 792.064871 at <Deck><Slot B1><Container R_3><Well B4>
+12:03:55 PM - Aspirating 718.3700295 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:04:00 PM - Dispensing 718.3700295 at <Deck><Slot B1><Container R_3><Well B5>
+12:04:05 PM - Aspirating 718.3700295 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:04:11 PM - Dispensing 718.3700295 at <Deck><Slot B1><Container R_3><Well B5>
+12:04:15 PM - Aspirating 683.637239 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:04:21 PM - Dispensing 683.637239 at <Deck><Slot B1><Container R_3><Well B6>
+12:04:25 PM - Aspirating 683.637239 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:04:31 PM - Dispensing 683.637239 at <Deck><Slot B1><Container R_3><Well B6>
+12:04:35 PM - Aspirating 681.155395 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:04:41 PM - Dispensing 681.155395 at <Deck><Slot B1><Container R_3><Well C1>
+12:04:45 PM - Aspirating 681.155395 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:04:51 PM - Dispensing 681.155395 at <Deck><Slot B1><Container R_3><Well C1>
+12:04:56 PM - Aspirating 985.7466365 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:05:03 PM - Dispensing 985.7466365 at <Deck><Slot B1><Container R_3><Well C2>
+12:05:08 PM - Aspirating 985.7466365 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:05:14 PM - Dispensing 985.7466365 at <Deck><Slot B1><Container R_3><Well C2>
+12:05:20 PM - Aspirating 891.1665075 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:05:26 PM - Dispensing 891.1665075 at <Deck><Slot B1><Container R_3><Well C3>
+12:05:31 PM - Aspirating 891.1665075 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:05:37 PM - Dispensing 891.1665075 at <Deck><Slot B1><Container R_3><Well C3>
+12:05:42 PM - Aspirating 757.451687 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:05:48 PM - Dispensing 757.451687 at <Deck><Slot B1><Container R_3><Well C4>
+12:05:53 PM - Aspirating 757.451687 at <Deck><Slot C2><Container trough-12row><Well A8>
+12:05:58 PM - Dispensing 757.451687 at <Deck><Slot B1><Container R_3><Well C4>
+12:06:03 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+12:06:26 PM - Run complete in 0:29:15
