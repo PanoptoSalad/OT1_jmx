@@ -44,24 +44,25 @@ def read_csv(input_file):
 
 
 # CSV file data
-reactants_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\carboxylic_acids.csv")
-solvent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\solvents.csv")
+reactants_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_phip\csv\05-19_rd2\carboxylic_acids.csv")
+solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_phip\csv\05-19_rd2\solvents.csv")
 
 def stock_solution_reactants(reactants, solvent):
     # Deck setup
     tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
+    tiprack_1000_2 = containers.load("tiprack-1000ul-H", "D3")
     source_trough4row = containers.load("trough-12row", "C2")
     rack_stock_reactants_1 = containers.load("FluidX_24_5ml", "A1", "R_1")
     rack_stock_reactants_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
-    rack_stock_reactants_3 = containers.load("FluidX_24_5ml", "A3", "R_3")
-    rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B1", "R_4")
+    rack_stock_reactants_3 = containers.load("FluidX_24_5ml", "B1", "R_3")
+    rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B2", "R_4")
     trash = containers.load("point", "C3")
     # Pipettes SetUp
     p1000 = instruments.Pipette(
         name='eppendorf1000',
         axis='b',
         trash_container=trash,
-        tip_racks=[tiprack_1000],
+        tip_racks=[tiprack_1000,tiprack_1000_2],
         max_volume=1000,
         min_volume=30,
         channels=1,
@@ -80,6 +81,7 @@ def stock_solution_reactants(reactants, solvent):
     for i, x in enumerate(solvent_df[id_header].tolist()):
         if x == solvent:
             solvent_location = solvent_df[location_header].tolist()[i]
+    p1000.pick_up_tip()
     for i, x in enumerate(reactants_df[destination_location_header].tolist()):
         destination_location = x
         vol_to_dispense = [reactants_df[volume_stock_header].tolist()[i]]
@@ -88,7 +90,6 @@ def stock_solution_reactants(reactants, solvent):
             print ('null')
             break
         #print (rack_ID_header, reactants_id, vol_to_dispense)
-        p1000.pick_up_tip()
         if reactants_id == rack_1:
             print ('rack1')
             if vol_to_dispense != 0:
@@ -109,6 +110,6 @@ def stock_solution_reactants(reactants, solvent):
             if vol_to_dispense != 0:
                 p1000.transfer(vol_to_dispense, source_trough4row.wells(solvent_location),
                                rack_stock_reactants_4.wells(destination_location).top(-5), new_tip='never')
-        p1000.drop_tip()
+    p1000.drop_tip()
     robot.home()
 stock_solution_reactants(reactants_df, solvent_df)

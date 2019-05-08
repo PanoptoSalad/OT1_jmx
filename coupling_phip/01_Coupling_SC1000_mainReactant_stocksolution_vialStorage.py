@@ -1,8 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
+'''OT1 -Single channel- Making up of main reagent stock solution (2 maximum) using a defined solvent and transfer onto 3mL fluidx vials'''
 
 from opentrons import robot, containers, instruments
-robot.head_speed(x=21000,  y=21000,  z=5000, a=700, b=700)
+
+robot.head_speed(x=21000, y=21000, z=5000, a=700, b=700)
+
 
 class Vector(object):
     def tolist(self):
@@ -16,6 +17,7 @@ class Vector(object):
     def __init__(self, input_list):
         self.input_list = input_list
 
+
 class DataFrame(object):
     def __len__(self):
         return self.length
@@ -26,7 +28,9 @@ class DataFrame(object):
     def __init__(self, dict_input, length):
         self.dict_input = dict_input
         self.length = length
-#Function that reads a csv file correctly without having to import anything (issues with molport). Uses 2 classes, Vector and DataFrame
+
+
+# Function that reads a csv file correctly without having to import anything (issues with molport). Uses 2 classes, Vector and DataFrame
 def read_csv(input_file):
     lines = open(input_file).readlines()
     header = lines[0].rstrip().split(",")
@@ -40,24 +44,25 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-#CSV file data
-amine_df = readcsv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\amine_BB.csv")
-solvent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\solvents.csv")
 
-#amine_df = read_csv(r"C:\Users\opentrons\protocols\PHIP_Feb2019\Intermediates.csv")
-#solvent_df = read_csv(r"C:\Users\opentrons\protocols\PHIP_Feb2019\Solvents.csv")
-robot.reset()
+# CSV file data
+stock_reagent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_phip\csv\05-19_rd2\stock_reagents.csv")
+solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_phip\csv\05-19_rd2\solvents.csv")
 
-def stock_solution (amine, solvent):
-    
-    #Deck setup
+"""Function that does two liquid handling transfers. First it will dilute a solid reagent in a big trough to the right concentration.
+(Up to 2 reagents). Second, it will transfer the reagent from the big trough to the Fluix 24 vial rack, using the volume from the csv file
+It requires 2 csv files. The first is the solvent csv, the second the custom made stock reagent csv."""
+
+
+def stock_solution(amine, solvent):
+    # Deck setup
     tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
     source_trough4row = containers.load("trough-12row", "C2")
-    destination_amine_stock = containers.load("FluidX_24_5ml", "A1", "amine_stock")
+    destination_stock = containers.load("FluidX_24_5ml", "A1", "stock")
     trash = containers.load("point", "C3")
-    #Pipettes SetUp
+    # Pipettes SetUp
     p1000 = instruments.Pipette(
-        name= 'eppendorf1000',
+        name='eppendorf1000',
         axis='b',
         trash_container=trash,
         tip_racks=[tiprack_1000],
@@ -65,59 +70,40 @@ def stock_solution (amine, solvent):
         min_volume=30,
         channels=1,
     )
-    
-    id_header = "CPD ID"    
-    solvent = "MeCN"
-    stock_sol1 = "amine ID"
-    #stock_sol2 = "Intermediate2"
+
+    id_header = "CPD ID"
+    solvent = "DMA"
+    stock_sol1 = "stock reagent 1"
     location_header = "Location_trough"
     destination_location_header = "Location"
     volume_stock_header = "Volume to dispense (uL)"
     volume_per_vial = "Volume to dispense"
-    stock1 = "ImidInt-1"
-    stock2 = "ImidInt-2"
-    code_header = "Code"
-    
+
     for i, x in enumerate(solvent_df[id_header].tolist()):
         if x == solvent:
             solvent_location = solvent_df[location_header].tolist()[i]
         if x == stock_sol1:
             stock_sol1_loc = solvent_df[location_header].tolist()[i]
             stock_sol1_volume = solvent_df[volume_stock_header].tolist()[i]
-        if x == stock_sol2:
-            stock_sol2_loc = solvent_df[location_header].tolist()[i]
-            stock_sol2_volume = solvent_df[volume_stock_header].tolist()[i]
-    p1000.pick_up_tip()
-    p1000.transfer([stock_sol1_volume], source_trough4row.wells(solvent_location), source_trough4row.wells(stock_sol1_loc).top(-5), new_tip = 'never')
-    p1000.drop_tip()
-    p1000.pick_up_tip()
-    p1000.transfer([stock_sol2_volume], source_trough4row.wells(solvent_location), source_trough4row.wells(stock_sol2_loc).top(-5), new_tip = 'never')
-    p1000.drop_tip()
-    #print(solvent_location, stock_sol1_loc, stock_sol2_loc, stock_sol1_volume, stock_sol2_volume)
 
-    #robot.pause()
-    for i, x in enumerate(intermediate_df[destination_location_header].tolist()):
+    # Using the desired solvent, dilution of reagents 1 and/or 2 to the desired conc, in the big trough
+    p1000.pick_up_tip()
+    p1000.transfer([stock_sol1_volume], source_trough4row.wells(solvent_location),
+                   source_trough4row.wells(stock_sol1_loc).top(-5), new_tip='never')
+    p1000.drop_tip()
+
+    # robot.pause()
+
+    # Reagents 1 and/or 2 are transfered to the 24 Fluidx vial rack.
+    for i, x in enumerate(stock_reagent_df[destination_location_header].tolist()):
         destination_location = x
-        vol_to_dispense = [intermediate_df[volume_per_vial].tolist()[i]]
-        intermediate_id = intermediate_df[code_header].tolist()[i]
-        p1000.pick_up_tip()
-        if intermediate_id == stock1:
-            #print ('correct')
-            if vol_to_dispense != 0:
-                p1000.transfer(vol_to_dispense, source_trough4row.wells(stock_sol1_loc), destination_int.wells(destination_location).top(-5), new_tip = 'never')   
-        if intermediate_id == stock2:
-            #print ('incorrect')
-            p1000.drop_tip()
+        vol_to_dispense = [stock_reagent_df[volume_per_vial].tolist()[i]]
+        stock_id = stock_reagent_df[id_header].tolist()[i]
+        if stock_id == stock_sol1:
             p1000.pick_up_tip()
             if vol_to_dispense != 0:
-                p1000.transfer(vol_to_dispense, source_trough4row.wells(stock_sol2_loc), destination_int.wells(destination_location).top(-5), new_tip = 'never')   
-
-        p1000.drop_tip()
-        #else:
-         #   print ("error")
-          #  break
-
-        print(destination_location,vol_to_dispense,intermediate_id, stock1)
+                p1000.transfer(vol_to_dispense, source_trough4row.wells(stock_sol1_loc),
+                               destination_stock.wells(destination_location).top(-5), new_tip='never')
+            p1000.drop_tip()
     robot.home()
-stock_solution(amine_df, solvent_df)
-#robot.commands()
+stock_solution(stock_reagent_df, solvent_df)
