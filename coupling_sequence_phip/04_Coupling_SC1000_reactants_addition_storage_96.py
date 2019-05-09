@@ -44,8 +44,8 @@ def read_csv(input_file):
 
 
 # CSV file data
-reactants_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\carboxylic_acids.csv")
-solvent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\solvents.csv")
+reactants_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip\csv\05-19_double\carboxylic_acids.csv")
+solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip\csv\05-19_double\solvents.csv")
 
 def reactants_transfer(reactants, solvent):
     # Deck setup
@@ -56,8 +56,8 @@ def reactants_transfer(reactants, solvent):
     source_trough4row = containers.load("trough-12row", "C2")
     rack_stock_reactants_1 = containers.load("FluidX_24_5ml", "A1", "R_1")
     rack_stock_reactants_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
-    rack_stock_reactants_3 = containers.load("FluidX_24_5ml", "B2", "R_3")
-    rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B1", "R_4")
+    rack_stock_reactants_3 = containers.load("FluidX_24_5ml", "B1", "R_3")
+    rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B2", "R_4")
     reaction_rack = containers.load("StarLab_96_tall", "C1")
     trash = containers.load("point", "C3")
 
@@ -95,18 +95,22 @@ def reactants_transfer(reactants, solvent):
             p1000.pick_up_tip()
             p1000.transfer(volume_per_reaction, rack_stock_reactants_1.wells(source_location),
                            reaction_rack.wells(i + 2).top(-5), new_tip='never')
+            p1000.drop_tip()
         if x == rack_2:
             p1000.pick_up_tip()
             p1000.transfer(volume_per_reaction, rack_stock_reactants_2.wells(source_location),
                            reaction_rack.wells(i + 2).top(-5), new_tip='never')
+            p1000.drop_tip()
         if x == rack_3:
             p1000.pick_up_tip()
             p1000.transfer(volume_per_reaction, rack_stock_reactants_3.wells(source_location),
                            reaction_rack.wells(i + 2).top(-5), new_tip='never')
+            p1000.drop_tip()
         if x == rack_4:
             p1000.pick_up_tip()
             p1000.transfer(volume_per_reaction, rack_stock_reactants_4.wells(source_location),
                            reaction_rack.wells(i + 2).top(-5), new_tip='never')
+            p1000.drop_tip()
         counter += 1
     # p1000.pick_up_tip()
     for i, x in enumerate(solvent_df[id_header].tolist()):

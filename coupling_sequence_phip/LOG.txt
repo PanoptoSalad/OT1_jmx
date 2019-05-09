@@ -84,6 +84,9 @@ x
 5:23:43 PM - Dispensing 42.86054256 at <WellSeries: <Well A9><Well B9><Well C9><Well D9><Well E9><Well F9><Well G9><Well H9>>
 5:23:43 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
 5:23:46 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+<<<<<<< HEAD
+5:24:07 PM - Run complete in 0:01:47
+=======
 5:24:07 PM - Run complete in 0:01:47
 
 
@@ -515,3 +518,4 @@ x
 6:23:54 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
 6:23:57 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
 6:24:19 PM - Run complete in 0:07:27
+>>>>>>> master

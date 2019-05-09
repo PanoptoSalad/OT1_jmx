@@ -1,0 +1,8 @@
+CPD ID,rack name,Location_trough,Volume to dispense (uL),nb reactions
+stock reagent 1,big_trough,A2,5267,0
+DMA,big_trough,A8,100,0
+T3P,small_trough,A1,,
+DIPEA,small_trough,A3,,
+MeI,small_trough,A1,56,8
+MeCN2,small_trough,A3,60,8
+DMF,big_trough,A11,132,
