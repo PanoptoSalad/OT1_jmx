@@ -1,5 +1,5 @@
 Location,CPD ID,Code,IUPAC,Formula,MW,weight,volume at 1500mM in ml,Number of vials filled up with 2mL,Volume to dispense in ul for stock solution,Conc_stock (mMol),Volume to dispense,Volume max per vial,Number reaction,Volume_stock per reaction,mmol,eq
-A1,stock reagent 1,Furan-1,furan-2-yl(piperazin-1-yl)methanone,C9H12N2O2,181.2,2000,7.358351729,3.679175865,7358.351729,1500,2000,1900,66,40,0.06,1
-A2,stock reagent 1,Furan-2,furan-2-yl(piperazin-1-yl)methanone,C9H12N2O2,181.2,2000,7.358351729,3.679175865,7358.351729,1500,2000,1900,66,40,0.06,1
-A3,stock reagent 1,Furan-3,furan-2-yl(piperazin-1-yl)methanone,C9H12N2O2,181.2,2000,7.358351729,3.679175865,7358.351729,1500,2000,1900,66,40,0.06,1
-A4,stock reagent 1,Furan-4,furan-2-yl(piperazin-1-yl)methanone,C9H12N2O2,181.2,2000,7.358351729,3.679175865,7358.351729,1500,1358,1258,66,40,0.06,1
+A1,stock reagent 1,Furan-1,furan-2-yl(piperazin-1-yl)methanone,C9H12N2O2,181.2,2000,7.358351729,3.679175865,7358.351729,1500,2000,1900,66,121,0.06,1
+A2,stock reagent 1,Furan-2,furan-2-yl(piperazin-1-yl)methanone,C9H12N2O2,181.2,2000,7.358351729,3.679175865,7358.351729,1500,2000,1900,66,121,0.06,1
+A3,stock reagent 1,Furan-3,furan-2-yl(piperazin-1-yl)methanone,C9H12N2O2,181.2,2000,7.358351729,3.679175865,7358.351729,1500,2000,1900,66,121,0.06,1
+A4,stock reagent 1,Furan-4,furan-2-yl(piperazin-1-yl)methanone,C9H12N2O2,181.2,2000,7.358351729,3.679175865,7358.351729,1500,1358,1258,66,121,0.06,1
