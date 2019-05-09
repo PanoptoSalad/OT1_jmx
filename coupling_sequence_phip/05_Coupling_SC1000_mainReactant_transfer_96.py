@@ -44,7 +44,7 @@ def read_csv(input_file):
 
 
 # CSV file data
-reaction_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\stock_reagents.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip\csv\05-19_double\stock_reagents.csv")
 
 def mainReactant_transfer(reaction):
     # Deck setup
@@ -64,7 +64,7 @@ def mainReactant_transfer(reaction):
         channels=1,
     )
     location_header = "Location"
-    nb_reaction_header = "Number of reactions"
+    nb_reaction_header = "Number reaction"
     volume_per_reaction_header = "Volume_stock per reaction"
     volume_max_header = "Volume max per vial"
     nb_reactions = int(reaction_df[nb_reaction_header].tolist()[1])

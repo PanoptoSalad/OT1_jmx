@@ -1,7 +1,7 @@
 """Protocol that used the multichannel to add base and coupling agent to the desired number of rows in the plate."""
 
 from opentrons import robot, containers, instruments
-robot.head_speed(x=16000, y=16000, z=3000, a=700, b=700)
+robot.head_speed(x=16000, y=16000, z=3000, a=400, b=400)
 
 class Vector(object):
     def tolist(self):
@@ -40,8 +40,8 @@ def read_csv(input_file):
     return df
 
 #CSV file data
-reaction_conditions_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\reaction_conditions.csv")
-solvent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_phip\csv\05-19_rd2\solvents.csv")
+reaction_conditions_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip\csv\05-19_double\reaction_conditions.csv")
+solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip\csv\05-19_double\solvents.csv")
 
 # Deck setup
 tiprack_300 = containers.load("tiprack-300ul", "D3")
@@ -60,7 +60,7 @@ p300_multi = instruments.Pipette(
     channels=8,
 )
 
-def add_base_coupling(reaction_condition, solvent)
+def add_base_coupling(reaction_condition, solvent):
     cpd_id_heading = "CPD ID"
     base = "DIPEA"
     coupling = "T3P"
