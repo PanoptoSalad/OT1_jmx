@@ -1,0 +1,517 @@
+Protocol 1 - 
+CHANGE TIP!!!!
+Insoluble so added 2 eq dipea, still hard to dissolve but fine.
+Change concentration, not 1500 but 970 now.
+
+
+x
+5:03:15 PM - Protocol run initiated. Simulating...
+5:03:15 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
+5:03:20 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+5:03:27 PM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:03:30 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+5:03:35 PM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:03:39 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+5:03:43 PM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:03:47 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+5:03:52 PM - Dispensing 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:03:55 PM - Aspirating 633.5 at <Deck><Slot C2><Container trough-12row><Well A8>
+5:03:59 PM - Dispensing 633.5 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:04:01 PM - Aspirating 633.5 at <Deck><Slot C2><Container trough-12row><Well A8>
+5:04:05 PM - Dispensing 633.5 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:04:08 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:04:19 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B1>
+5:04:32 PM - Protocol paused
+5:04:34 PM - Protocol resumed
+5:04:36 PM - Protocol paused
+5:04:37 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:04:38 PM - Protocol resumed
+5:04:44 PM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well B1>
+5:04:50 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:04:57 PM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well B1>
+5:05:02 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:05:13 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C1>
+5:05:16 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:05:23 PM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well B2>
+5:05:28 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:05:35 PM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well B2>
+5:05:40 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:05:52 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D1>
+5:05:55 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:06:01 PM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well B3>
+5:06:07 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:06:13 PM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well B3>
+5:06:19 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:06:30 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A2>
+5:06:33 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:06:40 PM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well B4>
+5:06:45 PM - Aspirating 1000.0 at <Deck><Slot C2><Container trough-12row><Well A2>
+5:06:51 PM - Dispensing 1000.0 at <Deck><Slot A1><Container stock><Well B4>
+5:06:57 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+
+Protocol 3 -- think about airgap for t3p but otherwise good
+
+x
+5:22:19 PM - Protocol run initiated. Simulating...
+5:22:19 PM - Picking up tip from <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+5:22:26 PM - Protocol resumed
+5:22:28 PM - Aspirating 265.14016174999995 at <Deck><Slot E2><Container trough-12row><Well A3>
+5:22:36 PM - Dispensing 47.02803235 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+5:22:39 PM - Dispensing 47.02803235 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+5:22:40 PM - Dispensing 47.02803235 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+5:22:41 PM - Dispensing 47.02803235 at <WellSeries: <Well A4><Well B4><Well C4><Well D4><Well E4><Well F4><Well G4><Well H4>>
+5:22:42 PM - Dispensing 47.02803235 at <WellSeries: <Well A5><Well B5><Well C5><Well D5><Well E5><Well F5><Well G5><Well H5>>
+5:22:43 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+5:22:46 PM - Aspirating 218.1121294 at <Deck><Slot E2><Container trough-12row><Well A3>
+5:22:52 PM - Dispensing 47.02803235 at <WellSeries: <Well A6><Well B6><Well C6><Well D6><Well E6><Well F6><Well G6><Well H6>>
+5:22:56 PM - Dispensing 47.02803235 at <WellSeries: <Well A7><Well B7><Well C7><Well D7><Well E7><Well F7><Well G7><Well H7>>
+5:22:57 PM - Dispensing 47.02803235 at <WellSeries: <Well A8><Well B8><Well C8><Well D8><Well E8><Well F8><Well G8><Well H8>>
+5:22:58 PM - Dispensing 47.02803235 at <WellSeries: <Well A9><Well B9><Well C9><Well D9><Well E9><Well F9><Well G9><Well H9>>
+5:22:59 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+5:23:02 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:23:11 PM - Picking up tip from <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+5:23:14 PM - Aspirating 287.16325536 at <Deck><Slot E2><Container trough-12row><Well A1>
+5:23:21 PM - Dispensing 42.86054256 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+5:23:25 PM - Dispensing 42.86054256 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+5:23:26 PM - Dispensing 42.86054256 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+5:23:27 PM - Dispensing 42.86054256 at <WellSeries: <Well A4><Well B4><Well C4><Well D4><Well E4><Well F4><Well G4><Well H4>>
+5:23:28 PM - Dispensing 42.86054256 at <WellSeries: <Well A5><Well B5><Well C5><Well D5><Well E5><Well F5><Well G5><Well H5>>
+5:23:29 PM - Dispensing 42.86054256 at <WellSeries: <Well A6><Well B6><Well C6><Well D6><Well E6><Well F6><Well G6><Well H6>>
+5:23:30 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+5:23:33 PM - Aspirating 158.58162768 at <Deck><Slot E2><Container trough-12row><Well A1>
+5:23:38 PM - Dispensing 42.86054256 at <WellSeries: <Well A7><Well B7><Well C7><Well D7><Well E7><Well F7><Well G7><Well H7>>
+5:23:42 PM - Dispensing 42.86054256 at <WellSeries: <Well A8><Well B8><Well C8><Well D8><Well E8><Well F8><Well G8><Well H8>>
+5:23:43 PM - Dispensing 42.86054256 at <WellSeries: <Well A9><Well B9><Well C9><Well D9><Well E9><Well F9><Well G9><Well H9>>
+5:23:43 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+5:23:46 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:24:07 PM - Run complete in 0:01:47
+
+
+Protocol 4 - addition of the acid to the T3P/Base
+Still have the extra solvent addition stage (not used)
+Again issues with some acids
+2- air bubble
+4 - air bubble
+9 - poor solubility blocked the pipette (poor addition)
+13 - not added (blocked pipette)
+19 - Suspension (but seemed okay)
+23 - suspension + air bubble
+28/29/31/36 - small air bubbles
+45 - supension, only partial addition
+62/63 - suspension but volume seemed fine. 
+
+5:38:46 PM - Protocol run initiated. Simulating...
+5:38:46 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
+5:38:51 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well A1>
+5:38:56 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well C1>
+5:38:57 PM - Protocol resumed
+5:38:58 PM - Protocol paused
+5:39:06 PM - Protocol resumed
+5:39:07 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:39:19 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B1>
+5:39:21 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well A2>
+5:39:26 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well D1>
+5:39:30 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:39:41 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C1>
+5:39:44 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well A3>
+5:39:49 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well E1>
+5:39:53 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:40:04 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D1>
+5:40:07 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well A4>
+5:40:12 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well F1>
+5:40:16 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:40:28 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A2>
+5:40:30 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well A5>
+5:40:35 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well G1>
+5:40:39 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:40:51 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B2>
+5:40:53 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well A6>
+5:40:58 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well H1>
+5:41:02 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:41:13 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C2>
+5:41:16 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well B1>
+5:41:21 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A2>
+5:41:25 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:41:37 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D2>
+5:41:39 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well B2>
+5:41:44 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B2>
+5:41:48 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:41:59 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A3>
+5:42:02 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well B3>
+5:42:07 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well C2>
+5:42:10 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:42:22 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B3>
+5:42:25 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well B4>
+5:42:30 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well D2>
+5:42:33 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:42:45 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C3>
+5:42:48 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well B5>
+5:42:52 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well E2>
+5:42:56 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:43:08 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D3>
+5:43:10 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well B6>
+5:43:15 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well F2>
+5:43:19 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:43:31 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A4>
+5:43:33 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well C1>
+5:43:38 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well G2>
+5:43:42 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:43:54 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B4>
+5:43:56 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well C2>
+5:44:01 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well H2>
+5:44:05 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:44:17 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C4>
+5:44:19 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well C3>
+5:44:24 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A3>
+5:44:28 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:44:39 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D4>
+5:44:42 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well C4>
+5:44:47 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B3>
+5:44:50 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:45:02 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A5>
+5:45:04 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well C5>
+5:45:09 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well C3>
+5:45:13 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:45:25 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B5>
+5:45:27 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well C6>
+5:45:32 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well D3>
+5:45:36 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:45:47 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C5>
+5:45:50 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well D1>
+5:45:55 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well E3>
+5:45:58 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:46:10 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D5>
+5:46:13 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well D2>
+5:46:18 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well F3>
+5:46:21 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:46:33 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A6>
+5:46:36 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well D3>
+5:46:40 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well G3>
+5:46:44 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:46:56 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B6>
+5:46:58 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well D4>
+5:47:03 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well H3>
+5:47:07 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:47:19 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C6>
+5:47:21 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well D5>
+5:47:26 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A4>
+5:47:30 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:47:41 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D6>
+5:47:44 PM - Aspirating 252.0 at <Deck><Slot A1><Container R_1><Well D6>
+5:47:49 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B4>
+5:47:52 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:48:04 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A7>
+5:48:06 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well A1>
+5:48:11 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well C4>
+5:48:15 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:48:26 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B7>
+5:48:29 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well A2>
+5:48:34 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well D4>
+5:48:38 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:48:49 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C7>
+5:48:52 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well A3>
+5:48:57 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well E4>
+5:49:01 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:49:12 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D7>
+5:49:15 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well A4>
+5:49:19 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well F4>
+5:49:23 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:49:35 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A8>
+5:49:37 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well A5>
+5:49:42 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well G4>
+5:49:46 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:49:58 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B8>
+5:50:00 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well A6>
+5:50:05 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well H4>
+5:50:09 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:50:21 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C8>
+5:50:23 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well B1>
+5:50:28 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A5>
+5:50:32 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:50:43 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D8>
+5:50:46 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well B2>
+5:50:51 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B5>
+5:50:55 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:51:06 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A9>
+5:51:09 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well B3>
+5:51:13 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well C5>
+5:51:17 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:51:29 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B9>
+5:51:31 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well B4>
+5:51:36 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well D5>
+5:51:40 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:51:52 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C9>
+5:51:54 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well B5>
+5:51:58 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well E5>
+5:52:03 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:52:14 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D9>
+5:52:17 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well B6>
+5:52:21 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well F5>
+5:52:25 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:52:37 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A10>
+5:52:40 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well C1>
+5:52:44 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well G5>
+5:52:48 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:53:00 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B10>
+5:53:02 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well C2>
+5:53:07 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well H5>
+5:53:11 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:53:22 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C10>
+5:53:25 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well C3>
+5:53:30 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A6>
+5:53:34 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:53:45 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D10>
+5:53:48 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well C4>
+5:53:52 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B6>
+5:53:56 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:54:08 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A11>
+5:54:10 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well C5>
+5:54:15 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well C6>
+5:54:19 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:54:30 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B11>
+5:54:33 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well C6>
+5:54:37 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well D6>
+5:54:41 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:54:53 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C11>
+5:54:55 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well D1>
+5:55:00 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well E6>
+5:55:04 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:55:16 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D11>
+5:55:18 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well D2>
+5:55:23 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well F6>
+5:55:27 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:55:38 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A12>
+5:55:41 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well D3>
+5:55:46 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well G6>
+5:55:49 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:56:01 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B12>
+5:56:04 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well D4>
+5:56:08 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well H6>
+5:56:12 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:56:24 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C12>
+5:56:26 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well D5>
+5:56:31 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A7>
+5:56:35 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:56:46 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well D12>
+5:56:49 PM - Aspirating 252.0 at <Deck><Slot A2><Container R_2><Well D6>
+5:56:53 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B7>
+5:56:57 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:57:09 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well A1>
+5:57:11 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well A1>
+5:57:16 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well C7>
+5:57:20 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:57:32 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well B1>
+5:57:34 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well A2>
+5:57:40 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well D7>
+5:57:43 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:57:55 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well C1>
+5:57:57 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well A3>
+5:58:02 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well E7>
+5:58:06 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:58:17 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well D1>
+5:58:20 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well A4>
+5:58:25 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well F7>
+5:58:29 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:58:40 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well A2>
+5:58:43 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well A5>
+5:58:48 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well G7>
+5:58:52 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:59:04 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well B2>
+5:59:06 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well A6>
+5:59:11 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well H7>
+5:59:15 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:59:26 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well C2>
+5:59:29 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well B1>
+5:59:34 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A8>
+5:59:38 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+5:59:49 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well D2>
+5:59:52 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well B2>
+5:59:57 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B8>
+6:00:01 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:00:12 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well A3>
+6:00:15 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well B3>
+6:00:20 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well C8>
+6:00:23 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:00:35 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well B3>
+6:00:37 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well B4>
+6:00:43 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well D8>
+6:00:46 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:00:58 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well C3>
+6:01:00 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well B5>
+6:01:05 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well E8>
+6:01:09 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:01:20 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well D3>
+6:01:23 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well B6>
+6:01:28 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well F8>
+6:01:32 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:01:43 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well A4>
+6:01:46 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well C1>
+6:01:51 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well G8>
+6:01:55 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:02:06 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well B4>
+6:02:09 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well C2>
+6:02:14 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well H8>
+6:02:17 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:02:29 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well C4>
+6:02:32 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well C3>
+6:02:37 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A9>
+6:02:40 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:02:52 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well D4>
+6:02:54 PM - Aspirating 252.0 at <Deck><Slot B1><Container R_3><Well C4>
+6:02:59 PM - Dispensing 252.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B9>
+6:03:03 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:03:14 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well A5>
+6:03:17 PM - Aspirating 930.0 at <Deck><Slot C2><Container trough-12row><Well A8>
+6:03:24 PM - Dispensing 100.0 at <Deck><Slot C1><Container StarLab_96_tall><Well A1>
+6:03:27 PM - Dispensing 100.0 at <Deck><Slot C1><Container StarLab_96_tall><Well B1>
+6:03:27 PM - Protocol paused
+6:03:27 PM - Protocol stopped
+6:03:27 PM - Run complete in 0:24:41
+
+
+Protocol 5 - addition of the amine
+- Stopped after first 16, only adding from A1!
+- Restarted but swapped the vials over 
+ISSUE WITH VOLUME CALCULATION - taking over the maximal amount from the vials. Was partially solved by moving the vials
+around but insufficient material remained for the last 2-3 acids with the blanks at the start. These may have small amounts 
+but yields will be reduced. 
+
+6:14:11 PM - Protocol run initiated. Simulating...
+6:14:11 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
+6:14:20 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B1>
+6:14:24 PM - Protocol resumed
+6:14:27 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A1>
+6:14:31 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B1>
+6:14:32 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C1>
+6:14:33 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D1>
+6:14:34 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E1>
+6:14:34 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F1>
+6:14:35 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G1>
+6:14:36 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H1>
+6:14:37 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:14:41 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B1>
+6:14:48 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A2>
+6:14:52 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B2>
+6:14:53 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C2>
+6:14:54 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D2>
+6:14:55 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E2>
+6:14:55 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F2>
+6:14:56 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G2>
+6:14:57 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H2>
+6:14:58 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:15:02 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B1>
+6:15:09 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A3>
+6:15:10 PM - Protocol paused
+6:15:19 PM - Protocol stopped
+6:15:19 PM - Run complete in 0:01:08
+
+Restarted - (Left the vial out for the first 16)
+x
+6:16:51 PM - Protocol run initiated. Simulating...
+6:16:51 PM - Protocol resumed
+6:16:51 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
+6:16:59 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B1>
+6:17:07 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A1>
+6:17:11 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B1>
+6:17:11 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C1>
+6:17:12 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D1>
+6:17:13 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E1>
+6:17:14 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F1>
+6:17:15 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G1>
+6:17:16 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H1>
+6:17:17 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:17:20 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B1>
+6:17:28 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A2>
+6:17:32 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B2>
+6:17:32 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C2>
+6:17:33 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D2>
+6:17:34 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E2>
+6:17:35 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F2>
+6:17:36 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G2>
+6:17:37 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H2>
+6:17:38 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:17:41 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B1>
+6:17:49 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A3>
+6:17:53 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B3>
+6:17:53 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C3>
+6:17:54 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D3>
+6:17:55 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E3>
+6:17:56 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F3>
+6:17:57 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G3>
+6:17:58 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H3>
+6:17:59 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:18:02 PM - Aspirating 514.0 at <Deck><Slot A1><Container int><Well B1>
+6:18:08 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A4>
+6:18:12 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B4>
+6:18:13 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C4>
+6:18:14 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D4>
+6:18:15 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:18:18 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:18:27 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B1>
+6:18:29 PM - Protocol paused
+6:18:30 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B2>
+6:19:05 PM - Protocol resumed
+6:19:12 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E4>
+6:19:16 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F4>
+6:19:17 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G4>
+6:19:18 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H4>
+6:19:19 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A5>
+6:19:20 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B5>
+6:19:21 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C5>
+6:19:22 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D5>
+6:19:23 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:19:26 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B2>
+6:19:33 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E5>
+6:19:37 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F5>
+6:19:38 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G5>
+6:19:39 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H5>
+6:19:40 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A6>
+6:19:41 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B6>
+6:19:42 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C6>
+6:19:43 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D6>
+6:19:44 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:19:47 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B2>
+6:19:48 PM - Protocol paused
+6:20:18 PM - Protocol resumed
+6:20:25 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E6>
+6:20:28 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F6>
+6:20:29 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G6>
+6:20:30 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H6>
+6:20:31 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A7>
+6:20:32 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B7>
+6:20:33 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C7>
+6:20:34 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D7>
+6:20:35 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:20:38 PM - Aspirating 514.0 at <Deck><Slot A1><Container int><Well B2>
+6:20:39 PM - Protocol paused
+6:22:14 PM - Protocol resumed
+6:22:19 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E7>
+6:22:23 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F7>
+6:22:24 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G7>
+6:22:25 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H7>
+6:22:26 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:22:29 PM - Protocol paused
+6:22:29 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:22:34 PM - Protocol resumed
+6:22:43 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well C1>
+6:22:45 PM - Aspirating 998.0 at <Deck><Slot A1><Container int><Well B3>
+6:22:46 PM - Protocol paused
+6:22:59 PM - Protocol resumed
+6:23:05 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A8>
+6:23:09 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B8>
+6:23:10 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C8>
+6:23:11 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well D8>
+6:23:12 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well E8>
+6:23:13 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well F8>
+6:23:14 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well G8>
+6:23:14 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well H8>
+6:23:15 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:23:19 PM - Aspirating 393.0 at <Deck><Slot A1><Container int><Well B3>
+6:23:21 PM - Protocol paused
+6:23:46 PM - Protocol resumed
+6:23:49 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well A9>
+6:23:52 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well B9>
+6:23:53 PM - Dispensing 121.0 at <Deck><Slot D1><Container StarLab_96_tall><Well C9>
+6:23:54 PM - Blowing out at <Deck><Slot C3><Container point><Well A1>
+6:23:57 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+6:24:19 PM - Run complete in 0:07:27
