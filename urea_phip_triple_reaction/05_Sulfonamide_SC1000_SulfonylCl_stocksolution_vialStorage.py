@@ -44,8 +44,8 @@ def read_csv(input_file):
 
 
 # CSV file data
-stock_reagent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\urea_phip_triple_reaction\csv\stock_reagents.csv")
-solvent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\urea_phip_triple_reaction\csv\solvents.csv")
+stock_reagent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\stock_reagents.csv")
+solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\solvents.csv")
 
 """Function that does two liquid handling transfers. First it will dilute a solid reagent in a big trough to the right concentration.
 (Up to 2 reagents). Second, it will transfer the reagent from the big trough to the Fluix 24 vial rack, using the volume from the csv file
@@ -71,7 +71,7 @@ def stock_solution(amine, solvent):
 
     id_header = "CPD ID"
     solvent = "DMA"
-    stock_sol1 = "stock reagent 1"
+    stock_sol1 = "stock reagent 2"
     location_header = "Location_trough"
     destination_location_header = "Location"
     volume_stock_header = "Volume to dispense (uL)"
@@ -87,20 +87,6 @@ def stock_solution(amine, solvent):
     p1000.pick_up_tip()
     p1000.transfer([stock_sol1_volume], source_trough4row.wells(solvent_location),
                    source_trough4row.wells(stock_sol1_loc).top(-5), new_tip='never')
-    p1000.drop_tip()
-
-    robot.pause()
-
-    # Reagents 1 and/or 2 are transfered to the 24 Fluidx vial rack.
-    p1000.pick_up_tip()
-    for i, x in enumerate(stock_reagent_df[destination_location_header].tolist()):
-        destination_location = x
-        vol_to_dispense = [stock_reagent_df[volume_per_vial].tolist()[i]]
-        stock_id = stock_reagent_df[id_header].tolist()[i]
-        if stock_id == stock_sol1:
-            if vol_to_dispense != 0:
-                p1000.transfer(vol_to_dispense, source_trough4row.wells(stock_sol1_loc),
-                               destination_stock.wells(destination_location).top(-5), new_tip='never')
     p1000.drop_tip()
     robot.home()
 stock_solution(stock_reagent_df, solvent_df)

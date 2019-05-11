@@ -42,7 +42,6 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-
 # CSV file data
 reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_phip\csv\05-19_rd2\stock_reagents.csv")
 

@@ -42,9 +42,8 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-
 # CSV file data
-reactants_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\amines.csv")
+reactants_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\Amines_Sulfonamides.csv")
 solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\solvents.csv")
 
 def reactants_transfer(reactants, solvent):
