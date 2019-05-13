@@ -538,3 +538,80 @@ Calibration is all wrong, and robot goes to random position although the code is
 Remind of an issue of container name used for two containers. Given up and addition of base manually.
 
 Mixing Urea reaction failed as well, similar problem of calibration.
+
+
+Monday 13 May
+bad start - calibration file is weird
+Switched on/off and use bakup file seemed to do the trick
+Point (bin) to recalibrate
+
+x
+9:46:23 AM - Protocol run initiated. Simulating...
+9:46:24 AM - Picking up tip from <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+9:46:33 AM - Aspirating 300.0 at <Deck><Slot C2><Container trough-12row><Well A5>
+9:46:41 AM - Dispensing 100.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+9:46:45 AM - Dispensing 100.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+9:46:47 AM - Dispensing 100.0 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+9:46:48 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+9:47:01 AM - Picking up tip from <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+9:47:03 AM - Aspirating 15.0 at <WellSeries: <Well E12><Well C12><Well D12><Well B12><Well H12><Well A12><Well G12><Well F12>>
+9:47:06 AM - Protocol paused
+9:47:14 AM - Protocol stopped
+9:47:14 AM - Run complete in 0:00:50
+9:47:45 AM - Successfully homed
+
+
+x
+10:16:53 AM - Protocol run initiated. Simulating...
+10:16:53 AM - Picking up tip from <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+10:17:02 AM - Aspirating 300.0 at <Deck><Slot C2><Container trough-12row><Well A5>
+10:17:10 AM - Dispensing 100.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+10:17:15 AM - Dispensing 100.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+10:17:16 AM - Dispensing 100.0 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+10:17:18 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:17:30 AM - Picking up tip from <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+10:17:32 AM - Aspirating 15.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+10:17:37 AM - Dispensing 15.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+10:17:41 AM - Blowing out
+10:17:41 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:17:53 AM - Picking up tip from <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+10:17:55 AM - Aspirating 15.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+10:18:00 AM - Dispensing 15.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+10:18:04 AM - Blowing out
+10:18:04 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:18:10 AM - Protocol stopped
+
+
+Protocol 7 - Sulfonamide LCMS preparation
+Worked fine (had to use 2 mL system not the tall 96 due to issues creating containers).
+For some reasons it is not possible to create a container without all calibration to go wrong??
+
+Also dispensed 4 lines instead of 3 (user defination error)
+10:33:23 AM - Protocol run initiated. Simulating...
+10:33:23 AM - Protocol resumed
+10:33:23 AM - Picking up tip from <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+10:33:32 AM - Aspirating 300.0 at <Deck><Slot C2><Container trough-12row><Well A5>
+10:33:40 AM - Dispensing 100.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+10:33:44 AM - Dispensing 100.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+10:33:46 AM - Dispensing 100.0 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+10:33:47 AM - Aspirating 100.0 at <Deck><Slot C2><Container trough-12row><Well A5>
+10:33:51 AM - Protocol paused
+10:33:58 AM - Protocol resumed
+10:33:59 AM - Dispensing 100.0 at <WellSeries: <Well A4><Well B4><Well C4><Well D4><Well E4><Well F4><Well G4><Well H4>>
+10:34:04 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:34:16 AM - Picking up tip from <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+10:34:18 AM - Aspirating 15.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+10:34:22 AM - Dispensing 15.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+10:34:26 AM - Blowing out
+10:34:26 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:34:39 AM - Picking up tip from <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+10:34:41 AM - Aspirating 15.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+10:34:45 AM - Dispensing 15.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+10:34:49 AM - Blowing out
+10:34:49 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:35:02 AM - Picking up tip from <WellSeries: <Well A4><Well B4><Well C4><Well D4><Well E4><Well F4><Well G4><Well H4>>
+10:35:04 AM - Aspirating 15.0 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+10:35:08 AM - Dispensing 15.0 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+10:35:12 AM - Blowing out
+10:35:12 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
+10:35:18 AM - Protocol stopped
