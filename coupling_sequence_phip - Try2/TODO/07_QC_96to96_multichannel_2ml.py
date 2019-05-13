@@ -3,11 +3,26 @@ from opentrons import robot, containers, instruments
 robot.head_speed(x=18000,  y=18000,  z=3000, a=400, b=400)
 
 
+#containers.create(
+#    "tiprack-300ul_green",                    # name of you container
+#    grid=(8, 12),                    # specify amount of (columns, rows)
+#    spacing=(9, 9),               # distances (mm) between each (column, row)
+#    diameter=4,                     # diameter (mm) of each well on the plate
+#    depth=60)                       # depth (mm) of each well on the plate
+
+#containers.create(
+#    "Starlab_96_Square_2mL",                    # name of you container
+#    grid=(8, 12),                    # specify amount of (columns, rows)
+#    spacing=(9, 9),               # distances (mm) between each (column, row)
+#    diameter=8,                     # diameter (mm) of each well on the plate
+#    depth=60)                       # depth (mm) of each well on the plate
+
+
 #Deck setup
 tiprack_300 = containers.load("tiprack-300ul", "D3")
 #tiprack_300_2 = containers.load("tiprack-300ul", "E2")
 source_trough4row = containers.load("trough-12row", "C2")
-reaction_rack = containers.load("StarLab_96_tall", "D1")
+reaction_rack = containers.load("Starlab_96_Square_2mL", "D1")
 destination_QC = containers.load("96-PCR-flat", "B1", "QC")
 trash = containers.load("point", "C3")
 
@@ -24,7 +39,7 @@ p300_multi  = instruments.Pipette(
 volume_to_dispense = 15
 location_QC_solvent = 'A5'
 volume_QC_solvent = 100
-number_rows = 3
+number_rows = 2
 
 source_location = [well.bottom(4) for well in reaction_rack.rows(0, to=number_rows)]
 destination_location = [well.bottom(1) for well in destination_QC.rows(0, to=number_rows)]

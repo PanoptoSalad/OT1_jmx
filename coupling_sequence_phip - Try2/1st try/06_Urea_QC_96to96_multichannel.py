@@ -5,7 +5,7 @@ robot.head_speed(x=18000,  y=18000,  z=3000, a=400, b=400)
 
 #Deck setup
 tiprack_300 = containers.load("tiprack-300ul", "D3")
-#tiprack_300_2 = containers.load("tiprack-300ul", "E2")
+tiprack_300_2 = containers.load("tiprack-300ul", "E2")
 source_trough4row = containers.load("trough-12row", "C2")
 reaction_rack = containers.load("StarLab_96_tall", "D1")
 destination_QC = containers.load("96-PCR-flat", "B1", "QC")
@@ -16,7 +16,7 @@ p300_multi  = instruments.Pipette(
     name='dlab_300multi_no_min',
     axis="a",
     trash_container=trash,
-    tip_racks=[tiprack_300],
+    tip_racks=[tiprack_300, tiprack_300_2],
     max_volume=300,
     min_volume=0,
     channels=8,
@@ -24,7 +24,7 @@ p300_multi  = instruments.Pipette(
 volume_to_dispense = 15
 location_QC_solvent = 'A5'
 volume_QC_solvent = 100
-number_rows = 3
+number_rows = 9
 
 source_location = [well.bottom(4) for well in reaction_rack.rows(0, to=number_rows)]
 destination_location = [well.bottom(1) for well in destination_QC.rows(0, to=number_rows)]
