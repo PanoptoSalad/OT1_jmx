@@ -56,7 +56,6 @@ def stock_solution(amine, solvent):
     # Deck setup
     tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
     source_trough4row = containers.load("trough-12row", "C2")
-    destination_stock = containers.load("FluidX_24_5ml", "A1", "stock")
     trash = containers.load("point", "C3")
     # Pipettes SetUp
     p1000 = instruments.Pipette(

@@ -42,27 +42,15 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-containers.create(
-    "Starlab_96_Square_2mL",                    # name of you container
-    grid=(8, 12),                    # specify amount of (columns, rows)
-    spacing=(9, 9),               # distances (mm) between each (column, row)
-    diameter=8,                     # diameter (mm) of each well on the plate
-    depth=45)                       # depth (mm) of each well on the plate
-
 # CSV file data
 stock_reagent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\stock_reagents.csv")
 solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\solvents.csv")
-
-"""Function that does two liquid handling transfers. First it will dilute a solid reagent in a big trough to the right concentration.
-(Up to 2 reagents). Second, it will transfer the reagent from the big trough to the Fluix 24 vial rack, using the volume from the csv file
-It requires 2 csv files. The first is the solvent csv, the second the custom made stock reagent csv."""
 
 
 def stock_solution(amine, solvent):
     # Deck setup
     tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
     source_trough4row = containers.load("trough-12row", "C2")
-    destination_stock = containers.load("Starlab_96_Square_2mL", "A1", "stock")
     trash = containers.load("point", "C3")
     # Pipettes SetUp
     p1000 = instruments.Pipette(
@@ -79,10 +67,7 @@ def stock_solution(amine, solvent):
     solvent = "DMA"
     stock_sol1 = "stock reagent 1"
     location_header = "Location_trough"
-    destination_location_header = "Location"
     volume_stock_header = "Volume to dispense (uL)"
-    volume_per_vial = "Volume to dispense"
-    volume_inreactionrack_header = "Volume_stock per reaction"
 
     for i, x in enumerate(solvent_df[id_header].tolist()):
         if x == solvent:
@@ -94,20 +79,6 @@ def stock_solution(amine, solvent):
     p1000.pick_up_tip()
     p1000.transfer([stock_sol1_volume], source_trough4row.wells(solvent_location),
                    source_trough4row.wells(stock_sol1_loc).top(-5), new_tip='never')
-    p1000.drop_tip()
-
-    robot.pause()
-
-    # Reagents 1 and/or 2 are transfered to the 24 Fluidx vial rack.
-    p1000.pick_up_tip()
-    for i, x in enumerate(stock_reagent_df[destination_location_header].tolist()):
-        destination_location = x
-        vol_to_dispense = [stock_reagent_df[volume_per_vial].tolist()[i]]
-        stock_id = stock_reagent_df[id_header].tolist()[i]
-        if stock_id == stock_sol1:
-            if vol_to_dispense != 0:
-                p1000.transfer(vol_to_dispense, source_trough4row.wells(stock_sol1_loc),
-                               destination_stock.wells(destination_location).top(-5), new_tip='never')
     p1000.drop_tip()
     robot.home()
 stock_solution(stock_reagent_df, solvent_df)

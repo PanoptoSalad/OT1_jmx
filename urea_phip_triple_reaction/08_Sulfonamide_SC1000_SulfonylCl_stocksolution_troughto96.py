@@ -42,9 +42,8 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-
 # CSV file data
-reactants_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\amines.csv")
+reactants_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\Amines_Sulfonamides.csv")
 solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\solvents.csv")
 
 def reactants_transfer(reactants, solvent):
@@ -58,7 +57,8 @@ def reactants_transfer(reactants, solvent):
     rack_stock_reactants_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
     rack_stock_reactants_3 = containers.load("FluidX_24_5ml", "B1", "R_3")
     rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B2", "R_4")
-    reaction_rack = containers.load("Starlab_96_Square_2mL", "C1")
+    reaction_rack = containers.load("StarLab_96_tall", "C1")
+
     trash = containers.load("point", "C3")
 
     # Pipettes SetUp

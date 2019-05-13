@@ -42,11 +42,13 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-# CSV file data
-reactants_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\Amines_Sulfonamides.csv")
-solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\solvents.csv")
 
-def reactants_transfer(reactants, solvent):
+# CSV file data
+reactants_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\template_allReactions\csv\reactants_list.csv")
+reaction_conditions_df = read_csv(
+    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\template_allReactions\csv\reaction_conditions.csv")
+
+def reactants_transfer(reactants, reaction):
     # Deck setup
 
     tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
@@ -57,7 +59,7 @@ def reactants_transfer(reactants, solvent):
     rack_stock_reactants_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
     rack_stock_reactants_3 = containers.load("FluidX_24_5ml", "B1", "R_3")
     rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B2", "R_4")
-    reaction_rack = containers.load("Starlab_96_Square_2mL", "C1", "2mL_rack")
+    reaction_rack = containers.load("StarLab_96_tall", "C1")
     trash = containers.load("point", "C3")
 
     # Pipettes SetUp
@@ -71,55 +73,58 @@ def reactants_transfer(reactants, solvent):
         channels=1,
     )
 
-    location_header = "Location"
-    volume_per_reaction_header = "volume_per_vial"
+    id_header = "reaction"
+    reaction_to_start = "Coupling_standard"
+    reactant_location_header = "Location"
+    reactant_volume_header = "reactant 2 volume to add - per reaction (uL)"
     rack_ID_header = "Rack ID"
-    id_header = "CPD ID"
-    solvent = "DMA"
     rack_1 = "24_rack1"
     rack_2 = "24_rack2"
     rack_3 = "24_rack3"
     rack_4 = "24_rack4"
-    solvent_location_header = "Location_trough"
-    solvent_volume_header = "Volume to dispense (uL)"
-    counter = 0
-    for i, x in enumerate(reactants_df[rack_ID_header].tolist()):
-        volume_per_reaction = [reactants_df[volume_per_reaction_header].tolist()[i]]
-        source_location = reactants_df[location_header].tolist()[i]
 
-        if x == "":
+    for index, value in enumerate(reaction_conditions_df[id_header].tolist()):
+        if value == reaction_to_start:
+            volume_per_reaction = float(reaction_conditions_df[reactant_volume_header].tolist()[index])
+
+    #counter = 0
+    for i, v in enumerate(reactants_df[rack_ID_header].tolist()):
+        source_location = reactants_df[reactant_location_header].tolist()[i]
+
+        if v == "":
             #print('null')
             break
-        if x == rack_1:
+        if v == rack_1:
             p1000.pick_up_tip()
             p1000.transfer(volume_per_reaction, rack_stock_reactants_1.wells(source_location),
                            reaction_rack.wells(i + 2).top(-5), new_tip='never')
             p1000.drop_tip()
-        if x == rack_2:
+        if v == rack_2:
             p1000.pick_up_tip()
             p1000.transfer(volume_per_reaction, rack_stock_reactants_2.wells(source_location),
                            reaction_rack.wells(i + 2).top(-5), new_tip='never')
             p1000.drop_tip()
-        if x == rack_3:
+        if v == rack_3:
             p1000.pick_up_tip()
             p1000.transfer(volume_per_reaction, rack_stock_reactants_3.wells(source_location),
                            reaction_rack.wells(i + 2).top(-5), new_tip='never')
             p1000.drop_tip()
-        if x == rack_4:
+        if v == rack_4:
             p1000.pick_up_tip()
             p1000.transfer(volume_per_reaction, rack_stock_reactants_4.wells(source_location),
                            reaction_rack.wells(i + 2).top(-5), new_tip='never')
             p1000.drop_tip()
-        counter += 1
+        #counter += 1
+
+    #deprecated: counter only if needs to add more solvent to reaction after addition of reactants
     # p1000.pick_up_tip()
-    for i, x in enumerate(solvent_df[id_header].tolist()):
-        if x == solvent:
-            vol_to_add = [solvent_df[solvent_volume_header].tolist()[i]]
-            solvent_loc = [solvent_df[solvent_location_header].tolist()[i]]
+    #for i, x in enumerate(solvent_df[id_header].tolist()):
+    #    if x == solvent:
+    #        vol_to_add = [solvent_df[solvent_volume_header].tolist()[i]]
+    #        solvent_loc = [solvent_df[solvent_location_header].tolist()[i]]
 
     #p1000.distribute(vol_to_add, source_trough4row.wells(solvent_loc),
-     #                [x.top() for x in reaction_rack.wells(0, to=counter + 1)])
+    #                 [x.top() for x in reaction_rack.wells(0, to=counter + 1)])
     #print(counter)
     robot.home()
-
-reactants_transfer(reactants_df, solvent_df)
+reactants_transfer(reactants_df, reaction_conditions_df)

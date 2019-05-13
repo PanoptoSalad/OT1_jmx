@@ -4,6 +4,7 @@ Still a bit suspended but transfer direct to reaction rack of 2 mL see protocol2
 
 
 Protocol 1 - Imidazolium stock solution
+01_Urea_Coupling_SC1000_Imidazolium_stocksolution_trough.py
 x
 10:39:45 AM - Protocol run initiated. Simulating...
 10:39:45 AM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
@@ -101,7 +102,8 @@ x
 11:03:47 AM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
 11:03:59 AM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well B1>
 
-Protocol 2 - dispense in reaction 2mL rack - Storm stirrer did a really good job, suspension added to racks well
+Protocol 2 - 02_Urea_Coupling_SC1000_Imidazolium_stocksolution_troughto96_2ml.py
+dispense in reaction 2mL rack - Storm stirrer did a really good job, suspension added to racks well
 Mistake with csv file, was going to transfer 14 times instead of the 10 reactions started +2 controls, but robot was stopped after 12. All good
 
 
@@ -163,6 +165,7 @@ x
 11:51:35 AM - Protocol paused
 
 Protocol 3 - stock solution of the amine.
+03_Urea_Coupling_SC1000_reactants_stocksolution_trough_vialstorage.py
 all good
 
 x
@@ -193,6 +196,7 @@ x
 12:19:08 PM - Run complete in 0:02:13
 
 Protocol4 - amines in reaction rack 2 mL
+04_UreaCoupling_SC1000_reactants_addition_storage_96.py
 Perf.
 
 x
@@ -244,6 +248,7 @@ x
 
 SUlfonamide protocol 1
 ok
+06_Sulfonamide_SC1000_reactants_stocksolution_trough_vialstorage.py
 x
 4:20:11 PM - Protocol run initiated. Simulating...
 4:20:11 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
@@ -333,6 +338,7 @@ x
 4:28:32 PM - Run complete in 0:08:19
 
 Prot 2 - perf
+07_Sulfonamide_SC1000_SulfonylCl_stocksolution_trough.py
 x
 4:38:59 PM - Protocol run initiated. Simulating...
 4:38:59 PM - Picking up tip from <Deck><Slot B3><Container tiprack-1000ul-H><Well A1>
@@ -352,6 +358,7 @@ x
 4:40:17 PM - Run complete in 0:01:18
 
 Protocol 3 ok
+08_Sulfonamide_SC1000_SulfonylCl_stocksolution_troughto96.py
 
 x
 4:42:57 PM - Protocol run initiated. Simulating...
@@ -403,6 +410,8 @@ x
 4:45:40 PM - Drop_tip at <Deck><Slot C3><Container point><Well A1>
 4:46:03 PM - Run complete in 0:03:05
 
+
+09_Sulfonamide_SC1000_reactants_addition_storage_96.py
 Prot3 or 4 
 Storm to eager - robot on cap.
 x
