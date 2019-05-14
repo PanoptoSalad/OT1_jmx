@@ -40,15 +40,15 @@ def read_csv(input_file):
     return df
 #CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
 
 # Deck setup
 tiprack_300 = containers.load("tiprack-300ul", "D3")
 source_trough12row = containers.load('trough-12row', "E2")
 reaction_rack = containers.load("StarLab_96_tall", "D1")
-destination_rack1 = containers.load("StarLab_96_tall", "A1")
+destination_rack1 = containers.load("StarLab_96_tall", "D2")
 destination_rack2 = containers.load("StarLab_96_tall", "B1")
-destination_rack3 = containers.load("StarLab_96_tall", "C1")
+destination_rack3 = containers.load("StarLab_96_tall", "B2")
 
 trash = containers.load("point", "C3")
 
@@ -84,7 +84,7 @@ def add_base_reagent(reaction_condition):
 
     destination_1 = [x.top() for x in destination_rack1.rows(0, to=number_rows-1)]
     destination_2 = [x.top() for x in destination_rack2.rows(0, to=number_rows-1)]
-    destination_3 = [x.top() for x in destination_rack1.rows(0, to=number_rows-1)]
+    destination_3 = [x.top() for x in destination_rack3.rows(0, to=number_rows-1)]
 
     p300_multi.distribute(volume_per_vial, source_location,destination_1)
     p300_multi.distribute(volume_per_vial, source_location,destination_2)

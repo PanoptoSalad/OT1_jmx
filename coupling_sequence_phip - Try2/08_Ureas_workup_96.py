@@ -19,10 +19,10 @@ p300_multi  = instruments.Pipette(
     channels=8,
 )
 source_solvent = 'A8'
-volume_solvent = 500
+volume_solvent = 250
 source_aqueous = 'A11'
-volume_aqueous = 500
-number_rows = 2
+volume_aqueous = 300
+number_rows = 9
 
 #p300_multi.distribute(volume_aqueous, source_trough4row.wells(source_aqueous), [x.top() for x in reaction_rack.rows(0,to=number_rows-1)])
 
@@ -35,6 +35,6 @@ p300_multi.distribute(volume_solvent, source_trough4row.wells(source_solvent), [
 
 for i in range(0, number_rows):
     p300_multi.pick_up_tip()
-    p300_multi.mix(10, 300, reaction_rack.rows(i).bottom(15))
+    p300_multi.mix(10, 300, reaction_rack.rows(i).bottom(10))
     p300_multi.drop_tip()
 robot.home()
