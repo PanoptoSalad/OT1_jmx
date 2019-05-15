@@ -38,10 +38,9 @@ def read_csv(input_file):
             out_d[head].append(spl_line[i])
     df = DataFrame(out_d, len(lines[1:]))
     return df
-
 #CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
 
 # Deck setup
 tiprack_300 = containers.load("tiprack-300ul", "D3")
@@ -55,40 +54,40 @@ trash = containers.load("point", "C3")
 
 
 #Pipettes SetUp
-p300_multi  = instruments.Pipette(
-    name='dlab_300multi_no_min',
+p300_multi = instruments.Pipette(
+    name='dlab_300multi',
     axis="a",
     trash_container=trash,
     tip_racks=[tiprack_300],
     max_volume=300,
-    min_volume=0,
+    min_volume=30,
     channels=8,
 )
 
 def add_base_reagent(reaction_condition):
 
     id_header = "reaction"
-    reaction_to_start = "Coupling_sequence"
-    split_volume_header = "split volume to take out per reaction"
-    number_rows_header = "Number rows"
+    reaction_to_start = "Coupling_urea_sulpho"
+    reagent_trough_location_header = "Reagent 4 location"
+    volume_reagent_header = "Reagent 4 volume to add (ul)"
+    split_number_header = "split number"
 
     for index, value in enumerate(reaction_conditions_df[id_header].tolist()):
         if value == reaction_to_start:
-            volume_per_reaction = float(reaction_conditions_df[split_volume_header].tolist()[index])
-            number_rows = int(reaction_conditions_df[number_rows_header].tolist()[index])
+            volume_per_vial = float(reaction_conditions_df[volume_reagent_header].tolist()[index])
+            reagent_trough_location = reaction_conditions_df[reagent_trough_location_header].tolist()[index]
+            number_rows = int(reaction_conditions_df[split_number_header].tolist()[index])
 
     #source_location1 = [well.bottom(4) for well in reaction_rack.rows(0, to=number_rows-1)]
-    source_location = [x.bottom(2) for x in reaction_rack.rows(0, to=number_rows-1)]
+    source_location = [source_trough12row.wells(reagent_trough_location).bottom(4)]
 
-    #source_location2 = [reaction_rack.rows(1).bottom(2)]
-    #source_location3 = [reaction_rack.rows(2).bottom(2)]
 
     destination_1 = [x.top() for x in destination_rack1.rows(0, to=number_rows-1)]
     destination_2 = [x.top() for x in destination_rack2.rows(0, to=number_rows-1)]
     destination_3 = [x.top() for x in destination_rack3.rows(0, to=number_rows-1)]
 
-    p300_multi.distribute(volume_per_reaction, source_location,destination_1, air_gap=10)
-    p300_multi.distribute(volume_per_reaction, source_location,destination_2, air_gap=10)
-    p300_multi.distribute(volume_per_reaction, source_location,destination_3, air_gap=10)
+    p300_multi.distribute(volume_per_vial, source_location,destination_1)
+    p300_multi.distribute(volume_per_vial, source_location,destination_2)
+    p300_multi.distribute(volume_per_vial, source_location,destination_3)
     robot.home()
 add_base_reagent(reaction_conditions_df)

@@ -1,6 +1,6 @@
 from opentrons import robot, containers, instruments
 
-robot.head_speed(x=18000, y=18000, z=5000, a=700, b=700)
+robot.head_speed(x=18000, y=18000, z=5000, a=400, b=400)
 
 
 class Vector(object):
@@ -44,7 +44,7 @@ def read_csv(input_file):
 
 # CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
 
 def reactants_transfer(reactants):
     # Deck setup
@@ -78,13 +78,13 @@ def reactants_transfer(reactants):
             transfer_number = int(reaction_conditions_df[transfer_number_header].tolist()[index])
             source_location_1 = [storage_rack.wells(0).bottom()]
             source_location_2 = [storage_rack.wells(1).bottom()]
-            source_location_3 = [storage_rack.wells(3).bottom()]
+            source_location_3 = [storage_rack.wells(2).bottom()]
 
-            destination_1 = [x.top() for x in destination_rack1.wells(0, to=transfer_number-1)]
-            destination_2 = [x.top() for x in destination_rack1.wells(transfer_number, to=transfer_number*2-1)]
-            destination_3 = [x.top() for x in destination_rack1.wells(transfer_number*2, to=transfer_number*3-1)]
+            destination_1 = [x.top(-10) for x in destination_rack1.wells(0, to=transfer_number-1)]
+            destination_2 = [x.top(-10) for x in destination_rack1.wells(transfer_number, to=transfer_number*2-1)]
+            destination_3 = [x.top(-10) for x in destination_rack1.wells(transfer_number*2, to=transfer_number*3-1)]
 
-            p300_multi.distribute(volume_per_reaction, source_location_1,destination_1, air_gap=10)
-            p300_multi.distribute(volume_per_reaction, source_location_2,destination_2, air_gap=10)
-            p300_multi.distribute(volume_per_reaction, source_location_3,destination_3, air_gap=10)
+            p1000.distribute(volume_per_reaction, source_location_1,destination_1, air_gap=10)
+            p1000.distribute(volume_per_reaction, source_location_2,destination_2, air_gap=10)
+            p1000.distribute(volume_per_reaction, source_location_3,destination_3, air_gap=10)
 reactants_transfer(reaction_conditions_df)

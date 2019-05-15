@@ -44,7 +44,7 @@ def read_csv(input_file):
 
 # CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
 
 
 def solvent_add_multi(reaction_conditions_df):
@@ -68,8 +68,6 @@ def solvent_add_multi(reaction_conditions_df):
 
     id_header = "reaction"
     reaction_to_start = "Coupling_sequence"
-    reagent_trough_location_header = "reagent 2 location"
-    volume_reagent_header = "reagent 2 volume"
     solvent_trough_location_header = "reaction3 solvent location"
     solvent_volume_header = "reaction 3 solvent volume"
     row_number_header = "Number rows"
@@ -77,8 +75,8 @@ def solvent_add_multi(reaction_conditions_df):
     for index, value in enumerate(reaction_conditions_df[id_header].tolist()):
         if value == reaction_to_start:
             solvent_volume = float(reaction_conditions_df[solvent_volume_header].tolist()[index])
-            reagent_volume = float(reaction_conditions_df[volume_reagent_header].tolist()[index])
-            reagent_trough_location = reaction_conditions_df[reagent_trough_location_header].tolist()[index]
+            #reagent_volume = float(reaction_conditions_df[volume_reagent_header].tolist()[index])
+            #reagent_trough_location = reaction_conditions_df[reagent_trough_location_header].tolist()[index]
             solvent_trough_location = reaction_conditions_df[solvent_trough_location_header].tolist()[index]
             number_rows = int(reaction_conditions_df[row_number_header].tolist()[index])
 
