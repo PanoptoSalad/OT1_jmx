@@ -27,7 +27,6 @@ class DataFrame(object):
         self.dict_input = dict_input
         self.length = length
 
-
 # Function that reads a csv file correctly without having to import anything (issues with molport). Uses 2 classes, Vector and DataFrame
 def read_csv(input_file):
     lines = open(input_file).readlines()
@@ -44,14 +43,16 @@ def read_csv(input_file):
 
 # CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
+    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
 
 
 def solvent_add_multi(reaction_conditions_df):
     # Deck setup
     tiprack_300 = containers.load("tiprack-300ul", "D3")
     source_trough12row = containers.load('trough-12row', "E2")
-    reaction_rack = containers.load("StarLab_96_tall", "D1")
+    destination_rack1 = containers.load("StarLab_96_tall", "D2")
+    destination_rack2 = containers.load("StarLab_96_tall", "B1")
+    destination_rack3 = containers.load("StarLab_96_tall", "B2")
     trash = containers.load("point", 'C3')
 
     # Pipettes SetUp
@@ -79,9 +80,14 @@ def solvent_add_multi(reaction_conditions_df):
             #reagent_trough_location = reaction_conditions_df[reagent_trough_location_header].tolist()[index]
             solvent_trough_location = reaction_conditions_df[solvent_trough_location_header].tolist()[index]
             number_rows = int(reaction_conditions_df[row_number_header].tolist()[index])
-
-    p300_multi.distribute(solvent_volume, source_trough12row.wells(solvent_trough_location),
-                          [x.top(-5) for x in reaction_rack.rows(0, to=number_rows - 1)], air_gap=10)
+            p300_multi.pick_up_tip()
+            p300_multi.distribute(solvent_volume, source_trough12row.wells(solvent_trough_location),
+                                  [x.top(-5) for x in destination_rack1.rows(0, to=number_rows - 1)], air_gap=10, new_tip="never")
+            #p300_multi.distribute(solvent_volume, source_trough12row.wells(solvent_trough_location),
+            #                      [x.top(-5) for x in destination_rack2.rows(0, to=number_rows - 1)], air_gap=10,new_tip="never")
+            #p300_multi.distribute(solvent_volume, source_trough12row.wells(solvent_trough_location),
+            #                      [x.top(-5) for x in destination_rack3.rows(0, to=number_rows - 1)], air_gap=10, new_tip="never")
+            p300_multi.drop_tip()
     robot.home()
 
 

@@ -41,16 +41,15 @@ def read_csv(input_file):
             out_d[head].append(spl_line[i])
     df = DataFrame(out_d, len(lines[1:]))
     return df
-
-
 # CSV file data
-reaction_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\urea_phip_triple_reaction\csv\stock_reagents.csv")
-
-def mainReactant_transfer(reaction):
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip - Try2\csv\main_reactant.csv")
+reaction_conditions_df = read_csv(
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip - Try2\csv\reaction_conditions.csv")
+def mainReactant_transfer(reactant, reaction):
     # Deck setup
     tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
-    source_trough12row = containers.load("trough-12row", "C1")
-    location_stock = containers.load("FluidX_24_5ml", "A1", "int")
+    #source_trough12row = containers.load("trough-12row", "C1")
+    location_stock = containers.load("FluidX_24_2ml", "A1")
     reaction_rack = containers.load("StarLab_96_tall", "D1")
     trash = containers.load("point", "C3")
     # Pipettes SetUp
@@ -63,31 +62,41 @@ def mainReactant_transfer(reaction):
         min_volume=30,
         channels=1,
     )
-    location_header = "Location"
-    nb_reaction_header = "Number reaction"
-    volume_per_reaction_header = "Volume_stock per reaction"
+
+    id_header = "reaction"
+    reaction_to_start = "Coupling_sequence"
+    main_reactant_volume_header = "main reactant volume to add - per reaction (uL)"
+    main_reactant_location_header = "Location 24 vial rack"
     volume_max_header = "Volume max per vial"
-    nb_reactions = int(reaction_df[nb_reaction_header].tolist()[1])
-    volume_per_reaction = int(reaction_df[volume_per_reaction_header].tolist()[1])
-    reaction = 0
+    nb_reaction_header = "Number reaction"
+
+
+    for index, value in enumerate(reaction_conditions_df[id_header].tolist()):
+        if value == reaction_to_start:
+            volume_per_reaction = float(reaction_conditions_df[main_reactant_volume_header].tolist()[index])
+            nb_reactions = int(reaction_conditions_df[nb_reaction_header].tolist()[index])
+
+    reaction_counter = 0
+
     """In each well, the volume per reaction of reaction is dispensed, successively in the logical order ("A1", "A2"...). When the maximum amount of reactant in one vial is taken out, the following
     vial in the fluidx rack is used. The transfer stops when the reactant is dispensed in all the wells of the 96 plate or all the wells used for the batch."""
-    for index, value in enumerate(reaction_df[location_header].tolist()):
-        if reaction < nb_reactions:
-            nb_reaction_per_vial = int(float(reaction_df[volume_max_header].tolist()[index]) // nb_reactions)
+    for index, value in enumerate(reaction_df[main_reactant_location_header].tolist()):
+        if reaction_counter < nb_reactions:
+            nb_reaction_per_vial = int(float(reaction_df[volume_max_header].tolist()[index]) // volume_per_reaction)
             source_location = value
-            if nb_reactions - reaction < nb_reaction_per_vial:
-                if nb_reactions - reaction == 1:
+            if nb_reactions - reaction_counter < nb_reaction_per_vial:
+                if nb_reactions - reaction_counter == 1:
                     p1000.distribute(volume_per_reaction, location_stock.wells(source_location),
-                                     reaction_rack.wells(reaction).top())
+                                     reaction_rack.wells(reaction_counter).top())
+                    nb_reaction_per_vial =1
                 else:
                     p1000.distribute(volume_per_reaction, location_stock.wells(source_location),
-                                     [x.top() for x in reaction_rack.wells(reaction, to=nb_reactions)])
+                                     [x.top() for x in reaction_rack.wells(reaction_counter, to=nb_reactions)])
             else:
                 p1000.distribute(volume_per_reaction, location_stock.wells(source_location), [x.top() for x in
                                                                                               reaction_rack.wells(
-                                                                                                  reaction,
-                                                                                                  to=reaction + nb_reaction_per_vial - 1)])
-            reaction = reaction + nb_reaction_per_vial
+                                                                                                  reaction_counter,
+                                                                                                  to=reaction_counter + nb_reaction_per_vial - 1)])
+            reaction_counter = reaction_counter + nb_reaction_per_vial
     robot.home()
-mainReactant_transfer(reaction_df)
+mainReactant_transfer(reaction_df, reaction_conditions_df)
