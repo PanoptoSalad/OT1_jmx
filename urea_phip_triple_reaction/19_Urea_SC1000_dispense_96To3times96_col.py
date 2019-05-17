@@ -44,7 +44,7 @@ def read_csv(input_file):
 
 # CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
 
 
 def reactants_transfer(reactants):
@@ -53,10 +53,10 @@ def reactants_transfer(reactants):
     tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
     tiprack_1000_2 = containers.load("tiprack-1000ul-H", "D3")
     # tiprack_1000_3 = containers.load("tiprack-1000ul-H", "B1")
-    reaction_rack = containers.load("Starlab_96_Square_2mL", "D1")
-    destination_rack1 = containers.load("StarLab_96_tall", "A1")
-    destination_rack2 = containers.load("StarLab_96_tall", "B1")
-    destination_rack3 = containers.load("StarLab_96_tall", "C1")
+    reaction_rack = containers.load("Starlab_96_Square_2mL", "A1")
+    destination_rack1 = containers.load("StarLab_96_tall", "B1")
+    destination_rack2 = containers.load("StarLab_96_tall", "C1")
+    destination_rack3 = containers.load("StarLab_96_tall", "D1")
     trash = containers.load("point", "C3")
 
     # Pipettes SetUp
@@ -79,7 +79,7 @@ def reactants_transfer(reactants):
             volume_per_vial = float(reaction_conditions_df[split_volume_header].tolist()[index])
             rows_number = int(reaction_conditions_df[rows_number_header].tolist()[index])
             for i in range(0, rows_number):
-                source_location = reaction_rack.wells(i).bottom(1)
+                source_location = reaction_rack.wells(i+2).bottom(1)
                 # destination_1 = [x.top(-15) for x in destination_rack1.cols(0, to=number_vials - 1)]
                 # pipette.transfer(100, plate.wells('A1'), plate.rows('2'))
 
@@ -87,11 +87,11 @@ def reactants_transfer(reactants):
                 # p1000.distribute(volume_per_vial, source_location, [x.top(-15) for x in destination_rack1.wells(3 to=10)])
                 p1000.pick_up_tip()
                 p1000.distribute(volume_per_vial, source_location,
-                                 [x.top(-15) for x in destination_rack1.rows(i).wells(2, to=7)], new_tip="never")
+                                 [x.top(-15) for x in destination_rack1.rows(i).wells(2, to=7)], new_tip="never", air_gap = 10)
                 p1000.distribute(volume_per_vial, source_location,
-                                 [x.top(-15) for x in destination_rack2.rows(i).wells(0, to=7)], new_tip="never")
+                                 [x.top(-15) for x in destination_rack2.rows(i).wells(0, to=7)], new_tip="never",air_gap = 10)
                 p1000.distribute(volume_per_vial, source_location,
-                                 [x.top(-15) for x in destination_rack3.rows(i).wells(0, to=5)], new_tip="never")
+                                 [x.top(-15) for x in destination_rack3.rows(i).wells(0, to=5)], new_tip="never",air_gap = 10)
                 p1000.drop_tip()
 
 

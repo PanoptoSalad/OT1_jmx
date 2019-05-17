@@ -43,7 +43,7 @@ def read_csv(input_file):
 
 # CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
 
 
 def solvent_add_multi(reaction_conditions_df):

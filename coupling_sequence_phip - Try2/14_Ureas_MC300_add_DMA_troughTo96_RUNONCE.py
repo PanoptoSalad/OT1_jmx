@@ -43,7 +43,7 @@ def read_csv(input_file):
 
 # CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\coupling_sequence_phip - Try2\csv\forMeIAddition\reaction_conditions.csv")
 
 
 def solvent_add_multi(reaction_conditions_df):
@@ -83,8 +83,8 @@ def solvent_add_multi(reaction_conditions_df):
             p300_multi.pick_up_tip()
             p300_multi.distribute(solvent_volume, source_trough12row.wells(solvent_trough_location),
                                   [x.top(-5) for x in destination_rack1.rows(0, to=number_rows - 1)], air_gap=10, new_tip="never")
-            #p300_multi.distribute(solvent_volume, source_trough12row.wells(solvent_trough_location),
-            #                      [x.top(-5) for x in destination_rack2.rows(0, to=number_rows - 1)], air_gap=10,new_tip="never")
+            p300_multi.distribute(solvent_volume, source_trough12row.wells(solvent_trough_location),
+                                  [x.top(-5) for x in destination_rack2.rows(0, to=number_rows - 1)], air_gap=10,new_tip="never")
             #p300_multi.distribute(solvent_volume, source_trough12row.wells(solvent_trough_location),
             #                      [x.top(-5) for x in destination_rack3.rows(0, to=number_rows - 1)], air_gap=10, new_tip="never")
             p300_multi.drop_tip()

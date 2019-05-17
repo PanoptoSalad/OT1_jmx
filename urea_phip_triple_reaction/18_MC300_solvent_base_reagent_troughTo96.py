@@ -47,7 +47,7 @@ def read_csv(input_file):
 
 # CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
 
 # Deck setup
 tiprack_300 = containers.load("tiprack-300ul", "D3")
@@ -90,20 +90,17 @@ def add_base_reagent(reaction_condition):
             base_trough_location = reaction_conditions_df[base_trough_location_header].tolist()[index]
             reagent_trough_location = reaction_conditions_df[reagent_trough_location_header].tolist()[index]
             number_rows = int(reaction_conditions_df[rows_number_header].tolist()[index])
-            volume_list = [volume_solvent, volume_base, volume_reagent]
-            concentration_list = [solvent_trough_location, base_trough_location, reagent_trough_location]
+            volume_list = [volume_reagent]
+            concentration_list = [reagent_trough_location]
 
             for i, v in enumerate(volume_list):
                 p300_multi.pick_up_tip()
                 p300_multi.distribute(v, source_trough12row.wells(concentration_list[i]),
-                                      [x.top() for x in reaction_rack.rows(0, to=number_rows - 1)], new_tip="never",
-                                      air_gap=10)
+                                      [x.top() for x in reaction_rack.rows(0, to=number_rows - 1)], new_tip="never")
                 p300_multi.distribute(v, source_trough12row.wells(concentration_list[i]),
-                                      [x.top() for x in reaction_rack2.rows(0, to=number_rows - 1)], new_tip="never",
-                                      air_gap=10)
+                                      [x.top() for x in reaction_rack2.rows(0, to=number_rows - 1)], new_tip="never")
                 p300_multi.distribute(v, source_trough12row.wells(concentration_list[i]),
-                                      [x.top() for x in reaction_rack3.rows(0, to=number_rows - 1)], new_tip="never",
-                                      air_gap=10)
+                                      [x.top() for x in reaction_rack3.rows(0, to=number_rows - 1)], new_tip="never")
                 p300_multi.drop_tip()
     robot.home()
 

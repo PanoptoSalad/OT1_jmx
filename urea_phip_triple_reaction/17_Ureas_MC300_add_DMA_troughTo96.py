@@ -40,7 +40,7 @@ def read_csv(input_file):
     return df
 #CSV file data
 reaction_conditions_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\urea_phip_triple_reaction\csv\reaction_conditions.csv")
 
 # Deck setup
 tiprack_300 = containers.load("tiprack-300ul", "D3")

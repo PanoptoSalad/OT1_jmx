@@ -6,7 +6,7 @@ tiprack_300 = containers.load("tiprack-300ul", "D3")
 tiprack_300_2 = containers.load("tiprack-300ul", "E2")
 source_trough4row = containers.load("trough-12row", "C2")
 reaction_rack = containers.load("Starlab_96_Square_2mL", "D1")
-trash = containers.load("point", "C3")
+trash = containers.load("point", "B3")
 
 #Pipettes SetUp
 p300_multi  = instruments.Pipette(
@@ -19,7 +19,7 @@ p300_multi  = instruments.Pipette(
     channels=8,
 )
 source_solvent = 'A8'
-volume_solvent = 250
+volume_solvent = 300
 source_aqueous = 'A11'
 volume_aqueous = 300
 number_rows = 9

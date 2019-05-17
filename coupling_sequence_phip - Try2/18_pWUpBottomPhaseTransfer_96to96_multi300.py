@@ -5,7 +5,7 @@ tiprack_300 = containers.load("tiprack-300ul", "D3")
 source_trough4row = containers.load("trough-12row", "C2")
 reaction_rack = containers.load("StarLab_96_tall", "D1")
 destination_wup = containers.load("FluidX_96_tall", "B1","pwup rack")
-trash = containers.load("point", "C3")
+trash = containers.load("point", "B3")
 
 #Pipettes SetUp
 p300_multi  = instruments.Pipette(
@@ -18,12 +18,12 @@ p300_multi  = instruments.Pipette(
     channels=8,
 )
 source_solvent = 'A8'
-volume_to_dispense = 270
-number_rows = 10
+volume_to_dispense = 250
+number_rows = 9
 
-for i in range(0, number_rows+1):
+for i in range(0, number_rows):
     p300_multi.pick_up_tip()
     p300_multi.aspirate (150, source_trough4row.wells(source_solvent))
     p300_multi.dispense (source_trough4row.wells(source_solvent))
-    p300_multi.transfer(volume_to_dispense, reaction_rack.rows(i).bottom(), destination_wup.rows(i).top(-5), air_gap = 10, blow_out = True)
+    p300_multi.transfer(volume_to_dispense, reaction_rack.rows(i).bottom(), destination_wup.rows(i).top(-10), air_gap = 10, blow_out = True)
 robot.home()
