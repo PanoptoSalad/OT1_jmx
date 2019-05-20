@@ -8,7 +8,7 @@ source_trough4row = containers.load("trough-12row", "C2")
 pwup_rack = containers.load("FluidX_96_small", "D1", "pwup rack")
 destination_QC = containers.load("96-PCR-flat", "B1", "QC")
 destination_screen = containers.load("Labcyte_384PP", "C1", "384_Screen")
-trash = containers.load("point", "C3")
+trash = containers.load("point", "B3")
 
 #Pipettes SetUp
 p300_multi  = instruments.Pipette(

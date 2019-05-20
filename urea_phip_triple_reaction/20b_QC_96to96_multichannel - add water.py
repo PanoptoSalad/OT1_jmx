@@ -25,11 +25,14 @@ p300_multi  = instruments.Pipette(
 volume_to_dispense = 15
 location_QC_solvent = 'A5'
 volume_QC_solvent = 100
+location_QC_water = 'A2'
+volume_QC_water = 20
 number_rows = 10
 
 source_location = [well.bottom(4) for well in reaction_rack.rows(0, to=number_rows-1)]
 destination_location = [well.bottom(1) for well in destination_QC.rows(0, to=number_rows-1)]
 destination_QC_solvent = [x.top() for x in destination_QC.rows(0,to=number_rows-1)]
-p300_multi.distribute(volume_QC_solvent, source_trough4row.wells(location_QC_solvent), destination_QC_solvent)
-p300_multi.transfer(volume_to_dispense, source_location, destination_location,air_gap = 10, blow_out=True, new_tip = 'always')
+#p300_multi.distribute(volume_QC_solvent, source_trough4row.wells(location_QC_solvent), destination_QC_solvent)
+p300_multi.distribute(volume_QC_water, source_trough4row.wells(location_QC_water), destination_QC_solvent, air_gap = 10, blow_out=True)
+#p300_multi.transfer(volume_to_dispense, source_location, destination_location,air_gap = 10, blow_out=True, new_tip = 'always')
 robot.home()

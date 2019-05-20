@@ -20,21 +20,24 @@ p300_multi  = instruments.Pipette(
 )
 source_solvent = 'A8'
 volume_solvent = 300
+source_water = 'A2'
+volume_water = 100
 source_aqueous = 'A11'
 volume_aqueous = 300
 number_rows = 10
 
-p300_multi.distribute(volume_aqueous, source_trough4row.wells(source_aqueous), [x.top() for x in reaction_rack.rows(0,to=number_rows-1)])
+#p300_multi.distribute(volume_aqueous, source_trough4row.wells(source_aqueous), [x.top() for x in reaction_rack.rows(0,to=number_rows-1)])
+p300_multi.distribute(volume_water, source_trough4row.wells(source_water), [x.top() for x in reaction_rack.rows(0,to=number_rows-1)])
 
-p300_multi.pick_up_tip()
-p300_multi.aspirate (300, source_trough4row.wells(source_solvent))
-p300_multi.dispense (source_trough4row.wells(source_solvent))
-p300_multi.distribute(volume_solvent, source_trough4row.wells(source_solvent), [x.top() for x in reaction_rack.rows(0,to=number_rows-1)], air_gap=10)
+#p300_multi.pick_up_tip()
+#p300_multi.aspirate (300, source_trough4row.wells(source_solvent))
+#p300_multi.dispense (source_trough4row.wells(source_solvent))
+#p300_multi.distribute(volume_solvent, source_trough4row.wells(source_solvent), [x.top() for x in reaction_rack.rows(0,to=number_rows-1)], air_gap=10)
 
-robot.pause()
+#robot.pause()
 
 for i in range(0, number_rows):
     p300_multi.pick_up_tip()
-    p300_multi.mix(10, 300, reaction_rack.rows(i).bottom(10))
+    p300_multi.mix(5, 300, reaction_rack.rows(i).bottom(5))
     p300_multi.drop_tip()
 robot.home()

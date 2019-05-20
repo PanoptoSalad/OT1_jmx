@@ -7,7 +7,7 @@ source_trough4row = containers.load("trough-12row", "C2")
 pwup_rack = containers.load("FluidX_96_small", "D1", "pwup rack")
 destination_QC = containers.load("96-PCR-flat", "B1", "QC")
 destination_screen = containers.load("Labcyte_384PP", "C1", "384_Screen")
-trash = containers.load("point", "C3")
+trash = containers.load("point", "B3")
 
 #Pipettes SetUp
 p300_multi  = instruments.Pipette(
@@ -34,5 +34,5 @@ for i in range (0, number_rows+1):
     p300_multi.transfer(volume_QC, source_location, destination_96_QC, blow_out=True, new_tip = 'never', air_gap = 10)
     p300_multi.transfer(volume_screen, source_location, destination_384, blow_out=True, new_tip = 'never', air_gap = 10)
     p300_multi.drop_tip()
-p300_multi.distribute(volume_QC_solvent, source_trough4row.wells(location_QC_solvent), [x.top() for x in destination_QC.rows(0, to=number_rows)])
+p300_multi.distribute(volume_QC_solvent, source_trough4row.wells(location_QC_solvent), [x.top() for x in destination_QC.rows(0, to=number_rows)], air_gap = 10)
 robot.home()

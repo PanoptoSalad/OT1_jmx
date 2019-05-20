@@ -5,7 +5,7 @@ robot.head_speed(x=20000,  y=20000,  z=5000, a=100, b=700)
 tiprack_300 = containers.load("tiprack-300ul", "D3")
 source_trough12row = containers.load('trough-12row', "E2")
 pwup_rack = containers.load("FluidX_96_small", "D1", "pwup rack")
-trash = containers.load("point", "C3")
+trash = containers.load("point", "B3")
 
 #Pipettes SetUp
 p300_multi  = instruments.Pipette(
