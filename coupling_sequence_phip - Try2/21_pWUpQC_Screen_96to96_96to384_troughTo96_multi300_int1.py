@@ -28,15 +28,15 @@ volume_QC_water = 20
 number_rows = 9
 
 # The protocol itself
-#for i in range (0, number_rows):
-#    destination_384 = [destination_screen.rows(i).wells('A', length=8, step=2).bottom(1)]
-#    source_location = [pwup_rack.rows(i).bottom(2)]
-#    destination_96_QC = [destination_QC.rows(i).bottom(2)]
-#    p300_multi.pick_up_tip()
-#    p300_multi.transfer(volume_QC, source_location, destination_96_QC, blow_out=True, new_tip = 'never', air_gap = 10)
-#    #p300_multi.transfer(volume_screen, source_location, destination_384, blow_out=True, new_tip = 'never',air_gap = 10)
-#    p300_multi.drop_tip()
-#p300_multi.distribute(volume_QC_solvent, source_trough4row.wells(location_QC_solvent), [x.top() for x in destination_QC.rows(0, to=number_rows-1)], air_gap = 10)
+for i in range (0, number_rows):
+    destination_384 = [destination_screen.rows(i).wells('A', length=8, step=2).bottom()]
+    source_location = [pwup_rack.rows(i).bottom(2)]
+    destination_96_QC = [destination_QC.rows(i).bottom(2)]
+    p300_multi.pick_up_tip()
+    p300_multi.transfer(volume_QC, source_location, destination_96_QC, blow_out=True, new_tip = 'never', air_gap = 10)
+    p300_multi.transfer(volume_screen, source_location, destination_384, blow_out=True, new_tip = 'never',air_gap = 10)
+    p300_multi.drop_tip()
+p300_multi.distribute(volume_QC_solvent, source_trough4row.wells(location_QC_solvent), [x.top() for x in destination_QC.rows(0, to=number_rows-1)], air_gap = 10)
 p300_multi.distribute(volume_QC_water, source_trough4row.wells(location_QC_water), [x.top() for x in destination_QC.rows(0, to=number_rows-1)], air_gap = 10)
 
 robot.home()
