@@ -1,5 +1,0 @@
-Location,CPD ID,IUPAC (for free base not 2HCl),Formula,MW,weight,volume at 1500mM in ml,Number of vials filled up with 2mL,Volume to dispense in ul for stock solution,oldConc_stock (mMol),Conc_stock (mMol),Volume to dispense,Volume max per vial,Number reaction,Volume_stock per reaction,mmol,eq,freebase 2 eq,DIPEA MW,DIPEA d,Volume DIPEA,total volume
-B1,stock reagent 1,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2000,5.267385665,2.633692832,5267.385665,1500,987.5113732,2000,1900,66,121,0.12,1,0.015802157,129.25,0.747,2.734175089,8001.560754
-B2,stock reagent 1,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2000,5.267385665,2.633692832,5267.385665,1500,987.5113732,2000,1900,66,121,0.12,1,,,,,
-B3,stock reagent 1,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2000,5.267385665,2.633692832,5267.385665,1500,987.5113732,2000,1900,66,121,0.12,1,,,,,
-B4,stock reagent 1,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2000,5.267385665,2.633692832,5267.385665,1500,987.5113732,2000,1900,66,121,0.12,1,,,,,

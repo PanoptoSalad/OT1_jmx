@@ -1,5 +1,0 @@
-Location,Code,IUPAC,Formula,MW,weight,volume at 1500mM in ml,Number of vials filled up with 2mL,Volume to dispense in ul for stock solution,Conc_stock (mMol),Volume to dispense,n (mmol),Volume_stock per reaction,Volume MeCN to add (500mM),number of reaction,Nb_rows,Total volume of intermediate necessary,Equivalent MeI,MW (MeI),density MeI,mmol MeI,Volume of MeI to dispense,Total volume of MeI needed
-A1,ImidInt-1,(4-(1H-imidazole-1-carbonyl)piperazin-1-yl)(furan-2-yl)methanone,C13H14N4O3,274.28,3000,10.93772787,5.468863935,10937.72787,500,2000,0.06,120,0,16,2,1920,15,141.94,2.28,0.9,56,896
-A2,ImidInt-1,(4-(1H-imidazole-1-carbonyl)piperazin-1-yl)(furan-2-yl)methanone,C13H14N4O3,274.28,3000,10.93772787,5.468863935,10937.72787,500,2000,0.06,120,0,16,2,1920,15,141.94,2.28,0.9,56,896
-A3,ImidInt-1,(4-(1H-imidazole-1-carbonyl)piperazin-1-yl)(furan-2-yl)methanone,C13H14N4O3,274.28,3000,10.93772787,5.468863935,10937.72787,500,2000,0.06,120,0,16,2,1920,15,141.94,2.28,0.9,56,896
-A4,ImidInt-1,(4-(1H-imidazole-1-carbonyl)piperazin-1-yl)(furan-2-yl)methanone,C13H14N4O3,274.28,3000,10.93772787,5.468863935,10937.72787,500,2000,0.06,120,0,12,2,1320,15,141.94,2.28,0.9,56,616

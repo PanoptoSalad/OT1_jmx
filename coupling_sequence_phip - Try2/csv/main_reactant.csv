@@ -1,7 +1,0 @@
-Location 24 vial rack,CPD ID,Code,IUPAC,Formula,MW,weight (mg),Theory_Conc_stock (mMol),Exp_Conc_stock (mMol),volume to add (uL),Number of vials filled up with 2mL,Volume already added (uL),Volume to dispense,Volume max per vial,2Eq Base,SUM
-A1,stock reagent 1,Imid-1,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2550,1500,1500,6716,4,0,2000,1900,3509.292765,10225
-A2,stock reagent 1,Imid-2,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2550,1500,1500,6716,4,2000,2000,1900,,
-A3,stock reagent 1,Imid-3,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2550,1500,1500,6716,4,4000,2000,1900,,
-A4,stock reagent 1,Imid-4,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2550,1500,1500,6716,4,6000,2000,1900,,
-A5,stock reagent 2,Imid-5,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2550,1500,1500,6716,4,8000,2000,1900,,
-A6,stock reagent 3,Imid-6,(1H-imidazol-1-yl)(piperazin-1-yl)methanone,C8H14Cl2N4O,253.13,2550,1500,1500,6716,4,10000,225,125,,
