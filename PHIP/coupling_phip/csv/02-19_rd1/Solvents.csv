@@ -1,0 +1,7 @@
+CPD ID,rack name,Location_trough,Volume to dispense (uL),nb_rows
+Intermediate1,big_trough,A2,10937.72787,0
+Intermediate2,big_trough,A5,11037.52,0
+MeCN,big_trough,A8,0,0
+MeI,small_trough,A1,56,8
+MeCN2,small_trough,A3,0,8
+DMF,big_trough,A11,132,
