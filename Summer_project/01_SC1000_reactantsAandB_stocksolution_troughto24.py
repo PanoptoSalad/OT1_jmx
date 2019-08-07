@@ -44,7 +44,7 @@ def read_csv(input_file):
 
 
 # CSV file data
-solvent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\solvents.csv")
+solvent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\reaction_conditions.csv")
 reactant_col_df = read_csv(
     r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\SM_Amine.csv")
 reactant_row_df = read_csv(
@@ -59,8 +59,8 @@ def stock_solution_reactant(reactants_df, solvent_df):
     rack_stock_reactants_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
     rack_stock_reactants_3 = containers.load("FluidX_24_5ml", "B1", "R_3")
     rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B2", "R_4")
-    trash = containers.load("point", "C3")
-
+    trash = containers.load("point", "B3")
+    
     # Pipettes SetUp
     p1000 = instruments.Pipette(
         name='eppendorf1000',
@@ -72,8 +72,8 @@ def stock_solution_reactant(reactants_df, solvent_df):
         channels=1,
     )
     rack_ID_header = "Rack ID"
-    id_header = "CPD ID"
-    solvent = "DMA"
+    id_header = "Reaction parameters type"
+    solvent = "Reaction solvent"
     rack_1 = "24_rack1"
     rack_2 = "24_rack2"
     rack_3 = "24_rack3"
@@ -97,22 +97,22 @@ def stock_solution_reactant(reactants_df, solvent_df):
             break
         # print (rack_ID_header, reactants_id, vol_to_dispense)
         if reactants_id == rack_1:
-            print ('rack1')
+            #print ('rack1')
             if vol_to_dispense != 0:
                 p1000.transfer(vol_to_dispense, source_trough4row.wells(solvent_location),
                                rack_stock_reactants_1.wells(destination_location).top(-5), new_tip='never', air_gap=10)
         if reactants_id == rack_2:
-            print ('rack2')
+            #print ('rack2')
             if vol_to_dispense != 0:
                 p1000.transfer(vol_to_dispense, source_trough4row.wells(solvent_location),
                                rack_stock_reactants_2.wells(destination_location).top(-5), new_tip='never', air_gap=10)
         if reactants_id == rack_3:
-            print ('rack3')
+            #print ('rack3')
             if vol_to_dispense != 0:
                 p1000.transfer(vol_to_dispense, source_trough4row.wells(solvent_location),
                                rack_stock_reactants_3.wells(destination_location).top(-5), new_tip='never', air_gap=10)
         if reactants_id == rack_4:
-            print ('rack4')
+            #print ('rack4')
             if vol_to_dispense != 0:
                 p1000.transfer(vol_to_dispense, source_trough4row.wells(solvent_location),
                                rack_stock_reactants_4.wells(destination_location).top(-5), new_tip='never', air_gap=10)

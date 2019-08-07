@@ -1,0 +1,17 @@
+Reaction parameters type,Reaction details,Rack ID,Location_trough,IUPAC,Smiles,MW,density,Equivalent,Volume to add (uL),Volume to take out (uL),Stock concentration (mM),Volume total needed (ml),Number reactants
+Reaction name,coupling,,,,,,,,,,,,
+Reaction scale (mmol),0.07,,,,,,,,,,,,
+Reactant row,Acids,24_rack1,,,,,,1.1,80,,800,,12
+Reactant col,Amines,24_rack2,,,,,,1,100,,800,,8
+Number reaction,96,,,,,,,,,,,,
+Number rows,8,,,,,,,,,,,,
+Number columns,12,,,,,,,,,,,,
+Screening concentration (mM),300,,,,,,,,,,,,
+Reaction solvent,DMA,big_trough,A8,dimethylacetamide,,,,,,,,,
+Reagent 1,DIPEA,small_trough,A1,Diisopropylethylamine,CCN(CC)CC,129.24,0.742,2.5,30.48113208,,,2.92618868,
+Reagent 2,T3P,small_trough,A3,Propylphosphonic anhydride solution (50% weight in EtOAc),CCCP1(OP(OP(O1)(CCC)=O)(CCC)=O)=O,318.18,1.069,1.2,50.00396632,,,4800.380767,
+Solvent QC,MeCN,big_trough,A1,,,,,,100,20,,,
+Aqueous QC,H2O,big_trough,A1,,,,,,20,,,,
+Solvent workup,DCM,big_trough,A3,,,,,,300,280,,,
+Aqueous phase,Sodium bicarbonate,big_trough,A11,,,,,,300,,,,
+Screening solvent,d6-dmso,small_trough,,,,,,,,,,,

@@ -1,3 +1,0 @@
-reaction,reactants,Scale (mmol),reactant 1 eq,reactant 2 eq,Coupling Agent eq,MW Coupling Agent,Density Coupling Agent,Volume to dispense Coupling agent,Base eq,MW Base,density Base,Volume to dispense Base,Number reaction,Number rows
-Coupling_standard,CA/AM,0.06,1.05,1,1.2,318.18,1.069,42.86054256,4.5,129.24,0.742,47.02803235,64,8
-Coupling_sequence,CA/AM,0.12,1.05,1,1.2,318.18,1.069,423.3620343,4.5,129.24,0.742,282.1681941,96,12
