@@ -1,0 +1,9 @@
+Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,AC volume per reaction at 0.8M,Barcode rack,Barcode vial
+24_rack1,C1,7_A1,O=C(O)CC1=CC(C#N)=CC=C1,2-(3-cyanophenyl)acetic acid,161.16,0.07,1.1,,,,,2000,,,
+24_rack1,C2,7_A2,O=C(O)CC1=CC=C(C#N)C=C1,2-(4-cyanophenyl)acetic acid,161.16,0.07,1.1,,,,,2000,,,
+24_rack1,C3,7_A3,O=C(O)CC1=CC=CC(I)=C1,2-(3-iodophenyl)acetic acid,262.05,0.07,1.1,,,,,2000,,,
+24_rack1,C4,7_A4,O=C(O)CC1=CC=CC(Br)=C1,2-(3-bromophenyl)acetic acid,215.05,0.07,1.1,,,,,2000,,,
+24_rack1,C5,7_A5,O=C(O)CC1=NC=C(Br)C=C1,5-Bromo-2-pyridineacetic acid,216.03,0.07,1.1,,,,,2000,,,
+24_rack1,C6,7_A6,OC(C1=CC=CC(C#N)=C1)=O,3-cyanobenzoic acid,147.13,0.07,1.1,,,,,2000,,,
+24_rack1,D1,7_A7,O=C(O)C1=CC(F)=CC=C1C,5-Fluoro-2-methylbenzoic acid,154.14,0.07,1.1,,,,,2000,,,
+24_rack1,D2,7_A8,O=C(O)C1=CC(F)=CC=C1C,3?4-Dichlorobenzoic acid,191.16,0.07,1.1,,,,,2000,,,
