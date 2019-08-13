@@ -44,11 +44,11 @@ def read_csv(input_file):
 
 
 # CSV file data
-reaction_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\reaction_conditions.csv")
-reactant_col_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\SM_AcOH.csv")
-reactant_row_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\SM_Amine.csv")
+reaction_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\p01_r01_coupling\csv\reaction_conditions.csv")
+reactant_col_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\p01_r01_coupling\csv\SM_AcOH.csv")
+reactant_row_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\p01_r01_coupling\csv\SM_Amine.csv")
 
-def reactants_transfer(reactant):
+def reactants_transfer(reaction,reactant_col,reactant_row):
     
     # Deck setup
     tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
@@ -116,4 +116,4 @@ def reactants_transfer(reactant):
 
     robot.home()
 
-reactants_transfer(reaction_df)
+reactants_transfer(reaction_df,reactant_col_df,reactant_row_df)

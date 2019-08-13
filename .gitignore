@@ -1,2 +1,3 @@
 #Ignored filename
 *.ipynb
+.ipynb_checkpoints

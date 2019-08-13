@@ -1,9 +1,9 @@
-Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,AM volume per reaction at 0.8M,Barcode rack,Barcode vial
-24_rack3,A1,Ir-cat,,,222.51,0.07,1,,,,,1000,,,
-24_rack3,A2,Ir-cat,FC1=CC=CC=C1N,2-fluoroaniline,111.1194032,0.07,1,,,,,300,,,
-24_rack3,A3,Ir-cat,NC1=CN=CC=C1,pyridin-3-amine,94.117,0.07,1,,,,,1000,,,
-24_rack3,B1,CsF,NC1=CC=CC(OC)=C1,3-Methoxyaniline,123.16,0.07,1,,,,,1500,,,
-24_rack3,B2,CsF,NC1=NC=CC=C1,pyridin-2-amine,94.117,0.07,1,,,,,1500,,,
-24_rack3,C1,Ligand,NC1=NC=CC=N1,pyrimidin-2-amine,95.105,0.07,1,,,,,1500,,,
-24_rack3,C2,Ligand,ClC1=CC=CC(N)=C1,3-chloroaniline,127.571,0.07,1,,,,,2000,,,
-24_rack3,C3,Ligand,NCC1=CC=CN=C1,3-Picolylamine,108.14,0.07,1,,,,,1000,,,
+Rack ID,Location,Reaction parameters type,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,Volume max per vial (ul),AM volume per reaction at 0.8M,Barcode rack,Barcode vial
+24_rack3,A1,Reagent 1,Ir-cat,,,222.51,0.07,1,,,,,2000,1900,,,
+24_rack3,A2,Reagent 1,Ir-cat,FC1=CC=CC=C1N,2-fluoroaniline,111.1194032,0.07,1,,,,,2000,1900,,,
+24_rack3,A3,Reagent 1,Ir-cat,NC1=CN=CC=C1,pyridin-3-amine,94.117,0.07,1,,,,,1000,900,,,
+24_rack3,B1,Reagent 2,CsF,NC1=CC=CC(OC)=C1,3-Methoxyaniline,123.16,0.07,1,,,,,2000,1900,,,
+24_rack3,B2,Reagent 2,CsF,NC1=NC=CC=C1,pyridin-2-amine,94.117,0.07,1,,,,,360,260,,,
+24_rack3,C1,Reagent 3,Ligand,NC1=NC=CC=N1,pyrimidin-2-amine,95.105,0.07,1,,,,,2000,1900,,,
+24_rack3,C2,Reagent 3,Ligand,ClC1=CC=CC(N)=C1,3-chloroaniline,127.571,0.07,1,,,,,2000,1900,,,
+24_rack3,C3,Reagent 3,Ligand,NCC1=CC=CN=C1,3-Picolylamine,108.14,0.07,1,,,,,1000,900,,,
