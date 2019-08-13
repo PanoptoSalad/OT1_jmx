@@ -41,7 +41,7 @@ def read_csv(input_file):
 
 #CSV file data
 
-reaction_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\reaction_conditions.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r01_coupling\csv\reaction_conditions.csv")
 
 # Deck setup
 tiprack_300 = containers.load("tiprack-300ul", "D3")

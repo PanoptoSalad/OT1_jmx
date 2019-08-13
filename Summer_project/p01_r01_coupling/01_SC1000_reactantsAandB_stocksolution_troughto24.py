@@ -1,5 +1,6 @@
 from opentrons import robot, containers, instruments
 
+#Max speed: {"x": 20000,  "y": 20000,  "z": 6000, "a": 1200, "b": 1200}
 robot.head_speed(x=18000, y=18000, z=5000, a=700, b=700)
 
 
@@ -14,8 +15,6 @@ class Vector(object):
 
     def __init__(self, input_list):
         self.input_list = input_list
-
-
 class DataFrame(object):
     def __len__(self):
         return self.length
@@ -26,8 +25,6 @@ class DataFrame(object):
     def __init__(self, dict_input, length):
         self.dict_input = dict_input
         self.length = length
-
-
 # Function that reads a csv file correctly without having to import anything (issues with molport). Uses 2 classes, Vector and DataFrame
 def read_csv(input_file):
     lines = open(input_file).readlines()
@@ -44,16 +41,17 @@ def read_csv(input_file):
 
 
 # CSV file data
-solvent_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\reaction_conditions.csv")
+solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r01_coupling\csv\reaction_conditions.csv")
 reactant_col_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\SM_Amine.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r01_coupling\csv\SM_Amine.csv")
 reactant_row_df = read_csv(
-    r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\csv\p01_r01\SM_AcOH.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r01_coupling\csv\SM_AcOH.csv")
 
 def stock_solution_reactant(reactants_df, solvent_df):
+
     # Deck setup
-    tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
-    tiprack_1000_2 = containers.load("tiprack-1000ul-H", "D3")
+    tiprack_1000 = containers.load("tiprack-1000ul-H", "D3")
+    tiprack_1000_2 = containers.load("tiprack-1000ul-H", "E1")
     source_trough4row = containers.load("trough-12row", "C2")
     rack_stock_reactants_1 = containers.load("FluidX_24_5ml", "A1", "R_1")
     rack_stock_reactants_2 = containers.load("FluidX_24_5ml", "A2", "R_2")

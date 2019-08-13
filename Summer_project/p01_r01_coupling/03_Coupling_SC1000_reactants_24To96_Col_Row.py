@@ -44,9 +44,9 @@ def read_csv(input_file):
 
 
 # CSV file data
-reaction_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\p01_r01_coupling\csv\reaction_conditions.csv")
-reactant_col_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\p01_r01_coupling\csv\SM_AcOH.csv")
-reactant_row_df = read_csv(r"C:\Users\sdi35357\CODING\github_repo\OT1-coding\Summer_project\p01_r01_coupling\csv\SM_Amine.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r01_coupling\csv\reaction_conditions.csv")
+reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r01_coupling\csv\SM_AcOH.csv")
+reactant_row_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r01_coupling\csv\SM_Amine.csv")
 
 def reactants_transfer(reaction,reactant_col,reactant_row):
     
