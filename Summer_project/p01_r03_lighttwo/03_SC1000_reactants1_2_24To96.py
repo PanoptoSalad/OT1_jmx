@@ -45,10 +45,8 @@ def read_csv(input_file):
 
 # CSV file data
 reaction_df = read_csv(r"csv\reaction_conditions.csv")
-#rack1
-rack_one_df = read_csv(r"csv\rack1.csv")
-#rack2
-rack_three_df = read_csv(r"csv\rack3.csv")
+reactant_col_df = read_csv(r"csv\rack1.csv")
+reactant_row_df = read_csv(r"csv\rack2.csv")
 
 def reactants_transfer(reaction,reactant_col,reactant_row):
     
@@ -59,7 +57,7 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
     rack_stock_reactant_1 = containers.load("FluidX_24_5ml", "A1", "R_1")
     rack_stock_reactant_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
     reaction_rack = containers.load("StarLab_96_tall", "C1")
-    trash = containers.load("point", "B3")
+    trash = containers.load("point", "D1")
 
     # Pipettes SetUp
     p1000 = instruments.Pipette(
@@ -106,5 +104,17 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
         if value == reactant_col:
             volume_to_dispense_col = reaction_df[volume_to_add].tolist()[index]
             
-volume_to_dispense_col
-volume_to_dispense_row
+    for index, location in enumerate (reactant_col_df[location_reactant].tolist()):
+        source_location = location
+        volume_to_dispense = [volume_to_dispense_col]
+        p1000.distribute(volume_to_dispense, rack_stock_col.wells(source_location), [x.top(-15) for x in reaction_rack.rows(index).wells(0, to=number_rows-1)], air_gap=10)
+    #robot.pause()
+    for index, location in enumerate (reactant_row_df[location_reactant].tolist()):
+        source_location = location
+        volume_to_dispense = [volume_to_dispense_row]
+        p1000.distribute(volume_to_dispense, rack_stock_row.wells(source_location), [x.top(-15) for x in reaction_rack.cols(index).wells(0, to=number_cols-1)], air_gap=10)
+
+    robot.home()
+
+reactants_transfer(reaction_df,reactant_col_df,reactant_row_df)
+robot.commands()
