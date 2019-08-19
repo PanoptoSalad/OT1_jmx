@@ -48,20 +48,20 @@ def read_csv(input_file):
 
 #Import of csv files
 
-reaction_df = read_csv(r"csv\reaction_conditions.csv")
-rack_one_df = read_csv(r"csv\rack1.csv")
-rack_two_df = read_csv(r"csv\rack2.csv")
-rack_three_df = read_csv(r"csv\rack3.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\reaction_conditions.csv")
+rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack1.csv")
+rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack2.csv")
+rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack3.csv")
 
 # Deck setup
-tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
+tiprack_1000 = containers.load("tiprack-1000ul-H", "D2")
 tiprack_1000_2 = containers.load("tiprack-1000ul-H", "C3")
 source_trough4row = containers.load("trough-12row", "C2")
-rack_stock_reactant_1 = containers.load("FluidX_24_5ml", "A1", "R_1")
-rack_stock_reactant_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
-rack_stock_reactant_3 = containers.load("FluidX_24_5ml", "A3", "R_3")
-reaction_rack = containers.load("StarLab_96_tall", "C1")
-trash = containers.load("point", "D3")
+rack_stock_reactant_1 = containers.load("FluidX_24_5ml_jmx", "A1", "R_1")
+rack_stock_reactant_2 = containers.load("FluidX_24_5ml_jmx", "A2", "R_2")
+rack_stock_reactant_3 = containers.load("FluidX_24_5ml_jmx", "B1", "R_3")
+reaction_rack = containers.load("Para_dox_96_short", "C1")
+trash = containers.load("point", "B3")
 
 # Pipettes SetUp
 p1000 = instruments.Pipette(
