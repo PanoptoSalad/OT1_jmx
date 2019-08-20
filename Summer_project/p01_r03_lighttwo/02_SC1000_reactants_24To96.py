@@ -48,10 +48,10 @@ def read_csv(input_file):
 
 #Import of csv files
 
-reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\reaction_conditions.csv")
-rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack1.csv")
-rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack2.csv")
-rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack3.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\reaction_conditions.csv")
+rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\rack1.csv")
+rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\rack2.csv")
+rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\rack3.csv")
 
 # Deck setup
 tiprack_1000 = containers.load("tiprack-1000ul-H", "D2")
@@ -196,5 +196,4 @@ for index, list_of_dictionaries in enumerate(list_dict_per_reagent):
             del temp_container[:dictionary[number_transfer]]
             
 
-            
-robot.commands()
+
