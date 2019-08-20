@@ -1,0 +1,9 @@
+Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,AC volume per reaction at 0.8M,Barcode rack,Barcode vial
+24_rack1,C1,11_A1,IC1=CC=C(C)C=C1,1-iodo-4-methylbenzene,218.03448,0.05,1,10.901724,800,43.606896,,800,200,,
+24_rack1,C2,11_A2,BrC1=CC=C(C(OC)=O)C=C1,methyl 4-bromobenzoate,215.04398,0.05,1,10.752199,800,43.008796,,800,200,,
+24_rack1,C3,11_A3,BrC1=CC=C(Cl)C=C1,1-bromo-4-chlorobenzene,191.45296,0.05,1,9.572648,800,38.290592,,800,200,,
+24_rack1,C4,11_A4,BrC1=CC=C(C#N)C=C1,4-bromobenzonitrile,182.01736,0.05,1,9.100868,800,36.403472,,800,200,,
+24_rack1,C5,11_A5,BrC1=CC=C(C(C)=O)C=C1,4-bromoacetophone,199.04458,0.05,1,9.952229,800,39.808916,,800,200,,
+24_rack1,C6,11_A6,CC1=CC=CC(I)=C1,1-iodo-3-methylbenzene,218.03448,0.05,1,10.901724,800,43.606896,,800,200,,
+24_rack1,D1,11_A7,BrC1=CC(C(OC)=O)=CC=C1,methyl 3-bromobenzoate,215.04398,0.05,1,10.752199,800,43.008796,,800,200,,
+24_rack1,D2,11_A8,IC1=CC(CC(OC)=O)=CC=C1,methyl 2-(3-iodophenyl)acetate,276.07056,0.05,1,13.803528,800,55.214112,,800,200,,

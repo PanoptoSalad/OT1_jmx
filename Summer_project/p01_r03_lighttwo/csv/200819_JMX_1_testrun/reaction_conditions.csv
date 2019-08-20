@@ -1,0 +1,18 @@
+Reaction parameters type,Reaction details,Rack ID,Location_trough,IUPAC,Smiles,MW,density,Equivalent,Volume to add - stocksolution (uL),Volume to add (uL),Volume to take out (uL),Stock concentration (mM),Volume total needed (ml),Number reactants
+Reaction name,light,,,,,,,,,,,,,
+Reaction scale (mmol),0.05,,,,,,,,,,,,,
+Reactant col,Halides,24_rack1,,,,,,1,500,100,100,,500,5
+Reactant row,AminoAcids,24_rack2,,,,,,1.5,200,100,100,,200,2
+Number reaction,32,,,,,,,,,,,,,
+Number rows,4,,,,,,,,,,,,,
+Number columns,8,,,,,,,,,,,,,
+Screening concentration (mM),,,,,,,,,,,,,,
+Reaction solvent,DMF,big_trough,A8,dimethylformaldehyde,,,,,0,0,0,,,
+Reagent 1,NiCl2Glyme,24_rack3,A1;A2,Nickel(II) chloride ethylene glycol dimethyl ether complex,COCCOC.Cl[Ni]Cl,219.72,,0.1,346.6666667,34.66666667,34.66666667,,,
+Reagent 2,Ir catalyst (ir[df(cf3)ppy]2(dtbbpy) pf6),24_rack3,B1,[4?4?-Bis(1?1-dimethylethyl)-2?2?-bipyridine-N1?N1?]bis[3?5-difluoro-2-[5-(trifluoromethyl)-2-pyridinyl-N]phenyl-C]Iridium(III) hexafluorophosphate,"	CC(C)(C)C1=CC(=NC=C1)C2=NC=CC(=C2)C(C)(C)C.C1=CC(=NC=C1C(F)(F)F)C2=C(C=C(C=[C-]2)F)F.C1=CC(=NC=C1C(F)(F)F)C2=C(C=C(C=[C-]2)F)F.F[P-](F)(F)(F)(F)F.[Ir+3]",1121.91,,0.01,346.6666667,34.66666667,34.66666667,,,
+Reagent 3,Ligand dtbppy,24_rack3,A4;A,4?4'-Di-tert-butyl-2?2'-dipyridyl,CC(C1=CC(C2=NC=CC(C(C)(C)C)=C2)=NC=C1)(C)C,268.4,,0.15,346.6666667,34.66666667,34.66666667,,,
+Solvent QC,MeCN,big_trough,A1,,,,,,100,100,20,,,
+Aqueous QC,H2O,big_trough,A1,,,,,,20,20,,,,
+Solvent workup,ethyl acetate,big_trough,A3,,,,,,300,300,280,,,
+Aqueous phase,Sodium bicarbonate,big_trough,A11,,,,,,300,300,,,,
+Screening solvent,d6-dmso,small_trough,,,,,,,,,,,,
