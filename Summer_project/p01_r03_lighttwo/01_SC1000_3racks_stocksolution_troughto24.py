@@ -52,9 +52,9 @@ rack_three_df = read_csv(
     r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\rack3.csv")
 
 # Deck setup
-tiprack_1000 = containers.load("tiprack-1000ul-H", "D2")
+tiprack_1000 = containers.load("tiprack-1000ul-H", "D3")
 # tiprack_1000_2 = containers.load("tiprack-1000ul-H", "D3")
-source_trough4row = containers.load("trough-12row", "B2")
+source_trough4row = containers.load("trough-12row", "C2")
 rack_stock_reactants_1 = containers.load("FluidX_24_5ml_jmx", "A1", "R_1")
 rack_stock_reactants_2 = containers.load("FluidX_24_5ml_jmx", "A2", "R_2")
 rack_stock_reactants_3 = containers.load("FluidX_24_5ml_jmx", "B1", "R_3")
