@@ -44,11 +44,14 @@ def read_csv(input_file):
 
 
 # CSV file data
-reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\reaction_conditions.csv")
-reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack1.csv")
-reactant_row_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack2.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\reaction_conditions.csv")
+reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\rack1.csv")
+reactant_row_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\rack2.csv")
 
 
+#reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\reaction_conditions.csv")
+#reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack1.csv")
+#reactant_row_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack2.csv")
 def reactants_transfer(reaction,reactant_col,reactant_row):
     # Deck setup
     tiprack_1000 = containers.load("tiprack-1000ul-H", "D2")
