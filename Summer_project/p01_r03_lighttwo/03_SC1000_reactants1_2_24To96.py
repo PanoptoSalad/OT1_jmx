@@ -44,33 +44,32 @@ def read_csv(input_file):
 
 
 # CSV file data
-reaction_df = read_csv(r"csv\reaction_conditions.csv")
-reactant_col_df = read_csv(r"csv\rack1.csv")
-reactant_row_df = read_csv(r"csv\rack2.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\reaction_conditions.csv")
+reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack1.csv")
+reactant_row_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack2.csv")
+
 
 def reactants_transfer(reaction,reactant_col,reactant_row):
-    
     # Deck setup
-    tiprack_1000 = containers.load("tiprack-1000ul-H", "B3")
-    tiprack_1000_2 = containers.load("tiprack-1000ul-H", "D3")
-    source_trough4row = containers.load("trough-12row", "C2")
-    rack_stock_reactant_1 = containers.load("FluidX_24_5ml", "A1", "R_1")
-    rack_stock_reactant_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
-    reaction_rack = containers.load("StarLab_96_tall", "C1")
-    trash = containers.load("point", "D1")
+    tiprack_1000 = containers.load("tiprack-1000ul-H", "D2")
+    # tiprack_1000_2 = containers.load("tiprack-1000ul-H", "D3")
+    source_trough4row = containers.load("trough-12row", "B2")
+    rack_stock_reactant_1 = containers.load("FluidX_24_5ml_jmx", "A1", "R_1")
+    rack_stock_reactant_2 = containers.load("FluidX_24_5ml_jmx", "A2", "R_2")
+    reaction_rack = containers.load("Para_dox_96_short", "C1")
+    trash = containers.load("point", "B3")
 
     # Pipettes SetUp
     p1000 = instruments.Pipette(
         name='eppendorf1000',
         axis='b',
         trash_container=trash,
-        tip_racks=[tiprack_1000, tiprack_1000_2],
+        tip_racks=[tiprack_1000],
         max_volume=1000,
         min_volume=30,
         channels=1,
     )
-    
-    
+
     id_header = "Reaction parameters type"
     rack_id = "Rack ID"
     reactant_row = "Reactant row"
@@ -83,8 +82,7 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
     rack_1 = "24_rack1"
     rack_2 = "24_rack2"
     location_reactant = "Location"
-    
-    
+
     for index, value in enumerate(reaction_df[id_header].tolist()):
         if value == number_of_columns:
             number_cols = int(reaction_df[details_header].tolist()[index])

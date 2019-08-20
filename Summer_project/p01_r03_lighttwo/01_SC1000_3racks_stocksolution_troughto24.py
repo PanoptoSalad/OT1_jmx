@@ -51,38 +51,38 @@ rack_two_df = read_csv(
 rack_three_df = read_csv(
     r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack3.csv")
 
+# Deck setup
+tiprack_1000 = containers.load("tiprack-1000ul-H", "D2")
+# tiprack_1000_2 = containers.load("tiprack-1000ul-H", "D3")
+source_trough4row = containers.load("trough-12row", "B2")
+rack_stock_reactants_1 = containers.load("FluidX_24_5ml_jmx", "A1", "R_1")
+rack_stock_reactants_2 = containers.load("FluidX_24_5ml_jmx", "A2", "R_2")
+rack_stock_reactants_3 = containers.load("FluidX_24_5ml_jmx", "B1", "R_3")
+# rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B2", "R_4")
+trash = containers.load("point", "B3")
+
+# Pipettes SetUp
+p1000 = instruments.Pipette(
+    name='eppendorf1000',
+    axis='b',
+    trash_container=trash,
+    tip_racks=[tiprack_1000],
+    max_volume=1000,
+    min_volume=30,
+    channels=1,
+)
+rack_ID_header = "Rack ID"
+id_header = "Reaction parameters type"
+solvent = "Reaction solvent"
+rack_1 = "24_rack1"
+rack_2 = "24_rack2"
+rack_3 = "24_rack3"
+# rack_4 = "24_rack4"
+location_header = "Location_trough"
+destination_location_header = "Location"
+volume_stock_header = "Volume to dispense (exp) at 0.8M"
 
 def stock_solution_reactant(reactants_df, solvent_df):
-    # Deck setup
-    tiprack_1000 = containers.load("tiprack-1000ul-H", "D2")
-    #tiprack_1000_2 = containers.load("tiprack-1000ul-H", "D3")
-    source_trough4row = containers.load("trough-12row", "B2")
-    rack_stock_reactants_1 = containers.load("FluidX_24_5ml", "A1", "R_1")
-    rack_stock_reactants_2 = containers.load("FluidX_24_5ml", "A2", "R_2")
-    rack_stock_reactants_3 = containers.load("FluidX_24_5ml", "B1", "R_3")
-    #rack_stock_reactants_4 = containers.load("FluidX_24_5ml", "B2", "R_4")
-    trash = containers.load("point", "B3")
-    
-    # Pipettes SetUp
-    p1000 = instruments.Pipette(
-        name='eppendorf1000',
-        axis='b',
-        trash_container=trash,
-        tip_racks=[tiprack_1000, tiprack_1000_2],
-        max_volume=1000,
-        min_volume=30,
-        channels=1,
-    )
-    rack_ID_header = "Rack ID"
-    id_header = "Reaction parameters type"
-    solvent = "Reaction solvent"
-    rack_1 = "24_rack1"
-    rack_2 = "24_rack2"
-    rack_3 = "24_rack3"
-    #rack_4 = "24_rack4"
-    location_header = "Location_trough"
-    destination_location_header = "Location"
-    volume_stock_header = "Volume to dispense (exp) at 0.8M"
 
     for i, x in enumerate(solvent_df[id_header].tolist()):
         if x == solvent:
@@ -120,10 +120,9 @@ def stock_solution_reactant(reactants_df, solvent_df):
                                #rack_stock_reactants_4.wells(destination_location).top(-5), new_tip='never', air_gap=10)
     p1000.drop_tip()
 
-    robot.home()
 
 stock_solution_reactant(rack_one_df, solvent_df)
 stock_solution_reactant(rack_two_df, solvent_df)
 stock_solution_reactant(rack_three_df, solvent_df)
 
-robot.commands()
+robot.home()
