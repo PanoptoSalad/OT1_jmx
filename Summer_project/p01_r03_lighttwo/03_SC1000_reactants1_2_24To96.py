@@ -48,6 +48,9 @@ reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Su
 reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\rack1.csv")
 reactant_row_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\200819_JMX_1_testrun\rack2.csv")
 
+#reaction_df = read_csv(r"csv\200819_JMX_1_testrun\reaction_conditions.csv")
+#reactant_col_df = read_csv(r"csv\200819_JMX_1_testrun\rack1.csv")
+#reactant_row_df = read_csv(r"csv\200819_JMX_1_testrun\rack2.csv")
 
 #reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\reaction_conditions.csv")
 #reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack1.csv")
@@ -115,7 +118,5 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
         volume_to_dispense = [volume_to_dispense_row]
         p1000.distribute(volume_to_dispense, rack_stock_row.wells(source_location), [x.top(-15) for x in reaction_rack.cols(index).wells(0, to=number_cols-1)], air_gap=10)
 
-    robot.home()
 
 reactants_transfer(reaction_df,reactant_col_df,reactant_row_df)
-robot.commands()
