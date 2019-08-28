@@ -1,0 +1,16 @@
+Reaction parameters type,Reaction details,Rack ID,Location_trough,IUPAC,Smiles,MW,density,Equivalent,Volume to add - stocksolution (uL),Volume to add (uL),Volume to take out (uL),Stock concentration (mM),Volume total needed (ml),Number reactants
+Reaction name,light,,,,,,,,,,,,,
+Reaction scale (mmol),0.05,,,,,,,,,,,,,
+Reactant col,Concentration,24_rack1,,,,,,1,300,300,300,,800,8
+Reactant row,Bases,24_rack_base,,,,,,1.5,200,200,Bases _list,,1600,4
+Number reaction,32,,,,,,,,,,,,,
+Number rows,5,,,,,,,,,,,,,
+Number columns,2,,,,,,,,,,,,,
+Screening concentration (mM),,,,,,,,,,,,,,
+Reaction solvent,DMF,big_trough,A8,dimethylformaldehyde,,,,,0,0,0,,,
+Solvent QC,MeCN,big_trough,A1,,,,,,100,100,20,,,
+Aqueous QC,H2O,big_trough,A1,,,,,,20,20,,,,
+Solvent workup,ethyl acetate,big_trough,A3,,,,,,300,300,280,,,
+Aqueous phase,Sodium bicarbonate,big_trough,A11,,,,,,300,300,,,,
+Screening solvent,d6-dmso,small_trough,,,,,,,,,,,,
+Additional_solvent,DMSO,big_trough,A7,,,,,,,,,,,
