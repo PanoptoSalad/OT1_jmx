@@ -36,8 +36,12 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-reactants_df = read_csv(r"csv\250819_JMX_Base_evaluation\Stock.csv")
-solvent_df = read_csv(r"csv\250819_JMX_Base_evaluation\reaction_conditions.csv")
+#reactants_df = read_csv(r"csv\250819_JMX_Base_evaluation\Stock.csv")
+#solvent_df = read_csv(r"csv\250819_JMX_Base_evaluation\reaction_conditions.csv")
+
+reactants_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r04_lighttwooptimisation\csv\250819_JMX_Base_evaluation\Stock.csv")
+solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r04_lighttwooptimisation\csv\250819_JMX_Base_evaluation\reaction_conditions.csv")
+
 
 from opentrons import robot, containers, instruments
 
@@ -94,5 +98,5 @@ def stock_solution_reactant(reactants_df, solvent_df):
 
 stock_solution_reactant(reactants_df, solvent_df)
 
-for c in robot.commands():
-    print(c)
+#for c in robot.commands():
+#    print(c)

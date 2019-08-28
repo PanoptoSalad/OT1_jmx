@@ -37,7 +37,7 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-concentration_df = read_csv(r'csv/250819_JMX_Base_evaluation/concentrationscreening.csv')
+concentration_df = read_csv(r'C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r04_lighttwooptimisation\csv/250819_JMX_Base_evaluation/concentrationscreening.csv')
 
 from opentrons import robot, containers, instruments
 
@@ -107,12 +107,14 @@ table = generate_table(number_cols,number_rows)
 p1000.transfer(
     (vol_init_stock, vol_final_stock),
     stock_rack.wells(stock_location),
-    reaction_rack.wells(table))
+    reaction_rack.wells(table),
+    air_gap=10)
 
 p1000.transfer(
     (vol_init_sol_1, vol_final_sol_1),
     source_trough4row.wells(sol_1_location),
-    reaction_rack.wells(table))
+    reaction_rack.wells(table),
+    air_gap=10)
 
-for c in robot.commands():
-    print(c)
+#for c in robot.commands():
+#    print(c)
