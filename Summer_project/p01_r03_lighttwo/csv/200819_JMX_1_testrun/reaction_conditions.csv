@@ -4,8 +4,8 @@ Reaction scale (mmol),0.07,,,,,,,,,,,,,
 Reactant col,Halides,24_rack1,,,,,,1,200,100,100,,200,5
 Reactant row,AminoAcids,24_rack2,,,,,,1.5,500,100,100,,500,2
 Number reaction,10,,,,,,,,,,,,,
-Number rows,2,,,,,,,,,,,,,
-Number columns,5,,,,,,,,,,,,,
+Number rows,5,,,,,,,,,,,,,
+Number columns,2,,,,,,,,,,,,,
 Screening concentration (mM),,,,,,,,,,,,,,
 Reaction solvent,DMF,big_trough,A8,dimethylformaldehyde,,,,,0,0,0,,,
 Reagent 1,NiCl2Glyme,24_rack3,A1;A2,Nickel(II) chloride ethylene glycol dimethyl ether complex,COCCOC.Cl[Ni]Cl,219.72,1,0.1,346.6666667,34.66666667,34.66666667,,,

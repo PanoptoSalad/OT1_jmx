@@ -1,0 +1,17 @@
+Here we have the following situation. 
+The base Cs2CO3 cannot dissolve and might be the main culprit behind slow reaction
+The solution is to find a new bsae.
+The variables are
+1) Cs2CO3, CsF, DBU, DABCO, DIPEA, NEt3 ...
+2) Solvent system
+3) Concentration/equivalence
+
+Here, in this csv, we will look only at varying 1) and 3)
+
+What would be even better is that the only input you provide in the starting input csv is 
+the smiles, rackID, name, IUPAC name, otation, equivalence, and volume per reaction.
+
+Then, a python file would output all the other relevant information for you.
+
+Another great idea would be giving in an input in the form of rows and columns for starting materials
+and you get an output in the form of a table with the expected product, and their masses
