@@ -1,0 +1,6 @@
+Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume Per Reaction,Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,Barcode rack,Barcode vial,Number of Tests
+24_rack1,C1,11_A1,BrC1=CC=C(C(OC)=O)C=C1,methyl 4-bromobenzoate,215.04398,0.07,1,0.07,80,552,103.8662423,,552,,,6
+24_rack1,C2,AA1,O=C(OC(C)(C)C)N1C(C(O)=O)CCC1,(tert-butoxycarbonyl)proline,215.24628,0.07,1.5,0.105,40,276,155.9459299,,276,,,
+24_rack1,D1,Ir2,CC(C)(C)C1=CC(=NC=C1)C2=NC=CC(=C2)C(C)(C)C.C1=CC(=NC=C1C(F)(F)F)C2=C(C=C(C=[C-]2)F)F.C1=CC(=NC=C1C(F)(F)F)C2=C(C=C(C=[C-]2)F)F.F[P-](F)(F)(F)(F)F.[Ir+3],[4?4?-Bis(1?1-dimethylethyl)-2?2?-bipyridine-N1?N1?]bis[3?5-difluoro-2-[5-(trifluoromethyl)-2-pyridinyl-N]phenyl-C]Iridium(III) hexafluorophosphate,1121.91,0.07,0.01,0.0007,30,207,5.4188253,,207,,,
+24_rack1,D2,Ni,COCCOC.Cl[Ni]Cl,Nickel(II) chloride ethylene glycol dimethyl ether complex,219.72,0.07,0.1,0.007,30,207,10.612476,,207,,,
+24_rack1,D3,Ligand,CC(C1=CC(C2=NC=CC(C(C)(C)C)=C2)=NC=C1)(C)C,4?4'-Di-tert-butyl-2?2'-dipyridyl,268.4,0.07,0.15,0.0105,120,828,19.44558,,828,,,

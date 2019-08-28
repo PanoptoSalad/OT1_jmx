@@ -1,0 +1,3 @@
+Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,AM volume per reaction at 0.8M,Barcode rack,Barcode vial,Number of Times used,Concentration
+24_rack2,C1,AA1,O=C(OC(C)(C)C)N1C(C(O)=O)CCC1,(tert-butoxycarbonyl)proline,215.24628,0.07,1.5,22.6008594,200,90.4034376,128.7,142.3618431,50,sa00544804,fb00283392,4,0.35
+24_rack2,C1,AA1,O=C(OC(C)(C)C)N1C(C(O)=O)CCC1,(tert-butoxycarbonyl)proline,215.24628,0.07,1.5,22.6008594,200,90.4034376,118.9,142.3618431,50,sa00544804,fb00283392,4,0.35
