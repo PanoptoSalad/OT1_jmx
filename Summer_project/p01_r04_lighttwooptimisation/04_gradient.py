@@ -116,5 +116,5 @@ p1000.transfer(
     reaction_rack.wells(table),
     air_gap=10)
 
-#for c in robot.commands():
-#    print(c)
+for c in robot.commands():
+    print(c)
