@@ -1,7 +1,7 @@
 Reaction Parameters,Reaction details,Rack ID,Location,Highest Concentration (mM),Lowest Concentration (mM),Stock Concentration,Number of Tests,Volume for Highest Concentration,Volume for Lowest Concentration,Volume Step Size,Total Volume needed
-Stock Parameters,Light?Contains reactants,12_rack_jmx,A1,0.233333333,0.04,0.233333333,6,300,51.42857143,41.42857143,1024.285714
-Solvent 1 Parameters,DMF,big_trough,A8,,,,6,0,248.5714286,41.42857143,1024.286
+Stock Parameters,Light?Contains reactants,12_rack_jmx,A1,0.233333333,0.076666,0.233333333,5,300,100,41.42857143,1000
+Solvent 1 Parameters,DMF,big_trough,A8,,,,5,0,200,41.42857143,1000
 Solvent 2 Parameters,Water,big_trough,A1,,,,,,,,
 Fixed Volume,300,,,,,,,,,,
 Number columns,1,,,,,,,,,,
-Number rows,6,,,,,,,,,,
+Number rows,5,,,,,,,,,,

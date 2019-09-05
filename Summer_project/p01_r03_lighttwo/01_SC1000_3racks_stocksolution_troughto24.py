@@ -43,13 +43,13 @@ def read_csv(input_file):
     return df
 
 # CSV file data
-solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\220819_JMX_2_base_evaluation\reaction_conditions.csv")
+solvent_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\reaction_conditions.csv")
 rack_one_df = read_csv(
-    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\220819_JMX_2_base_evaluation\rack1.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack1.csv")
 rack_two_df = read_csv(
-    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\220819_JMX_2_base_evaluation\rack2.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack2.csv")
 rack_three_df = read_csv(
-    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\220819_JMX_2_base_evaluation\rack3.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack3.csv")
 
 # Deck setup
 tiprack_1000 = containers.load("tiprack-1000ul-H", "D3")

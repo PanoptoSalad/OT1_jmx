@@ -41,7 +41,7 @@ from opentrons import robot, containers, instruments
 
 robot.head_speed(x=18000, y=18000, z=5000, a=700, b=700)
 
-distribute_df = read_csv(r"csv\250819_JMX_Base_evaluation\reaction_conditions.csv")
+distribute_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r04_lighttwooptimisation\csv\250819_JMX_Base_evaluation\reaction_conditions.csv")
 
 tiprack_1000 = containers.load("tiprack-1000ul-H", "D3")
 source_trough4row = containers.load("trough-12row", "B2")
@@ -94,7 +94,7 @@ def generate_table(number_cols, number_rows):
 
 table = generate_table(number_cols, number_rows)
 
-p1000.distribute(volume_to_dispense,rack_stock_reactant_1.wells('A1'),reaction_rack.wells(table))
+p1000.distribute(volume_to_dispense,rack_stock_reactant_1.wells('A1'),reaction_rack.wells(table),air_gap=10)
 
-for c in robot.commands():
-    print(c)
+#for c in robot.commands():
+#    print(c)

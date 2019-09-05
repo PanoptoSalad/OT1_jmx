@@ -37,7 +37,7 @@ def read_csv(input_file):
     df = DataFrame(out_d, len(lines[1:]))
     return df
 
-stock_df = read_csv(r"csv\250819_JMX_Base_evaluation\Stock-Copy.csv")
+stock_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r04_lighttwooptimisation\csv\250819_JMX_Base_evaluation\Stock.csv")
 
 from opentrons import robot, containers, instruments
 
