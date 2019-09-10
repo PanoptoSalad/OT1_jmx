@@ -48,15 +48,15 @@ def read_csv(input_file):
 
 #Import of csv files
 
-#reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\reaction_conditions.csv")
-#rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack1.csv")
-#rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack2.csv")
-#rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack3.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\reaction_conditions.csv")
+rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\rack1.csv")
+rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\rack2.csv")
+rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\rack3.csv")
 
-reaction_df = read_csv(r"csv\050919_JMX_88_reactions\reaction_conditions.csv")
-rack_one_df = read_csv(r"csv\050919_JMX_88_reactions\rack1.csv")
-rack_two_df = read_csv(r"csv\050919_JMX_88_reactions\rack2.csv")
-rack_three_df = read_csv(r"csv\050919_JMX_88_reactions\rack3.csv")
+#reaction_df = read_csv(r"csv\050919_JMX_88_reactions\reaction_conditions.csv")
+#rack_one_df = read_csv(r"csv\050919_JMX_88_reactions\rack1.csv")
+#rack_two_df = read_csv(r"csv\050919_JMX_88_reactions\rack2.csv")
+#rack_three_df = read_csv(r"csv\050919_JMX_88_reactions\rack3.csv")
 
 # Deck setup
 tiprack_1000 = containers.load("tiprack-1000ul-H", "D3")
