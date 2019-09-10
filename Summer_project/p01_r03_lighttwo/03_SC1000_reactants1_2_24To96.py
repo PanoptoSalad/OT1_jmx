@@ -44,14 +44,14 @@ def read_csv(input_file):
 
 
 # CSV file data
-reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\reaction_conditions.csv")
-reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack1.csv")
-reactant_row_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack2.csv")
+#reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\reaction_conditions.csv")
+#reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack1.csv")
+#reactant_row_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack2.csv")
 
-#reaction_df = read_csv(r"csv\200819_JMX_1_testrun\reaction_conditions.csv")
+reaction_df = read_csv(r"csv\200819_JMX_1_testrun\reaction_conditions.csv")
 
-#reactant_col_df = read_csv(r"csv\200819_JMX_1_testrun\rack1.csv")
-#reactant_row_df = read_csv(r"csv\200819_JMX_1_testrun\rack2.csv")
+reactant_col_df = read_csv(r"csv\200819_JMX_1_testrun\rack1.csv")
+reactant_row_df = read_csv(r"csv\200819_JMX_1_testrun\rack2.csv")
 
 #reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\reaction_conditions.csv")
 #reactant_col_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\rack1.csv")
@@ -93,10 +93,10 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
     for index, value in enumerate(reaction_df[id_header].tolist()):
         if value == number_of_columns:
             number_cols = int(reaction_df[details_header].tolist()[index])
-                
+
         if value == number_of_rows:
             number_rows = int(reaction_df[details_header].tolist()[index])
-                   
+
 
         if value == reactant_row:
             volume_to_dispense_row = reaction_df[volume_to_add].tolist()[index]
@@ -105,10 +105,10 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
                 rack_stock_col = rack_stock_reactant_2
             else:
                 rack_stock_col = rack_stock_reactant_1
-                rack_stock_row = rack_stock_reactant_2          
+                rack_stock_row = rack_stock_reactant_2
         if value == reactant_col:
             volume_to_dispense_col = reaction_df[volume_to_add].tolist()[index]
-            
+
     for index, location in enumerate (reactant_col_df[location_reactant].tolist()):
         source_location = location
         volume_to_dispense = [volume_to_dispense_col]
@@ -121,3 +121,6 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
 
 
 reactants_transfer(reaction_df,reactant_col_df,reactant_row_df)
+
+for c in robot.commands():
+    print(c)

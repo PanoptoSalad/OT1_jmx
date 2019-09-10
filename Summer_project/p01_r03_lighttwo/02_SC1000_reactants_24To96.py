@@ -48,10 +48,15 @@ def read_csv(input_file):
 
 #Import of csv files
 
-reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\reaction_conditions.csv")
-rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack1.csv")
-rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack2.csv")
-rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack3.csv")
+#reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\reaction_conditions.csv")
+#rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack1.csv")
+#rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack2.csv")
+#rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\230819_JMX_3\rack3.csv")
+
+reaction_df = read_csv(r"csv\050919_JMX_88_reactions\reaction_conditions.csv")
+rack_one_df = read_csv(r"csv\050919_JMX_88_reactions\rack1.csv")
+rack_two_df = read_csv(r"csv\050919_JMX_88_reactions\rack2.csv")
+rack_three_df = read_csv(r"csv\050919_JMX_88_reactions\rack3.csv")
 
 # Deck setup
 tiprack_1000 = containers.load("tiprack-1000ul-H", "D3")
@@ -195,5 +200,6 @@ for index, list_of_dictionaries in enumerate(list_dict_per_reagent):
             p1000.distribute(dictionary[volume_to_add], rack_stock_reactant_3.wells(dictionary[location_reactant]), temp_container[:dictionary[number_transfer]],air_gap=10)
             del temp_container[:dictionary[number_transfer]]
             
-
+#for c in robot.commands():
+#    print(c)
 
