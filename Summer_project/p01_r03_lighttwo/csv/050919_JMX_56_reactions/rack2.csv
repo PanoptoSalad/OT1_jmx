@@ -1,8 +1,8 @@
 Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,AM volume per reaction at 0.8M,Barcode rack,Barcode vial
-24_rack2,C1,AA1,O=C(OC(C)(C)C)N1C(C(O)=O)CCC1,(tert-butoxycarbonyl)proline,215.24628,0.05,1.5,16.143471,50,161.43471,,500,,,
-24_rack2,C2,AA2,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)CCCC1,(S)-1-(tert-butoxycarbonyl)piperidine-2-carboxylic acid,229.27286,0.05,1.5,17.1954645,50,171.954645,,500,,,
-24_rack2,C3,AA3,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)C[C@@H](O)C1,(2S?4S)-1-(tert-butoxycarbonyl)-4-hydroxypyrrolidine-2-carboxylic acid,231.24568,0.05,1.5,17.343426,50,173.43426,,500,,,
-24_rack2,C4,AA4,CC[C@H](C)[C@@H](C(O)=O)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-isoleucine,231.29,0.05,1.5,17.34675,50,173.4675,,500,,,
-24_rack2,C5,AA5,CC(C)[C@@H](C(O)=O)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-valine,217.27,0.05,1.5,16.29525,50,162.9525,,500,,,
-24_rack2,C6,AA6,O=C(O)CNC(OC(C)(C)C)=O,(tert-butoxycarbonyl)glycine,175.18,0.05,1.5,13.1385,50,131.385,,500,,,
-24_rack2,C7,AA7,O=C(O)[C@H](C)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-alanine,189.21,0.05,1.5,14.19075,50,141.9075,,500,,,
+24_rack2,C1,AA1,O=C(OC(C)(C)C)N1C(C(O)=O)CCC1,(tert-butoxycarbonyl)proline,215.24628,0.05,1.5,16.143471,500,161.43471,193.4,599.0037706,50,,FB00282678
+24_rack2,C2,AA2,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)CCCC1,(S)-1-(tert-butoxycarbonyl)piperidine-2-carboxylic acid,229.27286,0.05,1.5,17.1954645,500,171.954645,194.7,566.137658,50,,FB00283331
+24_rack2,C3,AA3,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)C[C@@H](O)C1,(2S?4S)-1-(tert-butoxycarbonyl)-4-hydroxypyrrolidine-2-carboxylic acid,231.24568,0.05,1.5,17.343426,500,173.43426,216.6,624.4440977,50,,FB00282375
+24_rack2,C4,AA4,CC[C@H](C)[C@@H](C(O)=O)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-isoleucine,231.29,0.05,1.5,17.34675,500,173.4675,199.7,575.6121464,50,,FB00283461
+24_rack2,C5,AA5,CC(C)[C@@H](C(O)=O)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-valine,217.27,0.05,1.5,16.29525,500,162.9525,197.9,607.2321689,50,,FB00282399
+24_rack2,D1,AA6,O=C(O)CNC(OC(C)(C)C)=O,(tert-butoxycarbonyl)glycine,175.18,0.05,1.5,13.1385,500,131.385,196.8,748.9439434,50,,FB00282737
+24_rack2,D2,AA7,O=C(O)[C@H](C)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-alanine,189.21,0.05,1.5,14.19075,500,141.9075,181.17,638.3383542,50,,FB00970832

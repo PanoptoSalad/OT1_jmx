@@ -1,12 +1,11 @@
 Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,AC volume per reaction at 0.8M,Barcode rack,Barcode vial
-24_rack1,C1,11_A1,IC1=CC=C(C)C=C1,1-iodo-4-methylbenzene,218.03448,0.05,1,10.901724,100,87.213792,,800,80,,
-24_rack1,C2,11_A2,BrC1=CC=C(C(OC)=O)C=C1,methyl 4-bromobenzoate,215.04398,0.05,1,10.752199,100,86.017592,,800,80,,
-24_rack1,C3,11_A3,BrC1=CC=C(Cl)C=C1,1-bromo-4-chlorobenzene,191.45296,0.05,1,9.572648,100,76.581184,,800,80,,
-24_rack1,C4,11_A4,BrC1=CC=C(C#N)C=C1,4-bromobenzonitrile,182.01736,0.05,1,9.100868,100,72.806944,,800,80,,
-24_rack1,C5,11_A5,BrC1=CC=C(C(C)=O)C=C1,4-bromoacetophone,199.04458,0.05,1,9.952229,100,79.617832,,800,80,,
-24_rack1,C6,11_A6,CC1=CC=CC(I)=C1,1-iodo-3-methylbenzene,218.03448,0.05,1,10.901724,100,87.213792,,800,80,,
-24_rack1,D1,11_A7,BrC1=CC(C(OC)=O)=CC=C1,methyl 3-bromobenzoate,215.04398,0.05,1,10.752199,100,86.017592,,800,80,,
-24_rack1,D2,11_A8,O=C(OC)CC1=NC=C(Br)C=C1,methyl 2-(5-bromopyridin-2-yl)acetate,230.36,0.05,1,11.518,100,92.144,,800,80,,
-24_rack1,D3,11_A9,IC1=CC(CC(OC)=O)=CC=C1,methyl 2-(3-iodophenyl)acetate,276.07056,0.05,1,13.803528,100,110.428224,,800,80,,
-24_rack1,D4,11_A10,BrC1=CC(CC(OC)=O)=CC=C1,methyl 2-(3-bromophenyl)acetate,229.07,0.05,1,11.4535,100,91.628,,800,80,,
-24_rack1,D5,11_A11,C[Si](C)(C#CC1=CC=CC(Br)=C1)C,(3-Bromophenylethynyl)trimethylsilane,253.21,0.05,1,12.6605,100,101.284,,800,80,,
+24_rack1,C1,11_A1,IC1=CC=C(C)C=C1,1-iodo-4-methylbenzene,218.03448,0.05,1,10.901724,560,76.312068,83.2,610.5456348,80,,FB00282751
+24_rack1,C2,11_A2,BrC1=CC=C(C(OC)=O)C=C1,methyl 4-bromobenzoate,215.04398,0.05,1,10.752199,560,75.265393,97.2,723.2009006,80,,FB00282637
+24_rack1,C3,11_A3,BrC1=CC=C(Cl)C=C1,1-bromo-4-chlorobenzene,191.45296,0.05,1,9.572648,560,67.008536,94.7,791.4215586,80,,FB00282634
+24_rack1,C4,11_A4,BrC1=CC=C(C#N)C=C1,4-bromobenzonitrile,182.01736,0.05,1,9.100868,560,63.706076,93.5,821.8996254,80,,FB00282921
+24_rack1,C5,11_A5,BrC1=CC=C(C(C)=O)C=C1,4-bromoacetophone,199.04458,0.05,1,9.952229,560,69.665603,89,715.4176215,80,,FB00283392
+24_rack1,C6,11_A6,CC1=CC=CC(I)=C1,1-iodo-3-methylbenzene,218.03448,0.05,1,10.901724,560,76.312068,99.1,727.224428,80,,FB00282671
+24_rack1,D1,11_A7,BrC1=CC(C(OC)=O)=CC=C1,methyl 3-bromobenzoate,215.04398,0.05,1,10.752199,560,75.265393,89.4,665.1662604,80,,FB00283363
+24_rack1,D2,11_A8,O=C(OC)CC1=NC=C(Br)C=C1,methyl 2-(5-bromopyridin-2-yl)acetate,230.36,0.05,1,11.518,560,80.626,92.8,644.5563466,80,,FB00282397
+24_rack1,D3,11_A9,IC1=CC(CC(OC)=O)=CC=C1,methyl 2-(3-iodophenyl)acetate,276.07056,0.05,1,13.803528,560,96.624696,98.2,569.129863,80,,FB00282371
+24_rack1,D4,11_A10,BrC1=CC(CC(OC)=O)=CC=C1,methyl 2-(3-bromophenyl)acetate,229.07,0.05,1,11.4535,560,80.1745,94.6,660.75872,80,,FB00282716
