@@ -200,6 +200,6 @@ for index, list_of_dictionaries in enumerate(list_dict_per_reagent):
             p1000.distribute(dictionary[volume_to_add], rack_stock_reactant_3.wells(dictionary[location_reactant]), temp_container[:dictionary[number_transfer]],air_gap=10)
             del temp_container[:dictionary[number_transfer]]
             
-#for c in robot.commands():
-#    print(c)
+for c in robot.commands():
+    print(c)
 

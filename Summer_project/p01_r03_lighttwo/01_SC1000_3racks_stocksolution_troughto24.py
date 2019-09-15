@@ -126,3 +126,6 @@ stock_solution_reactant(rack_two_df, solvent_df)
 stock_solution_reactant(rack_three_df, solvent_df)
 
 robot.home()
+
+for c in robot.commands():
+    print(c)
