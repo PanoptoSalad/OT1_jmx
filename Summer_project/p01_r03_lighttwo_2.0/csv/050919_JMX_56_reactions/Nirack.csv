@@ -1,0 +1,2 @@
+Rack ID,Location,Reaction parameters type,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,Volume max per vial (ul),AM volume per reaction at 0.8M,Volume per Reaction,Barcode rack,Barcode vial,Number of transfer per vial
+24_rack3,B1,Reagent 2,Ni-cat,COCCOC.Cl[Ni]Cl,Nickel(II) chloride ethylene glycol dimethyl ether complex,219.72,0.05,0.1,1.0986,1470,76.902,79.4,1517.749863,1900,66.66666667,21,,FB00283090,70

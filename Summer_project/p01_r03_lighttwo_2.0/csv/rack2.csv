@@ -1,0 +1,5 @@
+Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,AM volume per reaction at 0.8M,Barcode rack,Barcode vial
+24_rack2,C1,AA1,O=C(OC(C)(C)C)N1C(C(O)=O)CCC1,(tert-butoxycarbonyl)proline,215.24628,0.075,1.5,16.143471,1600,16.143471,,1600,200,,
+24_rack2,C2,AA2,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)CCCC1,(S)-1-(tert-butoxycarbonyl)piperidine-2-carboxylic acid,229.27286,0.075,1.5,17.1954645,1600,17.1954645,,1600,200,,
+24_rack2,C3,AA3,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)C[C@@H](O)C1,(2S?4S)-1-(tert-butoxycarbonyl)-4-hydroxypyrrolidine-2-carboxylic acid,231.24568,0.075,1.5,17.343426,1600,17.343426,,1600,200,,
+24_rack2,C4,AA4,O=C(C1NCCOC1)O.[H]Cl,Morpholine-3-carboxylic acid hydrochloride,167.57492,0.075,1.5,12.568119,1600,12.568119,,1600,200,,
