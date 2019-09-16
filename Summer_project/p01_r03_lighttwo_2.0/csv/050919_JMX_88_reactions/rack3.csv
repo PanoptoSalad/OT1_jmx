@@ -1,0 +1,9 @@
+Rack ID,Location,Reaction parameters type,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,Volume max per vial (ul),AM volume per reaction at 0.8M,Volume per Reaction,Barcode rack,Barcode vial,Number of transfer per vial
+24_rack3,A1,Reagent 1,Ir-cat,CC(C)(C)C1=CC(=NC=C1)C2=NC=CC(=C2)C(C)(C)C.C1=CC(=NC=C1C(F)(F)F)C2=C(C=C(C=[C-]2)F)F.C1=CC(=NC=C1C(F)(F)F)C2=C(C=C(C=[C-]2)F)F.F[P-](F)(F)(F)(F)F.[Ir+3],[4?4?-Bis(1?1-dimethylethyl)-2?2?-bipyridine-N1?N1?]bis[3?5-difluoro-2-[5-(trifluoromethyl)-2-pyridinyl-N]phenyl-C]Iridium(III) hexafluorophosphate,1121.91,0.05,0.01,0.560955,1848,27.69100506,,1848,1900,66.66666667,21,,,88
+24_rack3,B2,Reagent 2,Ni-cat,COCCOC.Cl[Ni]Cl,Nickel(II) chloride ethylene glycol dimethyl ether complex,219.72,0.05,0.1,1.0986,1848,106.2091325,,1848,1900,66.66666667,21,,,88
+24_rack3,C1,Reagent 3,Ligand,CC(C1=CC(C2=NC=CC(C(C)(C)C)=C2)=NC=C1)(C)C,4?4'-Di-tert-butyl-2?2'-dipyridyl,268.4,0.05,0.15,2.013,1785,60.782535,,1785,1900,66.66666667,119,,,15
+24_rack3,C2,Reagent 3,Ligand,CC(C1=CC(C2=NC=CC(C(C)(C)C)=C2)=NC=C1)(C)C,4?4'-Di-tert-butyl-2?2'-dipyridyl,268.4,0.05,0.15,2.013,1785,60.782535,,1785,1900,66.66666667,119,,,15
+24_rack3,C3,Reagent 3,Ligand,CC(C1=CC(C2=NC=CC(C(C)(C)C)=C2)=NC=C1)(C)C,4?4'-Di-tert-butyl-2?2'-dipyridyl,268.4,0.05,0.15,2.013,1785,60.782535,,1785,1900,66.66666667,119,,,15
+24_rack3,C4,Reagent 3,Ligand,CC(C1=CC(C2=NC=CC(C(C)(C)C)=C2)=NC=C1)(C)C,4?4'-Di-tert-butyl-2?2'-dipyridyl,268.4,0.05,0.15,2.013,1785,60.782535,,1785,1900,66.66666667,119,,,15
+24_rack3,C5,Reagent 3,Ligand,CC(C1=CC(C2=NC=CC(C(C)(C)C)=C2)=NC=C1)(C)C,4?4'-Di-tert-butyl-2?2'-dipyridyl,268.4,0.05,0.15,2.013,1785,60.782535,,1785,1900,66.66666667,119,,,15
+24_rack3,C6,Reagent 3,Ligand,CC(C1=CC(C2=NC=CC(C(C)(C)C)=C2)=NC=C1)(C)C,4?4'-Di-tert-butyl-2?2'-dipyridyl,268.4,0.05,0.15,2.013,1547,52.678197,,1547,1900,66.66666667,119,,,13

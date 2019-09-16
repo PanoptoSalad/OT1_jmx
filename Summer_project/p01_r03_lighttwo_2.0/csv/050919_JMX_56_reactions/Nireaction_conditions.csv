@@ -1,0 +1,11 @@
+Reaction parameters type,Reaction details,Rack ID,Location_trough,IUPAC,Smiles,MW,density,Equivalent,Volume to add - stocksolution (uL),Volume to add (uL),Volume to take out (uL),Stock concentration (mM),Volume total needed (ml),Number reactants
+Reaction name,light,,,,,,,,,,,,,
+Reaction scale (mmol),0.05,,,,,,,,,,,,,
+Reactant col,Halides,24_rack1,,,,,,1,80,80,80,,,10
+Reactant row,AminoAcids,24_rack2,,,,,,1.5,50,50,50,,,7
+Number reaction,70,,,,,,,,,,,,,
+Number rows,7,,,,,,,,,,,,,
+Number columns,10,,,,,,,,,,,,,
+Screening concentration (mM),,,,,,,,,,,,,,
+Reaction solvent,DMF,big_trough,A8,dimethylformaldehyde,,,,,0,0,0,,,
+Reagent 1,NiCl2Glyme,24_rack3,A1;A2,Nickel(II) chloride ethylene glycol dimethyl ether complex,COCCOC.Cl[Ni]Cl,219.72,1,0.1,1848,21,21,,,
