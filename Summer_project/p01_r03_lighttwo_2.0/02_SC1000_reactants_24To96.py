@@ -108,8 +108,6 @@ for index, value in enumerate(reaction_df[id_header].tolist()):
             number_rows = int(reaction_df[details_header].tolist()[index])
         if value == reagent_one:
             volume_to_dispense_reagent_one = float(reaction_df[volume_to_add].tolist()[index])
-        if value == reagent_two:
-            volume_to_dispense_reagent_two = float(reaction_df[volume_to_add].tolist()[index])
         if value == reagent_three:
             volume_to_dispense_reagent_three = float(reaction_df[volume_to_add].tolist()[index])
 
@@ -155,15 +153,12 @@ list_dict_per_reagent = []
 for dictionary in list_dictionary:
     if dictionary[id_header] == "Reagent 1":
         dictionary[volume_to_add] = volume_to_dispense_reagent_one
-        reagent_one_list.append(dictionary)   
-    if dictionary[id_header] == "Reagent 2":
-        dictionary[volume_to_add] = volume_to_dispense_reagent_two
-        reagent_two_list.append(dictionary)
+        reagent_one_list.append(dictionary)
     if dictionary[id_header] == "Reagent 3":
         dictionary[volume_to_add] = volume_to_dispense_reagent_three
         reagent_three_list.append(dictionary)
 # Overall list containing the list of dictionaries per reagent
-list_dict_per_reagent = [reagent_one_list,reagent_two_list,reagent_three_list]        
+list_dict_per_reagent = [reagent_one_list,reagent_three_list]
 
 # Function that takes as input a list of dictionary (same reagent) and the number of reactions. The output is another key to the dictionary, which is the number of transfer that will be executed for this vial
 #If no transfers are needed for this vial then no key is created
@@ -199,6 +194,6 @@ for index, list_of_dictionaries in enumerate(list_dict_per_reagent):
             p1000.distribute(dictionary[volume_to_add], rack_stock_reactant_3.wells(dictionary[location_reactant]), temp_container[:dictionary[number_transfer]],air_gap=10)
             del temp_container[:dictionary[number_transfer]]
             
-#for c in robot.commands():
-#    print(c)
+for c in robot.commands():
+    print(c)
 

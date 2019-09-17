@@ -92,11 +92,8 @@ rack_2 = "24_rack2"
 rack_3 = "24_rack3"
 location_reactant = "Location"
 volume_max_header = "Volume max per vial (ul)"
-reagent_one = "Reagent 1"
 reagent_two = "Reagent 2"
-reagent_three = "Reagent 3"
 number_transfer = "Number of transfer per vial"
-
 
 # This reads the main parameters from the csv: reaction conditions and get the useful values
 for index, value in enumerate(reaction_df[id_header].tolist()):
@@ -104,12 +101,8 @@ for index, value in enumerate(reaction_df[id_header].tolist()):
             number_cols = int(reaction_df[details_header].tolist()[index])
         if value == number_of_rows_header:
             number_rows = int(reaction_df[details_header].tolist()[index])
-        if value == reagent_one:
-            volume_to_dispense_reagent_one = float(reaction_df[volume_to_add].tolist()[index])
         if value == reagent_two:
             volume_to_dispense_reagent_two = float(reaction_df[volume_to_add].tolist()[index])
-        if value == reagent_three:
-            volume_to_dispense_reagent_three = float(reaction_df[volume_to_add].tolist()[index])
 
 #function that needs the number of columns and rows used (number of Reactants A and B) and will give as an output the platmap of the wells
 #that the robot will dispense to. This is necesseary when using a combinatorial mode. 
@@ -151,21 +144,16 @@ list_dict_per_reagent = []
 #Assign each dictionary with a reagent to its corresponding list.
 # Also adds  a key to each dictionary, the volume to dispense per reaction 
 for dictionary in list_dictionary:
-    if dictionary[id_header] == "Reagent 1":
-        dictionary[volume_to_add] = volume_to_dispense_reagent_one
-        reagent_one_list.append(dictionary)   
     if dictionary[id_header] == "Reagent 2":
         dictionary[volume_to_add] = volume_to_dispense_reagent_two
         reagent_two_list.append(dictionary)
-    if dictionary[id_header] == "Reagent 3":
-        dictionary[volume_to_add] = volume_to_dispense_reagent_three
-        reagent_three_list.append(dictionary)
 # Overall list containing the list of dictionaries per reagent
-list_dict_per_reagent = [reagent_one_list,reagent_two_list,reagent_three_list]        
+list_dict_per_reagent = [reagent_two_list]
 
 # Function that takes as input a list of dictionary (same reagent) and the number of reactions. The output is another key to the dictionary, which is the number of transfer that will be executed for this vial
 #If no transfers are needed for this vial then no key is created
-def numbertransferPerVial (reagent_one_list, number_reactions):
+
+def numbertransferPerVial(reagent_one_list, number_reactions):
     reaction_counter = 0
     nb_reaction_left = None
     for dictionary in reagent_one_list:
@@ -196,6 +184,6 @@ for index, list_of_dictionaries in enumerate(list_dict_per_reagent):
             p1000.distribute(dictionary[volume_to_add], rack_stock_reactant_3.wells(dictionary[location_reactant]), temp_container[:dictionary[number_transfer]],air_gap=10)
             del temp_container[:dictionary[number_transfer]]
             
-#for c in robot.commands():
-#    print(c)
+for c in robot.commands():
+    print(c)
 
