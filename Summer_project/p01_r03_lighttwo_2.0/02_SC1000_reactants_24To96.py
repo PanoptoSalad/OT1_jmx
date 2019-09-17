@@ -48,15 +48,15 @@ def read_csv(input_file):
 
 #Import of csv files
 
-#reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\reaction_conditions.csv")
-#rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\rack1.csv")
-#rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\rack2.csv")
-#rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\rack3.csv")
+reaction_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo_2.0\csv\050919_JMX_56_reactions\reaction_conditions.csv")
+rack_one_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo_2.0\csv\050919_JMX_56_reactions\rack1.csv")
+rack_two_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo_2.0\csv\050919_JMX_56_reactions\rack2.csv")
+rack_three_df = read_csv(r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo_2.0\csv\050919_JMX_56_reactions\rack3.csv")
 
-reaction_df = read_csv(r"csv\050919_JMX_56_reactions\reaction_conditions.csv")
-rack_one_df = read_csv(r"csv\050919_JMX_56_reactions\rack1.csv")
-rack_two_df = read_csv(r"csv\050919_JMX_56_reactions\rack2.csv")
-rack_three_df = read_csv(r"csv\050919_JMX_56_reactions\rack3.csv")
+#reaction_df = read_csv(r"csv\050919_JMX_56_reactions\reaction_conditions.csv")
+#rack_one_df = read_csv(r"csv\050919_JMX_56_reactions\rack1.csv")
+#rack_two_df = read_csv(r"csv\050919_JMX_56_reactions\rack2.csv")
+#rack_three_df = read_csv(r"csv\050919_JMX_56_reactions\rack3.csv")
 
 # Deck setup
 tiprack_1000 = containers.load("tiprack-1000ul-H", "D3")
@@ -127,7 +127,7 @@ number_reactions = number_cols * number_rows
 list_of_wells_reaction_rack = dispensingListGeneration(number_cols,number_rows)
 wells_transfer_list = []
 for well in list_of_wells_reaction_rack:
-    wells_transfer_list.append(reaction_rack.wells(well).top())
+    wells_transfer_list.append(reaction_rack.wells(well).top(-4))
 
 
 #creation of a list that will contain dictionaries. Each dictionary is a vial from the rack of reagents. and contains the useful values.

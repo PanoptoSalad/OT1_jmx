@@ -1,0 +1,766 @@
+70 rxtns 2 17/092019 01
+
+7:16:18 PM - Protocol run initiated. Simulating...
+7:16:18 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well A1>
+7:16:23 PM - Aspirating 552.0915774 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:16:29 PM - Air gap
+7:16:30 PM - Aspirating 10
+7:16:30 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well C1>
+7:16:34 PM - Dispensing 552.0915774 at <Deck><Slot A1><Container R_1><Well C1>
+7:16:35 PM - Aspirating 689.6845008 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:16:41 PM - Air gap
+7:16:42 PM - Aspirating 10
+7:16:42 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well C2>
+7:16:46 PM - Dispensing 689.6845008 at <Deck><Slot A1><Container R_1><Well C2>
+7:16:47 PM - Aspirating 674.876594 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:16:54 PM - Air gap
+7:16:55 PM - Aspirating 10
+7:16:55 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well C3>
+7:16:58 PM - Dispensing 674.876594 at <Deck><Slot A1><Container R_1><Well C3>
+7:17:00 PM - Aspirating 728.2959164 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:17:06 PM - Air gap
+7:17:07 PM - Aspirating 10
+7:17:07 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well C4>
+7:17:10 PM - Dispensing 728.2959164 at <Deck><Slot A1><Container R_1><Well C4>
+7:17:12 PM - Aspirating 674.4720203 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:17:18 PM - Air gap
+7:17:19 PM - Aspirating 10
+7:17:19 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well C5>
+7:17:22 PM - Dispensing 674.4720203 at <Deck><Slot A1><Container R_1><Well C5>
+7:17:24 PM - Aspirating 650.1100715 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:17:30 PM - Air gap
+7:17:31 PM - Aspirating 10
+7:17:31 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well C6>
+7:17:34 PM - Dispensing 650.1100715 at <Deck><Slot A1><Container R_1><Well C6>
+7:17:36 PM - Aspirating 800.4176634 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:17:42 PM - Air gap
+7:17:43 PM - Aspirating 10
+7:17:43 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well D1>
+7:17:47 PM - Dispensing 800.4176634 at <Deck><Slot A1><Container R_1><Well D1>
+7:17:48 PM - Aspirating 647.1363979 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:17:55 PM - Air gap
+7:17:56 PM - Aspirating 10
+7:17:56 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well D2>
+7:17:59 PM - Dispensing 647.1363979 at <Deck><Slot A1><Container R_1><Well D2>
+7:18:00 PM - Aspirating 803.9164571 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:18:07 PM - Air gap
+7:18:08 PM - Aspirating 10
+7:18:08 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well D3>
+7:18:11 PM - Dispensing 803.9164571 at <Deck><Slot A1><Container R_1><Well D3>
+7:18:13 PM - Aspirating 758.3200677 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:18:20 PM - Air gap
+7:18:20 PM - Aspirating 10
+7:18:20 PM - Dispensing 10 at <Deck><Slot A1><Container R_1><Well D4>
+7:18:24 PM - Dispensing 758.3200677 at <Deck><Slot A1><Container R_1><Well D4>
+7:18:26 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+7:18:37 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well B1>
+7:18:39 PM - Aspirating 627.9628464 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:18:45 PM - Air gap
+7:18:46 PM - Aspirating 10
+7:18:46 PM - Dispensing 10 at <Deck><Slot A2><Container R_2><Well C1>
+7:18:49 PM - Dispensing 627.9628464 at <Deck><Slot A2><Container R_2><Well C1>
+7:18:51 PM - Aspirating 579.0044229 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:18:56 PM - Protocol paused
+7:18:56 PM - Air gap
+7:18:57 PM - Protocol resumed
+7:18:58 PM - Aspirating 10
+7:18:58 PM - Dispensing 10 at <Deck><Slot A2><Container R_2><Well C2>
+7:19:01 PM - Dispensing 579.0044229 at <Deck><Slot A2><Container R_2><Well C2>
+7:19:02 PM - Aspirating 566.8574364 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:19:02 PM - Protocol paused
+7:19:11 PM - Protocol resumed
+7:19:16 PM - Air gap
+7:19:17 PM - Aspirating 10
+7:19:17 PM - Dispensing 10 at <Deck><Slot A2><Container R_2><Well C3>
+7:19:20 PM - Dispensing 566.8574364 at <Deck><Slot A2><Container R_2><Well C3>
+7:19:22 PM - Aspirating 548.0763734 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:19:22 PM - Protocol paused
+7:19:42 PM - Protocol resumed
+7:19:47 PM - Air gap
+7:19:47 PM - Aspirating 10
+7:19:47 PM - Dispensing 10 at <Deck><Slot A2><Container R_2><Well C4>
+7:19:51 PM - Dispensing 548.0763734 at <Deck><Slot A2><Container R_2><Well C4>
+7:19:52 PM - Aspirating 621.9014932 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:19:58 PM - Air gap
+7:19:59 PM - Aspirating 10
+7:19:59 PM - Dispensing 10 at <Deck><Slot A2><Container R_2><Well C5>
+7:20:02 PM - Dispensing 621.9014932 at <Deck><Slot A2><Container R_2><Well C5>
+7:20:04 PM - Aspirating 568.8314299 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:20:04 PM - Protocol paused
+7:21:39 PM - Protocol resumed
+7:21:44 PM - Air gap
+7:21:45 PM - Aspirating 10
+7:21:45 PM - Dispensing 10 at <Deck><Slot A2><Container R_2><Well D1>
+7:21:48 PM - Dispensing 568.8314299 at <Deck><Slot A2><Container R_2><Well D1>
+7:21:50 PM - Aspirating 646.9883551 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:21:56 PM - Air gap
+7:21:56 PM - Aspirating 10
+7:21:56 PM - Dispensing 10 at <Deck><Slot A2><Container R_2><Well D2>
+7:21:59 PM - Dispensing 646.9883551 at <Deck><Slot A2><Container R_2><Well D2>
+7:22:01 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+7:22:12 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well C1>
+7:22:14 PM - Aspirating 875.070193 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:22:21 PM - Air gap
+7:22:22 PM - Aspirating 10
+7:22:22 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well A1>
+7:22:25 PM - Dispensing 875.070193 at <Deck><Slot B1><Container R_3><Well A1>
+7:22:27 PM - Aspirating 875.070193 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:22:34 PM - Air gap
+7:22:35 PM - Aspirating 10
+7:22:35 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well A1>
+7:22:38 PM - Dispensing 875.070193 at <Deck><Slot B1><Container R_3><Well A1>
+7:22:40 PM - Aspirating 927.378291 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:22:47 PM - Air gap
+7:22:48 PM - Aspirating 10
+7:22:48 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C1>
+7:22:51 PM - Dispensing 927.378291 at <Deck><Slot B1><Container R_3><Well C1>
+7:22:54 PM - Aspirating 927.378291 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:23:01 PM - Air gap
+7:23:01 PM - Aspirating 10
+7:23:01 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C1>
+7:23:05 PM - Dispensing 927.378291 at <Deck><Slot B1><Container R_3><Well C1>
+7:23:07 PM - Aspirating 916.2940885 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:23:14 PM - Air gap
+7:23:14 PM - Aspirating 10
+7:23:14 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C2>
+7:23:18 PM - Dispensing 916.2940885 at <Deck><Slot B1><Container R_3><Well C2>
+7:23:20 PM - Aspirating 916.2940885 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:23:27 PM - Air gap
+7:23:28 PM - Aspirating 10
+7:23:28 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C2>
+7:23:31 PM - Dispensing 916.2940885 at <Deck><Slot B1><Container R_3><Well C2>
+7:23:33 PM - Aspirating 912.599354 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:23:40 PM - Air gap
+7:23:41 PM - Aspirating 10
+7:23:41 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C3>
+7:23:44 PM - Dispensing 912.599354 at <Deck><Slot B1><Container R_3><Well C3>
+7:23:46 PM - Aspirating 912.599354 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:23:53 PM - Air gap
+7:23:53 PM - Aspirating 10
+7:23:53 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C3>
+7:23:57 PM - Dispensing 912.599354 at <Deck><Slot B1><Container R_3><Well C3>
+7:23:59 PM - Aspirating 890.430949 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:24:06 PM - Air gap
+7:24:06 PM - Aspirating 10
+7:24:06 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C4>
+7:24:10 PM - Dispensing 890.430949 at <Deck><Slot B1><Container R_3><Well C4>
+7:24:12 PM - Aspirating 890.430949 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:24:18 PM - Air gap
+7:24:19 PM - Aspirating 10
+7:24:19 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C4>
+7:24:22 PM - Dispensing 890.430949 at <Deck><Slot B1><Container R_3><Well C4>
+7:24:25 PM - Aspirating 912.599354 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:24:31 PM - Air gap
+7:24:32 PM - Aspirating 10
+7:24:32 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C5>
+7:24:35 PM - Dispensing 912.599354 at <Deck><Slot B1><Container R_3><Well C5>
+7:24:37 PM - Aspirating 912.599354 at <Deck><Slot C2><Container trough-12row><Well A8>
+7:24:44 PM - Air gap
+7:24:45 PM - Aspirating 10
+7:24:45 PM - Dispensing 10 at <Deck><Slot B1><Container R_3><Well C5>
+7:24:48 PM - Dispensing 912.599354 at <Deck><Slot B1><Container R_3><Well C5>
+7:24:50 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+7:25:09 PM - Run complete in 0:08:50
+
+x
+9:43:03 PM - Protocol run initiated. Simulating...
+9:43:04 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well A1>
+9:43:09 PM - Aspirating 975.0 at <Deck><Slot B1><Container R_3><Well A1>
+9:43:17 PM - Air gap
+9:43:17 PM - Aspirating 10
+9:43:18 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A1>
+9:43:20 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A1>
+9:43:21 PM - Air gap
+9:43:21 PM - Aspirating 10
+9:43:21 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B1>
+9:43:22 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B1>
+9:43:22 PM - Air gap
+9:43:23 PM - Aspirating 10
+9:43:23 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C1>
+9:43:23 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C1>
+9:43:23 PM - Air gap
+9:43:24 PM - Aspirating 10
+9:43:24 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D1>
+9:43:24 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D1>
+9:43:24 PM - Air gap
+9:43:25 PM - Aspirating 10
+9:43:25 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E1>
+9:43:25 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E1>
+9:43:26 PM - Air gap
+9:43:26 PM - Aspirating 10
+9:43:26 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F1>
+9:43:26 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F1>
+9:43:27 PM - Air gap
+9:43:27 PM - Aspirating 10
+9:43:27 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G1>
+9:43:27 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G1>
+9:43:28 PM - Air gap
+9:43:28 PM - Aspirating 10
+9:43:28 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A2>
+9:43:29 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A2>
+9:43:29 PM - Air gap
+9:43:30 PM - Aspirating 10
+9:43:30 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B2>
+9:43:30 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B2>
+9:43:31 PM - Air gap
+9:43:31 PM - Aspirating 10
+9:43:31 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C2>
+9:43:31 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C2>
+9:43:32 PM - Air gap
+9:43:32 PM - Aspirating 10
+9:43:32 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D2>
+9:43:32 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D2>
+9:43:33 PM - Air gap
+9:43:33 PM - Aspirating 10
+9:43:33 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E2>
+9:43:34 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E2>
+9:43:34 PM - Air gap
+9:43:35 PM - Aspirating 10
+9:43:35 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F2>
+9:43:35 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F2>
+9:43:35 PM - Air gap
+9:43:36 PM - Aspirating 10
+9:43:36 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G2>
+9:43:36 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G2>
+9:43:36 PM - Air gap
+9:43:37 PM - Aspirating 10
+9:43:37 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A3>
+9:43:38 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A3>
+9:43:38 PM - Air gap
+9:43:38 PM - Aspirating 10
+9:43:38 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B3>
+9:43:39 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B3>
+9:43:39 PM - Air gap
+9:43:39 PM - Aspirating 10
+9:43:39 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C3>
+9:43:40 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C3>
+9:43:40 PM - Air gap
+9:43:41 PM - Aspirating 10
+9:43:41 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D3>
+9:43:41 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D3>
+9:43:41 PM - Air gap
+9:43:42 PM - Aspirating 10
+9:43:42 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E3>
+9:43:42 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E3>
+9:43:43 PM - Air gap
+9:43:43 PM - Aspirating 10
+9:43:43 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F3>
+9:43:43 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F3>
+9:43:44 PM - Air gap
+9:43:44 PM - Aspirating 10
+9:43:44 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G3>
+9:43:44 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G3>
+9:43:45 PM - Air gap
+9:43:45 PM - Aspirating 10
+9:43:45 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A4>
+9:43:46 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A4>
+9:43:47 PM - Air gap
+9:43:47 PM - Aspirating 10
+9:43:47 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B4>
+9:43:47 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B4>
+9:43:47 PM - Air gap
+9:43:48 PM - Aspirating 10
+9:43:48 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C4>
+9:43:48 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C4>
+9:43:49 PM - Air gap
+9:43:49 PM - Aspirating 10
+9:43:49 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D4>
+9:43:50 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D4>
+9:43:50 PM - Air gap
+9:43:50 PM - Aspirating 10
+9:43:50 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E4>
+9:43:51 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E4>
+9:43:51 PM - Air gap
+9:43:51 PM - Aspirating 10
+9:43:51 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F4>
+9:43:52 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F4>
+9:43:52 PM - Air gap
+9:43:53 PM - Aspirating 10
+9:43:53 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G4>
+9:43:53 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G4>
+9:43:53 PM - Air gap
+9:43:54 PM - Aspirating 10
+9:43:54 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A5>
+9:43:54 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A5>
+9:43:55 PM - Air gap
+9:43:55 PM - Aspirating 10
+9:43:55 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B5>
+9:43:56 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B5>
+9:43:56 PM - Air gap
+9:43:56 PM - Aspirating 10
+9:43:56 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C5>
+9:43:57 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C5>
+9:43:57 PM - Air gap
+9:43:57 PM - Aspirating 10
+9:43:57 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D5>
+9:43:58 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D5>
+9:43:58 PM - Air gap
+9:43:59 PM - Aspirating 10
+9:43:59 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E5>
+9:43:59 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E5>
+9:43:59 PM - Air gap
+9:44:00 PM - Aspirating 10
+9:44:00 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F5>
+9:44:00 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F5>
+9:44:01 PM - Air gap
+9:44:01 PM - Aspirating 10
+9:44:01 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G5>
+9:44:02 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G5>
+9:44:02 PM - Air gap
+9:44:02 PM - Aspirating 10
+9:44:02 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A6>
+9:44:03 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A6>
+9:44:03 PM - Air gap
+9:44:03 PM - Aspirating 10
+9:44:04 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B6>
+9:44:04 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B6>
+9:44:05 PM - Air gap
+9:44:05 PM - Aspirating 10
+9:44:05 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C6>
+9:44:05 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C6>
+9:44:06 PM - Air gap
+9:44:06 PM - Aspirating 10
+9:44:06 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D6>
+9:44:06 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D6>
+9:44:07 PM - Air gap
+9:44:07 PM - Aspirating 10
+9:44:07 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E6>
+9:44:08 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E6>
+9:44:08 PM - Air gap
+9:44:08 PM - Aspirating 10
+9:44:08 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F6>
+9:44:09 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F6>
+9:44:09 PM - Air gap
+9:44:10 PM - Aspirating 10
+9:44:10 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G6>
+9:44:10 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G6>
+9:44:10 PM - Air gap
+9:44:11 PM - Aspirating 10
+9:44:11 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A7>
+9:44:11 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A7>
+9:44:12 PM - Air gap
+9:44:12 PM - Aspirating 10
+9:44:12 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B7>
+9:44:13 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B7>
+9:44:13 PM - Air gap
+9:44:13 PM - Aspirating 10
+9:44:13 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C7>
+9:44:14 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C7>
+9:44:14 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:44:16 PM - Protocol paused
+9:45:17 PM - Protocol resumed
+9:45:18 PM - Aspirating 555.0 at <Deck><Slot B1><Container R_3><Well A1>
+9:45:23 PM - Air gap
+9:45:24 PM - Aspirating 10
+9:45:24 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D7>
+9:45:27 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D7>
+9:45:27 PM - Air gap
+9:45:27 PM - Aspirating 10
+9:45:28 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E7>
+9:45:28 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E7>
+9:45:28 PM - Air gap
+9:45:29 PM - Aspirating 10
+9:45:29 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F7>
+9:45:29 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F7>
+9:45:29 PM - Air gap
+9:45:30 PM - Aspirating 10
+9:45:30 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G7>
+9:45:30 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G7>
+9:45:31 PM - Air gap
+9:45:31 PM - Aspirating 10
+9:45:31 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A8>
+9:45:32 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A8>
+9:45:32 PM - Air gap
+9:45:32 PM - Aspirating 10
+9:45:32 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B8>
+9:45:33 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B8>
+9:45:33 PM - Air gap
+9:45:34 PM - Aspirating 10
+9:45:34 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C8>
+9:45:34 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C8>
+9:45:35 PM - Air gap
+9:45:35 PM - Aspirating 10
+9:45:35 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D8>
+9:45:35 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D8>
+9:45:36 PM - Air gap
+9:45:36 PM - Aspirating 10
+9:45:36 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E8>
+9:45:36 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E8>
+9:45:37 PM - Air gap
+9:45:37 PM - Aspirating 10
+9:45:37 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F8>
+9:45:38 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F8>
+9:45:38 PM - Air gap
+9:45:38 PM - Aspirating 10
+9:45:38 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G8>
+9:45:39 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G8>
+9:45:39 PM - Air gap
+9:45:39 PM - Aspirating 10
+9:45:40 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A9>
+9:45:40 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A9>
+9:45:41 PM - Air gap
+9:45:41 PM - Aspirating 10
+9:45:41 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B9>
+9:45:41 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B9>
+9:45:42 PM - Air gap
+9:45:42 PM - Aspirating 10
+9:45:42 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C9>
+9:45:43 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C9>
+9:45:43 PM - Air gap
+9:45:43 PM - Aspirating 10
+9:45:43 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D9>
+9:45:44 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D9>
+9:45:44 PM - Air gap
+9:45:44 PM - Aspirating 10
+9:45:44 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E9>
+9:45:45 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E9>
+9:45:45 PM - Air gap
+9:45:46 PM - Aspirating 10
+9:45:46 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F9>
+9:45:46 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F9>
+9:45:47 PM - Air gap
+9:45:47 PM - Aspirating 10
+9:45:47 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G9>
+9:45:47 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G9>
+9:45:48 PM - Air gap
+9:45:48 PM - Aspirating 10
+9:45:48 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A10>
+9:45:49 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A10>
+9:45:49 PM - Air gap
+9:45:50 PM - Aspirating 10
+9:45:50 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B10>
+9:45:50 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B10>
+9:45:50 PM - Air gap
+9:45:50 PM - Aspirating 10
+9:45:51 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C10>
+9:45:51 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C10>
+9:45:51 PM - Air gap
+9:45:52 PM - Aspirating 10
+9:45:52 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D10>
+9:45:52 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D10>
+9:45:53 PM - Air gap
+9:45:53 PM - Aspirating 10
+9:45:53 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E10>
+9:45:53 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E10>
+9:45:54 PM - Air gap
+9:45:54 PM - Aspirating 10
+9:45:54 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F10>
+9:45:55 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F10>
+9:45:55 PM - Air gap
+9:45:55 PM - Aspirating 10
+9:45:55 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G10>
+9:45:56 PM - Dispensing 21.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G10>
+9:45:56 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:45:58 PM - Protocol paused
+9:46:27 PM - Protocol resumed
+9:46:27 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+9:46:36 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well B1>
+9:46:38 PM - Aspirating 982.0 at <Deck><Slot B1><Container R_3><Well C1>
+9:46:46 PM - Air gap
+9:46:47 PM - Aspirating 10
+9:46:47 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A1>
+9:46:50 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A1>
+9:46:50 PM - Air gap
+9:46:51 PM - Aspirating 10
+9:46:51 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B1>
+9:46:51 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B1>
+9:46:52 PM - Air gap
+9:46:52 PM - Aspirating 10
+9:46:52 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C1>
+9:46:53 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C1>
+9:46:53 PM - Air gap
+9:46:53 PM - Aspirating 10
+9:46:53 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D1>
+9:46:54 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D1>
+9:46:54 PM - Air gap
+9:46:55 PM - Aspirating 10
+9:46:55 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E1>
+9:46:55 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E1>
+9:46:56 PM - Air gap
+9:46:56 PM - Aspirating 10
+9:46:56 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F1>
+9:46:56 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F1>
+9:46:57 PM - Air gap
+9:46:57 PM - Aspirating 10
+9:46:58 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G1>
+9:46:58 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G1>
+9:46:59 PM - Air gap
+9:46:59 PM - Aspirating 10
+9:46:59 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A2>
+9:46:59 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A2>
+9:47:00 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:47:03 PM - Aspirating 863.0 at <Deck><Slot B1><Container R_3><Well C1>
+9:47:09 PM - Air gap
+9:47:10 PM - Aspirating 10
+9:47:10 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B2>
+9:47:13 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B2>
+9:47:14 PM - Air gap
+9:47:14 PM - Aspirating 10
+9:47:14 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C2>
+9:47:14 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C2>
+9:47:15 PM - Air gap
+9:47:15 PM - Aspirating 10
+9:47:15 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D2>
+9:47:16 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D2>
+9:47:16 PM - Air gap
+9:47:17 PM - Aspirating 10
+9:47:17 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E2>
+9:47:17 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E2>
+9:47:17 PM - Air gap
+9:47:18 PM - Aspirating 10
+9:47:18 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F2>
+9:47:18 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F2>
+9:47:19 PM - Air gap
+9:47:19 PM - Aspirating 10
+9:47:19 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G2>
+9:47:20 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G2>
+9:47:20 PM - Air gap
+9:47:20 PM - Aspirating 10
+9:47:21 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A3>
+9:47:21 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A3>
+9:47:22 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:47:25 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+9:47:33 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well C1>
+9:47:36 PM - Aspirating 982.0 at <Deck><Slot B1><Container R_3><Well C2>
+9:47:44 PM - Air gap
+9:47:44 PM - Aspirating 10
+9:47:44 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B3>
+9:47:47 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B3>
+9:47:48 PM - Air gap
+9:47:48 PM - Aspirating 10
+9:47:48 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C3>
+9:47:49 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C3>
+9:47:49 PM - Air gap
+9:47:50 PM - Aspirating 10
+9:47:50 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D3>
+9:47:50 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D3>
+9:47:50 PM - Air gap
+9:47:51 PM - Aspirating 10
+9:47:51 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E3>
+9:47:51 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E3>
+9:47:52 PM - Air gap
+9:47:52 PM - Aspirating 10
+9:47:52 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F3>
+9:47:53 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F3>
+9:47:53 PM - Air gap
+9:47:54 PM - Aspirating 10
+9:47:54 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G3>
+9:47:54 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G3>
+9:47:55 PM - Air gap
+9:47:55 PM - Aspirating 10
+9:47:55 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A4>
+9:47:56 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A4>
+9:47:56 PM - Air gap
+9:47:57 PM - Aspirating 10
+9:47:57 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B4>
+9:47:57 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B4>
+9:47:58 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:48:01 PM - Aspirating 863.0 at <Deck><Slot B1><Container R_3><Well C2>
+9:48:07 PM - Air gap
+9:48:07 PM - Aspirating 10
+9:48:08 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C4>
+9:48:10 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C4>
+9:48:11 PM - Air gap
+9:48:11 PM - Aspirating 10
+9:48:11 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D4>
+9:48:12 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D4>
+9:48:12 PM - Air gap
+9:48:13 PM - Aspirating 10
+9:48:13 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E4>
+9:48:13 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E4>
+9:48:14 PM - Air gap
+9:48:14 PM - Aspirating 10
+9:48:14 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F4>
+9:48:14 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F4>
+9:48:15 PM - Air gap
+9:48:15 PM - Aspirating 10
+9:48:15 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G4>
+9:48:16 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G4>
+9:48:16 PM - Air gap
+9:48:17 PM - Aspirating 10
+9:48:17 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A5>
+9:48:17 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A5>
+9:48:18 PM - Air gap
+9:48:18 PM - Aspirating 10
+9:48:18 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B5>
+9:48:19 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B5>
+9:48:19 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:48:22 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+9:48:31 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well D1>
+9:48:33 PM - Aspirating 982.0 at <Deck><Slot B1><Container R_3><Well C3>
+9:48:41 PM - Air gap
+9:48:42 PM - Aspirating 10
+9:48:42 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C5>
+9:48:45 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C5>
+9:48:45 PM - Air gap
+9:48:46 PM - Aspirating 10
+9:48:46 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D5>
+9:48:46 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D5>
+9:48:47 PM - Air gap
+9:48:47 PM - Aspirating 10
+9:48:47 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E5>
+9:48:47 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E5>
+9:48:48 PM - Air gap
+9:48:48 PM - Aspirating 10
+9:48:48 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F5>
+9:48:49 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F5>
+9:48:49 PM - Air gap
+9:48:50 PM - Aspirating 10
+9:48:50 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G5>
+9:48:50 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G5>
+9:48:51 PM - Air gap
+9:48:51 PM - Aspirating 10
+9:48:51 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A6>
+9:48:52 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A6>
+9:48:52 PM - Air gap
+9:48:53 PM - Aspirating 10
+9:48:53 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B6>
+9:48:53 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B6>
+9:48:54 PM - Air gap
+9:48:54 PM - Aspirating 10
+9:48:54 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C6>
+9:48:54 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C6>
+9:48:55 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:48:58 PM - Aspirating 863.0 at <Deck><Slot B1><Container R_3><Well C3>
+9:49:04 PM - Air gap
+9:49:05 PM - Aspirating 10
+9:49:05 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D6>
+9:49:08 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D6>
+9:49:08 PM - Air gap
+9:49:08 PM - Aspirating 10
+9:49:08 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E6>
+9:49:09 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E6>
+9:49:10 PM - Air gap
+9:49:10 PM - Aspirating 10
+9:49:10 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F6>
+9:49:10 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F6>
+9:49:11 PM - Air gap
+9:49:11 PM - Aspirating 10
+9:49:11 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G6>
+9:49:12 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G6>
+9:49:12 PM - Air gap
+9:49:13 PM - Aspirating 10
+9:49:13 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A7>
+9:49:13 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A7>
+9:49:14 PM - Air gap
+9:49:14 PM - Aspirating 10
+9:49:14 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B7>
+9:49:15 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B7>
+9:49:15 PM - Air gap
+9:49:16 PM - Aspirating 10
+9:49:16 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C7>
+9:49:16 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C7>
+9:49:17 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:49:19 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+9:49:28 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well A2>
+9:49:30 PM - Aspirating 982.0 at <Deck><Slot B1><Container R_3><Well C4>
+9:49:38 PM - Air gap
+9:49:39 PM - Aspirating 10
+9:49:39 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D7>
+9:49:42 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D7>
+9:49:42 PM - Air gap
+9:49:43 PM - Aspirating 10
+9:49:43 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E7>
+9:49:43 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E7>
+9:49:44 PM - Air gap
+9:49:44 PM - Aspirating 10
+9:49:44 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F7>
+9:49:44 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F7>
+9:49:45 PM - Air gap
+9:49:45 PM - Aspirating 10
+9:49:46 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G7>
+9:49:46 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G7>
+9:49:46 PM - Air gap
+9:49:47 PM - Aspirating 10
+9:49:47 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A8>
+9:49:47 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A8>
+9:49:48 PM - Air gap
+9:49:48 PM - Aspirating 10
+9:49:49 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B8>
+9:49:49 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B8>
+9:49:49 PM - Air gap
+9:49:50 PM - Aspirating 10
+9:49:50 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C8>
+9:49:50 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C8>
+9:49:51 PM - Air gap
+9:49:51 PM - Aspirating 10
+9:49:51 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D8>
+9:49:52 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D8>
+9:49:52 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:49:55 PM - Aspirating 863.0 at <Deck><Slot B1><Container R_3><Well C4>
+9:50:01 PM - Air gap
+9:50:02 PM - Aspirating 10
+9:50:02 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E8>
+9:50:05 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E8>
+9:50:05 PM - Air gap
+9:50:05 PM - Aspirating 10
+9:50:06 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F8>
+9:50:06 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F8>
+9:50:07 PM - Air gap
+9:50:07 PM - Aspirating 10
+9:50:07 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G8>
+9:50:07 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G8>
+9:50:08 PM - Air gap
+9:50:08 PM - Aspirating 10
+9:50:08 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A9>
+9:50:09 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A9>
+9:50:10 PM - Air gap
+9:50:10 PM - Aspirating 10
+9:50:10 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B9>
+9:50:10 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B9>
+9:50:11 PM - Air gap
+9:50:11 PM - Aspirating 10
+9:50:11 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C9>
+9:50:12 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C9>
+9:50:12 PM - Air gap
+9:50:13 PM - Aspirating 10
+9:50:13 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D9>
+9:50:13 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D9>
+9:50:14 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:50:17 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+9:50:25 PM - Picking up tip from <Deck><Slot D3><Container tiprack-1000ul-H><Well B2>
+9:50:28 PM - Aspirating 982.0 at <Deck><Slot B1><Container R_3><Well C5>
+9:50:35 PM - Air gap
+9:50:36 PM - Aspirating 10
+9:50:36 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E9>
+9:50:39 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E9>
+9:50:39 PM - Air gap
+9:50:40 PM - Aspirating 10
+9:50:40 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F9>
+9:50:40 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F9>
+9:50:41 PM - Air gap
+9:50:41 PM - Aspirating 10
+9:50:41 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G9>
+9:50:41 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G9>
+9:50:42 PM - Air gap
+9:50:43 PM - Aspirating 10
+9:50:43 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well A10>
+9:50:43 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well A10>
+9:50:44 PM - Air gap
+9:50:44 PM - Aspirating 10
+9:50:44 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well B10>
+9:50:44 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well B10>
+9:50:45 PM - Air gap
+9:50:46 PM - Aspirating 10
+9:50:46 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well C10>
+9:50:46 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well C10>
+9:50:47 PM - Air gap
+9:50:47 PM - Aspirating 10
+9:50:47 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well D10>
+9:50:47 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well D10>
+9:50:48 PM - Air gap
+9:50:48 PM - Aspirating 10
+9:50:48 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well E10>
+9:50:49 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well E10>
+9:50:49 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:50:52 PM - Aspirating 268.0 at <Deck><Slot B1><Container R_3><Well C5>
+9:50:56 PM - Air gap
+9:50:57 PM - Aspirating 10
+9:50:57 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well F10>
+9:51:00 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well F10>
+9:51:00 PM - Air gap
+9:51:01 PM - Aspirating 10
+9:51:01 PM - Dispensing 10 at <Deck><Slot C1><Container Para_dox_96_short><Well G10>
+9:51:01 PM - Dispensing 119.0 at <Deck><Slot C1><Container Para_dox_96_short><Well G10>
+9:51:02 PM - Blowing out at <Deck><Slot B3><Container point><Well A1>
+9:51:05 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1
