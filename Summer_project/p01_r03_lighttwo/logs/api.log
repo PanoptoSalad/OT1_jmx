@@ -1,0 +1,80 @@
+16/09/2019 06_QC
+
+2:26:13 PM - Protocol run initiated. Simulating...
+2:26:14 PM - Picking up tip from <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+2:26:22 PM - Aspirating 300.0 at <Deck><Slot C2><Container trough-12row><Well A5>
+2:26:30 PM - Dispensing 50.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+2:26:35 PM - Dispensing 50.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+2:26:36 PM - Dispensing 50.0 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+2:26:37 PM - Dispensing 50.0 at <WellSeries: <Well A4><Well B4><Well C4><Well D4><Well E4><Well F4><Well G4><Well H4>>
+2:26:39 PM - Dispensing 50.0 at <WellSeries: <Well A5><Well B5><Well C5><Well D5><Well E5><Well F5><Well G5><Well H5>>
+2:26:40 PM - Dispensing 50.0 at <WellSeries: <Well A6><Well B6><Well C6><Well D6><Well E6><Well F6><Well G6><Well H6>>
+2:26:41 PM - Aspirating 200.0 at <Deck><Slot C2><Container trough-12row><Well A5>
+2:26:48 PM - Dispensing 50.0 at <WellSeries: <Well A7><Well B7><Well C7><Well D7><Well E7><Well F7><Well G7><Well H7>>
+2:26:52 PM - Dispensing 50.0 at <WellSeries: <Well A8><Well B8><Well C8><Well D8><Well E8><Well F8><Well G8><Well H8>>
+2:26:54 PM - Dispensing 50.0 at <WellSeries: <Well A9><Well B9><Well C9><Well D9><Well E9><Well F9><Well G9><Well H9>>
+2:26:54 PM - Dispensing 50.0 at <WellSeries: <Well A10><Well B10><Well C10><Well D10><Well E10><Well F10><Well G10><Well H10>>
+2:26:56 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:27:05 PM - Picking up tip from <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+2:27:08 PM - Aspirating 10.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+2:27:16 PM - Dispensing 10.0 at <WellSeries: <Well A1><Well B1><Well C1><Well D1><Well E1><Well F1><Well G1><Well H1>>
+2:27:20 PM - Blowing out
+2:27:21 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:27:30 PM - Picking up tip from <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+2:27:33 PM - Aspirating 10.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+2:27:41 PM - Dispensing 10.0 at <WellSeries: <Well A2><Well B2><Well C2><Well D2><Well E2><Well F2><Well G2><Well H2>>
+2:27:45 PM - Blowing out
+2:27:45 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:27:55 PM - Picking up tip from <WellSeries: <Well A4><Well B4><Well C4><Well D4><Well E4><Well F4><Well G4><Well H4>>
+2:27:58 PM - Aspirating 10.0 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+2:28:06 PM - Dispensing 10.0 at <WellSeries: <Well A3><Well B3><Well C3><Well D3><Well E3><Well F3><Well G3><Well H3>>
+2:28:11 PM - Blowing out
+2:28:11 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:28:20 PM - Picking up tip from <WellSeries: <Well A5><Well B5><Well C5><Well D5><Well E5><Well F5><Well G5><Well H5>>
+2:28:23 PM - Aspirating 10.0 at <WellSeries: <Well A4><Well B4><Well C4><Well D4><Well E4><Well F4><Well G4><Well H4>>
+2:28:31 PM - Dispensing 10.0 at <WellSeries: <Well A4><Well B4><Well C4><Well D4><Well E4><Well F4><Well G4><Well H4>>
+2:28:36 PM - Blowing out
+2:28:36 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:28:41 PM - Protocol paused
+2:29:20 PM - Protocol resumed
+2:29:21 PM - Picking up tip from <WellSeries: <Well A6><Well B6><Well C6><Well D6><Well E6><Well F6><Well G6><Well H6>>
+2:29:24 PM - Aspirating 10.0 at <WellSeries: <Well A5><Well B5><Well C5><Well D5><Well E5><Well F5><Well G5><Well H5>>
+2:29:26 PM - Protocol paused
+2:29:43 PM - Protocol resumed
+2:29:48 PM - Dispensing 10.0 at <WellSeries: <Well A5><Well B5><Well C5><Well D5><Well E5><Well F5><Well G5><Well H5>>
+2:29:52 PM - Blowing out
+2:29:52 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:30:02 PM - Picking up tip from <WellSeries: <Well A7><Well B7><Well C7><Well D7><Well E7><Well F7><Well G7><Well H7>>
+2:30:05 PM - Aspirating 10.0 at <WellSeries: <Well A6><Well B6><Well C6><Well D6><Well E6><Well F6><Well G6><Well H6>>
+2:30:09 PM - Protocol paused
+2:30:41 PM - Protocol resumed
+2:30:46 PM - Dispensing 10.0 at <WellSeries: <Well A6><Well B6><Well C6><Well D6><Well E6><Well F6><Well G6><Well H6>>
+2:30:50 PM - Blowing out
+2:30:50 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:30:51 PM - Protocol paused
+2:31:20 PM - Protocol resumed
+2:31:28 PM - Picking up tip from <WellSeries: <Well A8><Well B8><Well C8><Well D8><Well E8><Well F8><Well G8><Well H8>>
+2:31:31 PM - Aspirating 10.0 at <WellSeries: <Well A7><Well B7><Well C7><Well D7><Well E7><Well F7><Well G7><Well H7>>
+2:31:39 PM - Dispensing 10.0 at <WellSeries: <Well A7><Well B7><Well C7><Well D7><Well E7><Well F7><Well G7><Well H7>>
+2:31:43 PM - Blowing out
+2:31:44 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:31:53 PM - Picking up tip from <WellSeries: <Well A9><Well B9><Well C9><Well D9><Well E9><Well F9><Well G9><Well H9>>
+2:31:56 PM - Aspirating 10.0 at <WellSeries: <Well A8><Well B8><Well C8><Well D8><Well E8><Well F8><Well G8><Well H8>>
+2:32:04 PM - Dispensing 10.0 at <WellSeries: <Well A8><Well B8><Well C8><Well D8><Well E8><Well F8><Well G8><Well H8>>
+2:32:09 PM - Blowing out
+2:32:09 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:32:09 PM - Protocol paused
+2:32:41 PM - Protocol resumed
+2:32:48 PM - Picking up tip from <WellSeries: <Well A10><Well B10><Well C10><Well D10><Well E10><Well F10><Well G10><Well H10>>
+2:32:52 PM - Aspirating 10.0 at <WellSeries: <Well A9><Well B9><Well C9><Well D9><Well E9><Well F9><Well G9><Well H9>>
+2:33:00 PM - Dispensing 10.0 at <WellSeries: <Well A9><Well B9><Well C9><Well D9><Well E9><Well F9><Well G9><Well H9>>
+2:33:04 PM - Blowing out
+2:33:04 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:33:06 PM - Protocol paused
+2:33:35 PM - Protocol resumed
+2:33:43 PM - Picking up tip from <WellSeries: <Well A11><Well B11><Well C11><Well D11><Well E11><Well F11><Well G11><Well H11>>
+2:33:46 PM - Aspirating 10.0 at <WellSeries: <Well A10><Well B10><Well C10><Well D10><Well E10><Well F10><Well G10><Well H10>>
+2:33:54 PM - Dispensing 10.0 at <WellSeries: <Well A10><Well B10><Well C10><Well D10><Well E10><Well F10><Well G10><Well H10>>
+2:33:58 PM - Blowing out
+2:33:59 PM - Drop_tip at <Deck><Slot B3><Container point><Well A1>
+2:34:14 PM - Run complete in 0:08:00
