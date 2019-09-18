@@ -43,17 +43,15 @@ def read_csv(input_file):
     return df
 
 # CSV file data
-#solvent_df = read_csv(
-#    r"C:\Users\opentrons\protocols\GitHub_repos\
-#    OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\reaction_conditions.csv")
-#rack_Ni_df = read_csv(
-#    r"C:\Users\opentrons\protocols\GitHub_repos\
-#    OT1-coding\Summer_project\p01_r03_lighttwo\csv\050919_JMX_56_reactions\Nirack.csv")
-
 solvent_df = read_csv(
-    r"csv\050919_JMX_56_reactions\reaction_conditions.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo_2.0\csv\050919_JMX_56_reactions\reaction_conditions.csv")
 rack_Ni_df = read_csv(
-    r"csv\050919_JMX_56_reactions\Nirack.csv")
+    r"C:\Users\opentrons\protocols\GitHub_repos\OT1-coding\Summer_project\p01_r03_lighttwo_2.0\csv\050919_JMX_56_reactions\Nirack.csv")
+
+#solvent_df = read_csv(
+#    r"csv\050919_JMX_56_reactions\reaction_conditions.csv")
+#rack_Ni_df = read_csv(
+#    r"csv\050919_JMX_56_reactions\Nirack.csv")
 
 # Deck setup
 tiprack_1000 = containers.load("tiprack-1000ul-H", "D3")

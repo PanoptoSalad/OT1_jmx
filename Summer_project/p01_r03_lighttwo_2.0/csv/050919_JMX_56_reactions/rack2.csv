@@ -1,8 +1,8 @@
 Rack ID,Location,Name,Smiles,IUPAC name,MW,Reaction Scale (mmol),Eq,amount per reaction (mg),Volume to dispense (theory) at 0.8M,Min weight,Exp weight,Volume to dispense (exp) at 0.8M,AM volume per reaction at 0.8M,Barcode rack,Barcode vial
-24_rack2,C1,AA1,O=C(OC(C)(C)C)N1C(C(O)=O)CCC1,(tert-butoxycarbonyl)proline,215.24628,0.04,1.5,12.9147768,500,129.147768,,599.0037706,50,,FB00282678
-24_rack2,C2,AA2,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)CCCC1,(S)-1-(tert-butoxycarbonyl)piperidine-2-carboxylic acid,229.27286,0.04,1.5,13.7563716,500,137.563716,,566.137658,50,,FB00283331
-24_rack2,C3,AA3,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)C[C@@H](O)C1,(2S?4S)-1-(tert-butoxycarbonyl)-4-hydroxypyrrolidine-2-carboxylic acid,231.24568,0.04,1.5,13.8747408,500,138.747408,,624.4440977,50,,FB00282375
-24_rack2,C4,AA4,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)C[C@H](F)C1,(2S?4R)-1-(tert-butoxycarbonyl)-4-fluoropyrrolidine-2-carboxylic acid,233.24,0.04,1.5,13.9944,500,139.944,,575.6121464,50,,FB00283461
-24_rack2,C5,AA5,O=C(O)[C@H](C1)N(C(OC(C)(C)C)=O)CC1=C,(S)-1-(tert-butoxycarbonyl)-4-methylenepyrrolidine-2-carboxylic acid,227.26,0.04,1.5,13.6356,500,136.356,,607.2321689,50,,FB00282399
-24_rack2,D1,AA6,O=C(O)[C@H](CC1=CC=CC=C1)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-phenylalanine,265.31,0.04,1.5,15.9186,500,159.186,,748.9439434,50,,FB00282737
-24_rack2,D2,AA7,O=C(O)[C@H](C)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-alanine,189.21,0.04,1.5,11.3526,500,113.526,,638.3383542,50,,FB00970832
+24_rack2,C1,AA1,O=C(OC(C)(C)C)N1C(C(O)=O)CCC1,(tert-butoxycarbonyl)proline,215.24628,0.04,1.5,12.9147768,500,129.147768,162.2,627.9628464,50,SA00544804,FB00282678
+24_rack2,C2,AA2,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)CCCC1,(S)-1-(tert-butoxycarbonyl)piperidine-2-carboxylic acid,229.27286,0.04,1.5,13.7563716,500,137.563716,159.3,579.0044229,50,SA00544804,FB00283331
+24_rack2,C3,AA3,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)C[C@@H](O)C1,(2S?4S)-1-(tert-butoxycarbonyl)-4-hydroxypyrrolidine-2-carboxylic acid,231.24568,0.04,1.5,13.8747408,500,138.747408,157.3,566.8574364,50,SA00544804,FB00282716
+24_rack2,C4,AA4,O=C(O)[C@H]1N(C(OC(C)(C)C)=O)C[C@H](F)C1,(2S?4R)-1-(tert-butoxycarbonyl)-4-fluoropyrrolidine-2-carboxylic acid,233.24,0.04,1.5,13.9944,500,139.944,153.4,548.0763734,50,SA00544804,FB00283461
+24_rack2,C5,AA5,O=C(O)[C@H](C1)N(C(OC(C)(C)C)=O)CC1=C,(S)-1-(tert-butoxycarbonyl)-4-methylenepyrrolidine-2-carboxylic acid,227.26,0.04,1.5,13.6356,500,136.356,169.6,621.9014932,50,SA00544804,FB00282399
+24_rack2,D1,AA6,O=C(O)[C@H](CC1=CC=CC=C1)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-phenylalanine,265.31,0.04,1.5,15.9186,500,159.186,181.1,568.8314299,50,SA00544804,FB00282737
+24_rack2,D2,AA7,O=C(O)[C@H](C)NC(OC(C)(C)C)=O,(tert-butoxycarbonyl)-L-alanine,189.21,0.04,1.5,11.3526,500,113.526,146.9,646.9883551,50,SA00544804,FB00970832
