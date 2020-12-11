@@ -1,7 +1,12 @@
+"""Protocol that transfers the solvent (DMF) from the solvent trough to the reaction rack flasks
+How it works:
+Each vial of the rack is a dictionary containing the key parameters as listed in the csv files, like volume of solvent to add to each vial
+Opentrons iteratively adds the solvent to each vial
+"""
+
 from opentrons import robot, containers, instruments
 
 robot.head_speed(x=18000, y=18000, z=5000, a=700, b=700)
-
 
 class Vector(object):
     '''Storing and manipulating two-dimensional data'''
