@@ -5,8 +5,8 @@ How it works:
 Each vial of the rack is a dictionary containing the key parameters.
 For each reagents a list of the dictionaries containing the same reagents is made
 A list grouping these three list is then created
-
 """
+
 #import the libraries
 from opentrons import robot, containers, instruments
 #set up robot arm movement speed. Max speed: {"x": 20000,  "y": 20000,  "z": 6000, "a": 1200, "b": 1200}
@@ -16,34 +16,49 @@ robot.head_speed(x=18000, y=18000, z=5000, a=700, b=700)
 #class Vector, Dataframe and function read csv arejust there to ba able to read a csv file without having to call numpy, which is not possible with OT1
 
 class Vector(object):
+    '''Storing and manipulating two-dimensional data'''
+    
     def tolist(self):
+        '''Convert vector object to list'''
         return list(self.input_list)
+    
     def astype(self, input_type):
+        '''Cast a vector to a specific type'''
         if input_type == int:
             return Vector([int(float(x)) for x in self.input_list])
         return Vector([input_type(x) for x in self.input_list])
+    
     def __init__(self, input_list):
         self.input_list = input_list
+        
 class DataFrame(object):
+    '''DataFrame class obtained from a dictionary'''
+    
     def __len__(self):
+        '''Get length of dataframe'''
         return self.length
+    
     def __getitem__(self, value):
+        '''Get a vector from dataframe based on value input'''
         return Vector(self.dict_input[value])
+    
     def __init__(self, dict_input, length):
         self.dict_input = dict_input
         self.length = length
+        
 # Function that reads a csv file correctly without having to import anything. Uses 2 classes, Vector and DataFrame
 def read_csv(input_file):
+    '''reads a csv file, converts it into a dataframe'''
     lines = open(input_file).readlines()
-    header = lines[0].rstrip().split(",")
-    out_d = {}
+    header = lines[0].rstrip().split(",") # get header from csv file by removing commas on first line
+    out_d = {} # initiliase empty dictionary to add headers
     for head in header:
-        out_d[head] = []
+        out_d[head] = [] # initialise empty list to append values
     for line in lines[1:]:
-        spl_line = line.rstrip().split(",")
+        spl_line = line.rstrip().split(",") # remove commas from other lines
         for i, head in enumerate(header):
-            out_d[head].append(spl_line[i])
-    df = DataFrame(out_d, len(lines[1:]))
+            out_d[head].append(spl_line[i]) # values have been appended to list, as part of dictionary
+    df = DataFrame(out_d, len(lines[1:])) # convert dictionary to dataframe
     return df
 
 #Import of csv files
@@ -169,21 +184,22 @@ list_dict_per_reagent = [reagent_one_list,reagent_two_list,reagent_three_list]
 # Function that takes as input a list of dictionary (same reagent) and the number of reactions. The output is another key to the dictionary, which is the number of transfer that will be executed for this vial
 #If no transfers are needed for this vial then no key is created
 def numbertransferPerVial (reagent_one_list, number_reactions):
+    '''Transfers mutiple times from a single stock'''
     reaction_counter = 0
     nb_reaction_left = None
     for dictionary in reagent_one_list:
-        nb_reaction_per_vial = int(float(dictionary[volume_max_header]) // float(dictionary[volume_to_add]))
-        reaction_counter = reaction_counter + nb_reaction_per_vial        
-        if reaction_counter < number_reactions:
+        nb_reaction_per_vial = int(float(dictionary[volume_max_header]) // float(dictionary[volume_to_add])) # max volume // volume of each transfer
+        reaction_counter = reaction_counter + nb_reaction_per_vial # adds react       
+        if reaction_counter < number_reactions: # this condition is triggered if multiple stock vials are involved
             dictionary[number_transfer] = nb_reaction_per_vial
-            nb_reaction_left = number_reactions - reaction_counter
+            nb_reaction_left = number_reactions - reaction_counter # if multiple vials are needed, number of transfers are adjusted from substractions from what is already transferred
             continue
         else:
-            if nb_reaction_left is None:
+            if nb_reaction_left is None: # don't need multiple vials
                 dictionary[number_transfer] = number_reactions
                 return (reagent_one_list)
-            else:
-                dictionary[number_transfer] = nb_reaction_left
+            else:  # need multiple vials
+                dictionary[number_transfer] = nb_reaction_left # number of transfers from the second third or nth vial
                 return (reagent_one_list)
 
             
