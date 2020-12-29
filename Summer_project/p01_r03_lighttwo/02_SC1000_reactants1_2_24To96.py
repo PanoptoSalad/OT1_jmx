@@ -119,10 +119,10 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
 
     for index, value in enumerate(reaction_df[id_header].tolist()):
         if value == number_of_columns:
-            number_cols = int(reaction_df[details_header].tolist()[index]) # read no. of cols
+            number_cols = int(reaction_df[details_header].tolist()[index]) # read no. of cols for reagents
 
         if value == number_of_rows:
-            number_rows = int(reaction_df[details_header].tolist()[index]) # read no. of rows reagen
+            number_rows = int(reaction_df[details_header].tolist()[index]) # read no. of rows for reagents
 
 
         if value == reactant_row:
@@ -136,7 +136,7 @@ def reactants_transfer(reaction,reactant_col,reactant_row):
         if value == reactant_col:
             volume_to_dispense_col = reaction_df[volume_to_add].tolist()[index]
 
-    for index, location in enumerate (reactant_col_df[location_reactant].tolist()): # distributes to each row for a colm reagent
+    for index, location in enumerate (reactant_col_df[location_reactant].tolist()): # distributes to each row for a column reagent
         source_location = location
         volume_to_dispense = [volume_to_dispense_col]
         p1000.distribute(volume_to_dispense, rack_stock_col.wells(source_location), [x.top(-15) for x in reaction_rack.rows(index).wells(0, to=number_rows-1)], air_gap=10)
